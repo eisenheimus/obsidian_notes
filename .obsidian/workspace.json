@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Добро пожаловать.md",
+                "file": "DevOps/Linux/Bash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Добро пожаловать"
+              "title": "Bash"
+            }
+          },
+          {
+            "id": "38480b5b4c699464",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "DevOps/Linux/Bash.md",
+                "bFile": "DevOps/Linux/Bash.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Bash  (Working Tree)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -156,17 +171,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Добро пожаловать.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Добро пожаловать"
+              "title": "Структура"
+            }
+          },
+          {
+            "id": "3a227bb6d1b9d215",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -180,12 +204,21 @@
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false
+      "bases:Создать новую базу": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b94fed0754b1e53c",
+  "active": "38480b5b4c699464",
   "lastOpenFiles": [
-    "2026-02-06.md",
-    "Добро пожаловать.md"
+    "DevOps/Linux/Настройки/MariaDB.md",
+    "DevOps/Linux/Bash.md",
+    "Без названия",
+    "DevOps/Linux/Настройки/Без названия",
+    "DevOps/Linux/Настройки",
+    "Добро пожаловать.md",
+    "DevOps/GitLab CI",
+    "DevOps/Linux",
+    "DevOps",
+    "2026-02-06.md"
   ]
 }
