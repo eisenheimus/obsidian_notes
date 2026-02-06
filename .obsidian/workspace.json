@@ -11,10 +11,14 @@
             "id": "0e3e055dd4a4b560",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Linux/Настройки/Nginx.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Nginx"
             }
           }
         ]
@@ -70,7 +74,8 @@
               "title": "Закладки"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 254.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,12 +197,12 @@
   },
   "active": "0e3e055dd4a4b560",
   "lastOpenFiles": [
-    "DevOps/Linux/Bash.md",
-    "DevOps/Linux/Настройки/Управление пользователями.md",
     "DevOps/Linux/Настройки/Nginx.md",
+    "DevOps/Linux/Настройки/Управление пользователями.md",
+    "DevOps/Linux/Настройки/MariaDB.md",
+    "DevOps/Linux/Bash.md",
     "DevOps/Linux/Настройки/SSH.md",
     "DevOps/Linux/Настройки/Node.js.md",
-    "DevOps/Linux/Настройки/MariaDB.md",
     "Без названия",
     "DevOps/Linux/Настройки/Без названия",
     "DevOps/Linux/Настройки",
