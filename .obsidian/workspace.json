@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Main.js"
             }
+          },
+          {
+            "id": "ea6c68e1e74db6f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Bash.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Bash"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,12 +209,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83a4e409c53719b0",
+  "active": "ea6c68e1e74db6f0",
   "lastOpenFiles": [
+    "Docker/Docker-compose.md",
+    "Docker/Конфигурации",
+    "Docker/Docker.md",
+    "Linux/Bash.md",
     "Git/Команды Git.md",
+    "Nestjs/Main.js.md",
+    "Untitled",
+    "Docker",
     "Linux/Настройки/Wikijs + SQLite.md",
     "_res/Pasted image 20260208003458.png",
-    "Linux/Bash.md",
     "Linux/Популярные переменные окружения в Bash Linux.md",
     "Linux/Настройки/Users.md",
     "Linux/Настройки/SSH.md",
@@ -207,17 +228,14 @@
     "Linux/Настройки/Nginx.md",
     "Linux/Настройки/MariaDB.md",
     "Linux/Настройки/Создание ключа SSH.md",
-    "Untitled",
     "_res",
     "Git",
-    "Nestjs/Main.js.md",
     "Nestjs/main.js",
     "DevOps/Linux/Настройки/Без названия",
     "Linux/Настройки",
     "Добро пожаловать.md",
     "GitLab CI",
     "Linux",
-    "Nestjs",
     "2026-02-06.md"
   ]
 }
