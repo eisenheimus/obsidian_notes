@@ -1,88 +1,90 @@
 <br>
 
-### 1. Генерация ключа на клиенте.
+# Генерация ключа на клиенте.
 
-*Генерация ключа*
 ```bash
-# RSA
+# Генерация ключа RSA
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-#ED25519
+# Генерация ключа ED25519
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
-<br><br>
+---
+<br>
 
-### 2. Установка и запуск SSH на сервере  
+# Установка и запуск SSH на сервере  
 
-*Установить OpenSSH*
+
 ```bash
+# Установить OpenSSH
 sudo apt install openssh-server -y
 ```
 <br>
-    
-*Включим автозапуск*
+
 ```bash
+# Включим автозапуск
 sudo systemctl enable ssh
 ```
 <br>
 
-*перезагрузить демон SSH*
 ```bash
+# перезагрузить демон SSH
 sudo systemctl restart/start ssh
-```
-    
-
-*Проверим работоспособность*
-```bash
-ssh localhost
-```
-<br><br>
-
-### 3. Создаем пользователя
-
-*Создать пользователя для ssh*
-```bash
-# -m - создать домашний каталог*
-# -s - установит оболочку по умаолчанию
-
-useradd -m -s /bin/bash sshuser
 ```
 <br>
 
-*Задать пароль пользователю интерактивно*
 ```bash
-passwd sshuser
+# Проверим работоспособность
+ssh localhost
 ```
-  
+---
+<br>
 
-*добавить в группу sudo*
+# Создаем пользователя
+
 ```bash
-# -a - не удалять пользователя из других групп
-# -G - назначить группу
+# Создать пользователя для ssh
+useradd -m -s /bin/bash sshuser
 
-usermod -aG sudo sshuser
+# -m - создать домашний каталог
+# -s - установит оболочку по умаолчанию
+```
+<br>
+
+```bash
+# Задать пароль пользователю интерактивно
+passwd sshuser
 ```
   <br>
 
-*Проверить группу пользователя*
 ```bash
+# добавить в группу sudo
+usermod -aG sudo sshuser
 
+# -a - не удалять пользователя из других групп
+# -G - назначить группу
+```
+<br>
+
+```bash
+# Проверить группу пользователя
 groups sshuser
 
 ```
-<br><br>
+---
+<br>
 
-### 4. Сохраняем public key на сервере.  
+# Сохраняем public key на сервере.  
 
-*Вариант 1 (автоматический):*
 ```bash
+# Вариант 1 (автоматический):
 # Исполняется на клиенте
 ssh-copy-id wikiuser@10.10.10.10
 ```
-  <br>
+<br>
 
-*Вариант 2 (ручной):*
 ```bash
+# Вариант 2 (ручной):
 # Создать каталог .ssh
 mkdir -p /home/user/.ssh
 
@@ -98,17 +100,18 @@ echo "ваш_публичный_ключ" >> /home/wikiuser/.ssh/authorized_keys
 # Назначить доступ на чтение и запись для владельца
 chmod 600 /home/wikiuser/.ssh/authorized_keys
 ```
-<br><br>
+---
+<br>
 
-### 5. Конфигурирование SSH
+# Конфигурирование SSH
   
-*Правим конфиг*
 ```bash
+# Правим конфиг
 sudo nano /etc/ssh/sshd_config
 ```
-  <br>
+<br>
 
-*Меняем в конфиге /etc/ssh/sshd_config:*
+##### /etc/ssh/sshd_config:
 ```bash
 # Устанавливаем кастомный порт
 Port 222
@@ -122,13 +125,13 @@ PubkeyAuthentication yes    
 #отключения возможности входа по паролю
 PasswordAuthentication и присвоить no
 ```
-<br><br>
+---
+<br>
 
-### 6. Подключение к серверу
-
+# Подключение к серверу
 ```bash
+ssh -i ~/.ssh/id_ed25519 -p 5000 wikiuser@10.10.10.10
+
 # -i - путь к ключу ssh
 # -p - порт
-
-ssh -i ~/.ssh/id_ed25519 -p 5000 wikiuser@10.10.10.10
 ```

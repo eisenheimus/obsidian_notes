@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Wikijs + SQLite.md",
+                "file": "Nestjs/Main.js.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wikijs + SQLite"
+              "title": "Main.js"
             }
           }
         ]
@@ -196,19 +196,19 @@
   },
   "active": "83a4e409c53719b0",
   "lastOpenFiles": [
-    "Linux/Популярные переменные окружения в Bash Linux.md",
+    "Git/Команды Git.md",
     "Linux/Настройки/Wikijs + SQLite.md",
-    "Linux/Настройки/Node.js.md",
-    "Linux/Настройки/MariaDB.md",
-    "Linux/Настройки/Nginx.md",
-    "Linux/Настройки/SSH.md",
-    "Linux/Настройки/Управление пользователями.md",
-    "Linux/Настройки/Создание ключа SSH.md",
-    "Untitled",
-    "Git/Команды git.md",
-    "_res",
     "_res/Pasted image 20260208003458.png",
     "Linux/Bash.md",
+    "Linux/Популярные переменные окружения в Bash Linux.md",
+    "Linux/Настройки/Users.md",
+    "Linux/Настройки/SSH.md",
+    "Linux/Настройки/Node.js.md",
+    "Linux/Настройки/Nginx.md",
+    "Linux/Настройки/MariaDB.md",
+    "Linux/Настройки/Создание ключа SSH.md",
+    "Untitled",
+    "_res",
     "Git",
     "Nestjs/Main.js.md",
     "Nestjs/main.js",

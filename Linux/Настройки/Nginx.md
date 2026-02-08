@@ -1,42 +1,42 @@
+<br>
 
-*Установка nginx*
 ```bash
+# Установка nginx
 sudo apt install -y nginx
 ```
 <br>
 
-  *Включаю автозапуск nginx при загрузке системы...*
 ```bash
+# Включаю автозапуск nginx при загрузке системы...
 sudo systemctl enable --now nginx
 ```
 <br>
 
-*Проверяю статус nginx.*
 ```bash
+# Проверяю статус nginx.
 sudo systemctl status nginx
 ```
 <br>
 
-  *Проверяю, что nginx в автозагрузке...*
 ```bash
+# Проверяю, что nginx в автозагрузке...
 sudo systemctl is-enabled nginx
 ```
 <br>
 
   
-*Удаляю старый конфиг (если существует)...*
 ```bash
+# Удаляю старый конфиг (если существует)...
 sudo rm -f /etc/nginx/sites-enabled/trilium-proxy
 ```
 <br>
 
   
-*Создаю новый файл конфигурации...*
 ```bash
+# Создаю новый файл конфигурации...
 sudo nano /etc/nginx/sites-available/trilium
 ```
 <br>
-
   
 
 ```nginx
@@ -98,42 +98,42 @@ server {
 
 
   
-*Создать линк для активации конфуграции*
 ```bash
+# Создать линк для активации конфуграции
 sudo ln -sf /etc/nginx/sites-available/trilium /etc/nginx/sites-enabled/
 ```
 <br>
 
   
-*Проверяю конфигурацию nginx*
 ```bash
+# Проверяю конфигурацию nginx
 sudo nginx -t
 ```
 <br>
 
 
-*Перезагружаю nginx для применения изменений*
 ```bash
+# Перезагружаю nginx для применения изменений
 sudo systemctl reload nginx
 ```
 <br>
 
 
-*Финальная проверка статуса nginx*
 ```bash
+# Финальная проверка статуса nginx
 sudo systemctl status nginx
 ```
 <br>
 
   
-*Проверить логи*
 ```bash
+# Проверить логи
 sudo tail -f /var/log/nginx/error.log
 ```
 <br>
 
   
-*Проверьте доступность порта*
 ```bash
+# Проверьте доступность порта
 sudo netstat -tlnp | grep :80
 ```

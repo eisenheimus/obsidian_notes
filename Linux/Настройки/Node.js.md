@@ -1,18 +1,19 @@
+<br>
 
-*Добавить  репозиторий* nodesource*
 ```bash
+# Добавить  репозиторий#  nodesource
 curl -L https://deb.nodesource.com/setup_lts.x -o setup.sh
 ```
 <br>
 
-*Обновить пакеты*
 ```bash
+# Обновить пакеты
 sudo apt update -y
 ```
 <br>
 
-*Установить nodejs*
 ```bash
+# Установить nodejs
 sudo apt install nodejs -y
 ```
 

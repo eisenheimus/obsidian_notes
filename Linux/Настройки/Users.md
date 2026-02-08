@@ -1,37 +1,37 @@
 <br>
 
-*Cоздать пользователя Ubuntu/Debian*
 ```bash
+# Cоздать пользователя Ubuntu/Debian
 sudo adduser username
 ```
 <br>
 
 
-*Cоздать пользователя (все дистрибутивы)*
 ```bash
+# Cоздать пользователя (все дистрибутивы)
+sudo useradd -m -s /bin/bash username
+
 # -m — создаёт домашнюю директорию (/home/username)
 # -s /bin/bash — задаёт оболочку по умолчанию
-
-sudo useradd -m -s /bin/bash username
 ```
 <br>
 
 
-*Задать пароль*
 ```bash
+# Задать пароль
 sudo passwd username
 ```
 <br>
 
 
-*Добавит в группу sudo пользователя*
 ```bash
+# Добавит в группу sudo пользователя
 sudo usermod -aG sudo username
 ```
 <br>
 
 
-*Проверить состоит ли в группе*
 ```bash
+# Проверить состоит ли в группе
 groups username
 ```
