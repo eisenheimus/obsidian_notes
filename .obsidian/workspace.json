@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/PowerShell.md",
+                "file": "Linux/Права доступа.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "PowerShell"
+              "title": "Права доступа"
             }
           }
         ]
@@ -196,12 +196,13 @@
   },
   "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
+    "Windows/PowerShell.md",
+    "Linux/Права доступа.md",
     "Windows/CMD.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
     "Linux/Настройки/SSH/SSH.md",
     "Linux/Bash.md",
     "Linux/Настройки/SSH",
-    "Windows/PowerShell.md",
     "Ссылки.md",
     "Linux/Настройки/Node.js.md",
     "Windows",
