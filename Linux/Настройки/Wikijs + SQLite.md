@@ -27,6 +27,35 @@ sudo apt install nodejs -y
 
 
 
+1 Создать пользователя wikiuser
+su wikijs
+
+2 wget https://github.com/Requarks/wiki/releases/latest/download/wiki-js.tar.gz
+распаковать
+
+	1. cp -a config.sample.yml confit.yml
+
+
+создание демона
+nano /etc/systemd/system/wikijs.service
+---
+
+
+[Unit] Description=Wiki.js After=network.target
+
+[Service] Type=simple ExecStart=/usr/bin/node server Restart=always
+
+User=wikijs Environment=NODE_ENV=production WorkingDirectory=/opt/wikijs
+
+[Install] WantedBy=multi-user.target
+---
+
+
+
+
+
+
+
 
 
 
