@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/SSH/Проброс порта SSH.md",
-                "mode": "source",
+                "file": "Windows/PowerShell.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Проброс порта SSH"
+              "title": "PowerShell"
             }
           }
         ],
@@ -253,11 +253,11 @@
   },
   "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
-    "Linux/Настройки/SSH/SSH.md",
+    "Windows/CMD.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
+    "Linux/Настройки/SSH/SSH.md",
     "Linux/Bash.md",
     "Linux/Настройки/SSH",
-    "Windows/CMD.md",
     "Windows/PowerShell.md",
     "Ссылки.md",
     "Linux/Настройки/Node.js.md",
