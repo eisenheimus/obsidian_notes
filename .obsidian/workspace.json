@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Популярные переменные окружения в Bash Linux.md",
+                "file": "Linux/Настройки/Wikijs + SQLite.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Популярные переменные окружения в Bash Linux"
+              "title": "Wikijs + SQLite"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "83a4e409c53719b0",
   "lastOpenFiles": [
-    "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Популярные переменные окружения в Bash Linux.md",
+    "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Node.js.md",
     "Linux/Настройки/MariaDB.md",
     "Linux/Настройки/Nginx.md",

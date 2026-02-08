@@ -1,117 +1,121 @@
-<br>
+  <br>
 
-### 1. Установка Nodejs.
+# Установка Nodejs.
 
 *Добавить  репозиторий nodesource*
+
 ```bash
 curl -L https://deb.nodesource.com/setup_lts.x -o setup.sh
 ```
-<br>
 
 *Обновить пакеты*
+
 ```bash
 sudo apt update -y
 ```
-<br>
 
 *Установить Nodejs*
+
 ```bash
 sudo apt install nodejs -y
 ```
+---
 <br><br>
 
+# Создание пользователя
 
+*Создать пользователя wikiuser с каталогом в /home*
 
+```bash
+sudo useradd -m -s /bin/bash wikiuser
+```
 
+*Добавить пользователя в группу sudo*
 
+```bash
+sudo usermod -aG sudo wikiuser
+```
 
+*Назначить пароль (интерактивно)*
 
-
-1 Создать пользователя wikiuser
-su wikijs
-
-2 wget https://github.com/Requarks/wiki/releases/latest/download/wiki-js.tar.gz
-распаковать
-
-	1. cp -a config.sample.yml confit.yml
-
-
-создание демона
-nano /etc/systemd/system/wikijs.service
+```bash
+sudo userpasswd wikiuser
+```
 ---
+<br><br>
 
+# Установка и настройка SQLite
 
-[Unit] Description=Wiki.js After=network.target
-
-[Service] Type=simple ExecStart=/usr/bin/node server Restart=always
-
-User=wikijs Environment=NODE_ENV=production WorkingDirectory=/opt/wikijs
-
-[Install] WantedBy=multi-user.target
----
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### 2. Установка и настройка SQLite
-
-*Установка SQLite*
+*Обновляем пакеты*
 ```bash
 sudo apt update
+```
+
+*Устанавливаем sqlite*
+```bash
 sudo apt install sqlite3
 ```
-<br>
 
-*Создание базы данных SQLite*
+*Создаем директорию для базы данных*
 ```bash
-# Создаем директорию для базы данных
 sudo mkdir -p /var/lib/wikijs/db
-sudo chown -R $USER:$USER /var/lib/wikijs
+```
 
-# Создаем базу данных
+*Назначаем владельца каталога*
+```bash
+sudo chown -R $USER:$USER /var/lib/wikijs
+```
+
+*Создаем базу данных*
+```bash
 sqlite3 /var/lib/wikijs/db/wikijs.sqlite3 "VACUUM;"
 ```
+---
 <br><br>
 
+# Установка wikijs
 
-### 3. Настройка конфигурации wikijs
-
+*Меняем пользователя на wikijs*
+```bash
+su wikiuser
 ```
-скопировать конфиг
+
+*Скачиваем wikijs*
+```bash
+wget https://github.com/Requarks/wiki/releases/latest/download/wiki-js.tar.gz
 ```
 
-*Настройка конфигурации wikijs*
+*Создаем каталог для wikijs*
+```bash
+sudo mkdir -p /opt/wikijs
+```
+
+*распаковываем*
+```bash
+sudo tar -xvf wiki-js.tar.gz /opt/wikijs
+```
+---
+<br><br>
+
+# Настройка конфигурации wikijs
+
+*Создаем конфиг*
+```bash
+sudo cp -a config.sample.yml confit.yml
+```
+
+*Настройка конфигурации wikijs confit.yml*
 ```bash
 db:
   type: sqlite
   storage: /var/lib/wikijs/db/wikijs.sqlite3
 ```
-<br>
 
 *Установка драйвера SQLite для Node.js*
 ```bash
 cd /path/to/wikijs
 npm install sqlite3
 ```
-<br>
 
 *Настройка прав доступа*
 ```bash
@@ -119,7 +123,6 @@ sudo chown -R wikijs_user:wikijs_group /var/lib/wikijs/db
 sudo chmod 755 /var/lib/wikijs/db
 sudo chmod 644 /var/lib/wikijs/db/wikijs.sqlite3
 ```
-<br>
 
 *Перезапуск wikijs*
 ```bash
@@ -128,9 +131,28 @@ sudo systemctl restart wikijs
 # или
 cd /path/to/wikijs && npm start
 ```
-<br>
+
+*Создаем демон /etc/systemd/system/wikijs.service*
+```systemd
+[Unit]
+Description=Wiki.js
+After=network.target
+
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node server
+Restart=always
+
+User=wikijs
+Environment=NODE_ENV=production
+WorkingDirectory=/opt/wikijs
+
+[Install]
+WantedBy=multi-user.target
+```
 
 *Backup базы данных*
 ```bash
-cp /var/lib/wikijs/db/wikijs.sqlite3 /backup/wikijs_$(date +%Y%m%d).sqlite3
+sudo cp /var/lib/wikijs/db/wikijs.sqlite3 /backup/wikijs_$(date +%Y%m%d).sqlite3
 ```
