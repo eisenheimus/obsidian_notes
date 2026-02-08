@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/SSH.md",
-                "mode": "preview",
+                "file": "Linux/Настройки/Wikijs + SQLite.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SSH"
+              "title": "Wikijs + SQLite"
             }
           }
         ]
@@ -197,10 +197,13 @@
   "active": "83a4e409c53719b0",
   "lastOpenFiles": [
     "Linux/Настройки/Node.js.md",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/MariaDB.md",
+    "Linux/Настройки/Nginx.md",
     "Linux/Настройки/SSH.md",
+    "Linux/Настройки/Управление пользователями.md",
     "Linux/Настройки/Создание ключа SSH.md",
     "Untitled",
-    "Linux/Настройки/Управление пользователями.md",
     "Git/Команды git.md",
     "_res",
     "_res/Pasted image 20260208003458.png",
@@ -208,8 +211,6 @@
     "Git",
     "Nestjs/Main.js.md",
     "Nestjs/main.js",
-    "Linux/Настройки/Nginx.md",
-    "Linux/Настройки/MariaDB.md",
     "DevOps/Linux/Настройки/Без названия",
     "Linux/Настройки",
     "Добро пожаловать.md",
