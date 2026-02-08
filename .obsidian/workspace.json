@@ -11,14 +11,14 @@
             "id": "83a4e409c53719b0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Git/Git.md",
-                "bFile": "Git/Git.md",
-                "aRef": ""
+                "file": "Linux/Настройки/SSH.md",
+                "mode": "preview",
+                "source": true
               },
-              "icon": "diff",
-              "title": "Diff: Git  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "SSH"
             }
           }
         ]
@@ -196,18 +196,20 @@
   },
   "active": "83a4e409c53719b0",
   "lastOpenFiles": [
+    "Linux/Настройки/Node.js.md",
     "Linux/Настройки/SSH.md",
+    "Linux/Настройки/Создание ключа SSH.md",
+    "Untitled",
+    "Linux/Настройки/Управление пользователями.md",
     "Git/Команды git.md",
     "_res",
     "_res/Pasted image 20260208003458.png",
     "Linux/Bash.md",
     "Git",
     "Nestjs/Main.js.md",
-    "Linux/Настройки/Node.js.md",
     "Nestjs/main.js",
     "Linux/Настройки/Nginx.md",
     "Linux/Настройки/MariaDB.md",
-    "Linux/Настройки/Управление пользователями.md",
     "DevOps/Linux/Настройки/Без названия",
     "Linux/Настройки",
     "Добро пожаловать.md",

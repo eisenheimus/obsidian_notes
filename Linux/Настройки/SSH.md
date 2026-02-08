@@ -1,284 +1,134 @@
+<br>
 
-```text-x-trilium-auto
-# установить OpenSSH
-sudo apt install openssh-server -y
-```
+### 1. Генерация ключа на клиенте.
 
-```text-x-trilium-auto
-# Включим автозапуск
-sudo systemctl enable ssh
-```
-
-```text-x-trilium-auto
-# Проверим работоспособность
-ssh localhost
-```
-
-```text-x-trilium-auto
-# Правим конфиг
-sudo nano /etc/ssh/sshd_config
-```
-
-```text-x-trilium-auto
-Меняем в конфиге /etc/ssh/sshd_config:
-
-Port 222
-
-# отключить возможность входа на сервер учетной записи суперпользователя (root)
-
-PermitRootLogin no
-
-# добавить возможность входить через ключи
-
-PubkeyAuthentication yes    
-
-# отключения возможности входа по паролю 
-
-PasswordAuthentication и присвоить no
-```
-
-```text-x-trilium-auto
-# перезагрузить демон SSH
-sudo systemctl restart ssh
-```
-
-```text-x-trilium-auto
-# Переподключимся от обычной учетной записи и по другому порту
-ssh -p 55555 ansible@95.213.154.235
-```
-
-```text-x-trilium-auto
-# сгенерировать такую пару ключей
-кssh-keygen -t rsa
-```
-
-# установить OpenSSH
-
-sudo apt install openssh-server -y
-
-  
- 
-
-# Включим автозапуск
-
-sudo systemctl enable ssh
-
-  
- 
-
-# Проверим работоспособность
-
-ssh localhost
-
-  
- 
-
-# Правим конфиг
-
-sudo nano /etc/ssh/sshd_config  
-
-  
- 
-
-Меняем:
-
-Port 222
-
-  
- 
-
-# отключить возможность входа на сервер учетной записи суперпользователя (root)
-
-PermitRootLogin no
-
-  
- 
-
-# добавить возможность входить через ключи
-
-PubkeyAuthentication yes    
-
-  
- 
-
-# отключения возможности входа по паролю 
-
-PasswordAuthentication и присвоить no
-
-  
-  
- 
-
-# перезагрузить демон SSH
-
-sudo systemctl restart ssh
-
-  
-  
- 
-
-# Переподключимся от обычной учетной записи и по другому порту
-
-ssh -p 55555 ansible@95.213.154.235
-
-  
-  
-  
-  
- 
-
-# ssh-keygen -t rsa
-
-  
- 
-
-#######################################################################################
-
-  
-  
-  
-  
-  
-  
- 
-
-# установить OpenSSH
-
-sudo apt install openssh-server -y
-
-  
- 
-
-# Включим автозапуск
-
-sudo systemctl enable ssh
-
-  
- 
-
-# Создать пользователя
-
-# -m - создать домашний каталог
-
-# -s - установит оболочку по умаолчанию
-
-useradd -m -s /bin/bash  mariauser
-
-  
- 
-
-# Задать пароль пльзователю интерактивно
-
-passwd username
-
-  
- 
-
-# добавить в группу sudo
-
-usermod -aG sudo username
-
-  
- 
-
-# Проверить группу ползователя
-
-groups username 
-
-  
-  
-  
- 
-
-ключ
-
-  
- 
-
-# Если нет — создать новый (RSA 4096 или ed25519)
-
-ssh-keygen -t ed25519 -C "your_email@example.com"
-
-# или
-
+*Генерация ключа*
+```bash
+# RSA
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-  
-  
-  
-  
-  
- 
+#ED25519
+ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+<br><br>
 
-# На локальной машине:
+### 2. Установка и запуск SSH на сервере  
 
-ssh-copy-id wikiuser@10.10.10.101
+*Установить OpenSSH*
+```bash
+sudo apt install openssh-server -y
+```
+<br>
+    
+*Включим автозапуск*
+```bash
+sudo systemctl enable ssh
+```
+<br>
 
+*перезагрузить демон SSH*
+```bash
+sudo systemctl restart/start ssh
+```
+    
+
+*Проверим работоспособность*
+```bash
+ssh localhost
+```
+<br><br>
+
+### 3. Создаем пользователя
+
+*Создать пользователя для ssh*
+```bash
+# -m - создать домашний каталог*
+# -s - установит оболочку по умаолчанию
+
+useradd -m -s /bin/bash sshuser
+```
+<br>
+
+*Задать пароль пользователю интерактивно*
+```bash
+passwd sshuser
+```
   
- 
 
-# Или вручную в контейнере:
+*добавить в группу sudo*
+```bash
+# -a - не удалять пользователя из других групп
+# -G - назначить группу
 
-mkdir -p /home/wikiuser/.ssh
+usermod -aG sudo sshuser
+```
+  <br>
 
+*Проверить группу пользователя*
+```bash
+
+groups sshuser
+
+```
+<br><br>
+
+### 4. Сохраняем public key на сервере.  
+
+*Вариант 1 (автоматический):*
+```bash
+# Исполняется на клиенте
+ssh-copy-id wikiuser@10.10.10.10
+```
+  <br>
+
+*Вариант 2 (ручной):*
+```bash
+# Создать каталог .ssh
+mkdir -p /home/user/.ssh
+
+# Назначить полный доступ для владельца
 chmod 700 /home/wikiuser/.ssh
 
+# Назначить владельца
+chown -R user:user /home/user/.ssh
+
+# Созхранить публичный ключ
 echo "ваш_публичный_ключ" >> /home/wikiuser/.ssh/authorized_keys
 
+# Назначить доступ на чтение и запись для владельца
 chmod 600 /home/wikiuser/.ssh/authorized_keys
+```
+<br><br>
 
-chown -R wikiuser:wikiuser /home/wikiuser/.ssh
-
+### 5. Конфигурирование SSH
   
-  
- 
+*Правим конфиг*
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+  <br>
 
-# подключиться по ssh с конкретным ключом, если он не один в каталоге .ssh
+*Меняем в конфиге /etc/ssh/sshd_config:*
+```bash
+# Устанавливаем кастомный порт
+Port 222
 
-ssh -i ~/.ssh/id_ed25519 -p 5000 wikiuser@10.10.10.101
-
-  
-  
- 
-
-# Натсроить безопасность для ssh в /etc/ssh/sshd_config
-
---------------------------------------------------------
-
-# Отключить вход по паролю (только ключи!)
-
-PasswordAuthentication no
-
-  
- 
-
-# Запретить вход под root (если используете обычного пользователя)
-
+#отключить возможность входа на сервер учетной записи суперпользователя (root)
 PermitRootLogin no
 
-# или
+#добавить возможность входить через ключи
+PubkeyAuthentication yes    
 
-PermitRootLogin prohibit-password
+#отключения возможности входа по паролю
+PasswordAuthentication и присвоить no
+```
+<br><br>
 
-  
- 
+### 6. Подключение к серверу
 
-# Перезагрузить SSH после изменений
+```bash
+# -i - путь к ключу ssh
+# -p - порт
 
-systemctl reload ssh
-
-  
-  
- 
-
-Port 5000
-
---------------------------------------------------------
-
-  
-  
- 
-
-# Перезагрузить SSH после изменений
-
-systemctl reload ssh
+ssh -i ~/.ssh/id_ed25519 -p 5000 wikiuser@10.10.10.10
+```
