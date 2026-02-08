@@ -1,3 +1,201 @@
+```text-x-trilium-auto
+find . -maxdepth 1 -name '*.zip' | grep file.zip
+
+find . -type f -name "pres012025.*"
+
+ls | grep file.zip
+
+echo "строка" | sudo tee -a /путь/к/файлу - добавить к файлу
+
+sed 's/что_заменить/на_что_заменить/' файл
+```
+
+head -1 file.txt - считать первую строчку
+
+```text-x-trilium-auto
+#SSH 
+
+# сгенерировать пару ключей
+ssh-keygen -t ed25519
+
+# восстановить публичный ключ на базе приватного
+
+# -y — означает «извлечь публичный ключ из приватного»,
+# -f ~/.ssh/id_rsa — путь к вашему приватному ключу,
+# > ~/.ssh/id_rsa.pub — записать результат в файл публичного ключа.
+
+ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
+
+ssh login@server -p [custom_port (опционально)] -i [путь к приватному ключу (опционально)]
+
+
+# настройка локального проброса портов
+ssh -L 9000:localhost:8000 server2
+
+# - `9000` — локальный порт на вашей машине.
+# - `localhost:8000` — адрес и порт на **удалённом сервере** `server2` (т.е. сервис должен быть запущен на `server2:8000`).
+
+```
+
+![](api/attachments/g4s9pB84AzJG/image/image.png)
+
+![](api/attachments/ba9mwkWh6SyS/image/image.png)
+
+![](api/attachments/4hxMWkqQnoRO/image/image.png)
+
+проброс порта через ssh  
+ 
+
+![](api/attachments/RjeXKuUsoZTk/image/image.png)
+
+// Команды SSL
+
+openssl x509 -noout -subject -in "../server.pem" - Получить CN сертификата
+
+openssl x509 -noout -fingerprint -in "../server.pem" - получить отпечаток ключа
+
+openssl x509 -noout -fingerprint -in "../server.pem" - получить все сведения о ключе
+
+  
+ 
+
+// ssh и Base64
+
+ssh-keygen -t rsa -b 4096 -C "avsnigir@sber.ru" - генерация ssh-key
+
+echo -n 'login:pswd' | base64 - Base64 encode (terminal)
+
+echo -n 'string' | base64 --decode - Base64 decode (terminal)
+
+  
+  
+ 
+
+// Команды npm
+
+npm ls –all – просмотр всего дерева пакетов
+
+npm ls [имя пакета] – дерево зависимостей пакета
+
+npm ls [имя пакета] --depth=0
+
+npm ls – верхнеуровневое дерево (тоже что и package.json)
+
+npm i --package-lock-only - сформировать package-lock.json
+
+npm ci - установка пакетов из package-lock.json
+
+npm i - установка пакетов
+
+  
+ 
+
+//Релизные процесс - Сборка дистрибутива
+
+1) перед созданием релизной ветки, в develop сливается содержимое мастера
+
+2) из девелоп создается релзиная ветка feature-123 и делается камит со сторей и номерми задач.
+
+3) Затем релизная ветка вливается в мастер.
+
+  
+ 
+
+команды Linux
+
+  
+ 
+
+#Диски
+
+df -h : проверка места на HDD
+
+du -s -h /home/work - посмототреть сколько занимет этот каталог.
+
+smartctl -a /dev/sda
+
+  
+ 
+
+#Память
+
+iostat
+
+iotop
+
+top
+
+htop
+
+vmstat
+
+  
+ 
+
+#Процессы
+
+ps -aux 
+
+  
+ 
+
+#Сеть
+
+netstat -tulpn  - вывод процессов с портами
+
+ss -lntu - - вывод процессов с портами
+
+ip a - вывод данных о сет. устройствах
+
+ifconfig
+
+netstat -rn - сетевые маршруты.
+
+puing - доступность хостов
+
+traceroute путь от сервера до конечного 
+
+mtr - трассировка в реальом времени
+
+curl 
+
+    - С -- скачать файл. curl -C ftp://file.zip
+
+    - u  -- аутентификация curl -u user:password ftp://example.com/file.zip
+
+    - cert -- аутентификация по серту path/cert.crt:password ftp://example.com/file.zip
+
+    - I -- получить заголовки
+
+    - H -- передать заголовок в запрос: curl -H 'Connection: keep-alive' -H 'Accept-Charset: utf-8' http://example.com
+
+    - d -- передача квери параметров в post: curl -d 'name=qwe@location=asd' example.con
+
+  
+ 
+
+tcpdump -i any port 9100 -nn (-i -- интерфейс, port 22) - проверка доступности сервиса
+
+wget
+
+  
+ 
+
+#file managment
+
+lsblk - просмотре каталогов в виде дерева.
+
+  
+ 
+
+#Логи
+
+var/log/auth.log - логи попыток входа или превышений привелегий
+
+var/log/kern.log - логи ядра
+
+journalctl -xeu [имя сервиса]
+
 ### 1. Управление процессами
 
 - `top` – динамический просмотр активности процессов.
