@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Docsify.js.md",
+                "file": "Linux/Настройки/Wikijs + SQLite.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Docsify.js"
+              "title": "Wikijs + SQLite"
             }
           }
         ]
@@ -196,8 +196,9 @@
   },
   "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
-    "Ссылки.md",
+    "Linux/Настройки/iRedmail.md",
     "Linux/Настройки/Docsify.js.md",
+    "Ссылки.md",
     "Linux/Права доступа.md",
     "Windows/PowerShell.md",
     "Windows/CMD.md",
