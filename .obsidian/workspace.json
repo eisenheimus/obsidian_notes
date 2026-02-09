@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Права доступа.md",
-                "mode": "preview",
+                "file": "Linux/Настройки/Docsify.js.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Права доступа"
+              "title": "Docsify.js"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -184,26 +184,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
-    "Windows/PowerShell.md",
+    "Ссылки.md",
+    "Linux/Настройки/Docsify.js.md",
     "Linux/Права доступа.md",
+    "Windows/PowerShell.md",
     "Windows/CMD.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
     "Linux/Настройки/SSH/SSH.md",
     "Linux/Bash.md",
     "Linux/Настройки/SSH",
-    "Ссылки.md",
     "Linux/Настройки/Node.js.md",
     "Windows",
     "Linux/Конфиги/Nginx/Nginx WS.md",
