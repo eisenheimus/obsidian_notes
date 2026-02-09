@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/iRedmail.md",
-                "mode": "preview",
+                "file": "Nestjs/Main.js.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "iRedmail"
+              "title": "Main.js"
             }
           }
         ]
@@ -192,11 +192,13 @@
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
       "obsidian-git:Open Git source control": false,
-      "iconic:Открыть свод правил": false
+      "iconic:Открыть свод правил": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b94fed0754b1e53c",
+  "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
+    "Linux/Настройки/iRedmail.md",
     "Git/Команды git.md",
     "Docker/Docker-compose.md",
     "Docker/Docker.md",
@@ -208,7 +210,6 @@
     "Linux/Настройки/Wikijs + SQLite.md",
     "Закладки/youtube",
     "Закладки",
-    "Linux/Настройки/iRedmail.md",
     "Linux/Настройки/Docsify.js.md",
     "Linux/Права доступа.md",
     "Windows/PowerShell.md",
