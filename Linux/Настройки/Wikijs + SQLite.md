@@ -167,11 +167,17 @@ WantedBy=multi-user.target
 <br>
 
 ```bash
+# Перечитать конфиги systemd
+sudo systemctl daemon-reload
+
+# Включить автозапуск
+sudo systemctl enable wikijs
+
 # Перезапуск wikijs
 sudo systemctl restart wikijs
 
-# или
-cd /opt/wikijs && npm start
+# Посмотреть логи
+journalctl -u wikijs -f
 ```
 <br>
 
