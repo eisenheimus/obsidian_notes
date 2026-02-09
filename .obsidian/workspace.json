@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/CMD.md",
+                "file": "Linux/Настройки/iRedmail.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "CMD"
+              "title": "iRedmail"
             }
           }
         ]
@@ -191,21 +191,25 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "iconic:Открыть свод правил": false
     }
   },
-  "active": "0cb252f27cbdf047",
+  "active": "b94fed0754b1e53c",
   "lastOpenFiles": [
+    "Git/Команды git.md",
+    "Docker/Docker-compose.md",
+    "Docker/Docker.md",
+    "Закладки/Ссылки.md",
+    "Windows/CMD.md",
     "Linux/Настройки/Passwork.md",
     "Linux/Настройки/Postfix.md",
-    "Windows/CMD.md",
     "Закладки/youtube.md",
     "Linux/Настройки/Wikijs + SQLite.md",
     "Закладки/youtube",
     "Закладки",
     "Linux/Настройки/iRedmail.md",
     "Linux/Настройки/Docsify.js.md",
-    "Ссылки.md",
     "Linux/Права доступа.md",
     "Windows/PowerShell.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
@@ -220,9 +224,7 @@
     "Untitled",
     "Linux/Конфиги/Nginx",
     "Linux/Конфиги",
-    "Docker/Docker-compose.md",
     "Docker/Конфигурации",
-    "Docker/Docker.md",
     "Git/Команды Git.md",
     "Nestjs/Main.js.md",
     "Docker",
@@ -231,7 +233,6 @@
     "Linux/Настройки/Users.md",
     "Linux/Настройки/MariaDB.md",
     "Linux/Настройки/Создание ключа SSH.md",
-    "_res",
-    "Добро пожаловать.md"
+    "_res"
   ]
 }
