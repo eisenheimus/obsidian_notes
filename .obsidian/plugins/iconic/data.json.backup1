@@ -29,7 +29,126 @@
   },
   "appIcons": {},
   "tabIcons": {},
-  "fileIcons": {},
+  "fileIcons": {
+    "Docker": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Docker/Docker-compose.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Docker/Docker.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Git": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Git/Команды git.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Linux/Bash.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Конфиги": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Linux/Настройки": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Linux/Настройки/Docsify.js.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/MariaDB.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/Nginx.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/Node.js.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/Passwork.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/Postfix.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/SSH": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Linux/Настройки/SSH/SSH.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/SSH/Проброс порта SSH.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/Users.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/Wikijs + SQLite.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Настройки/iRedmail.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Популярные переменные окружения в Bash Linux.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Linux/Права доступа.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Nestjs": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Nestjs/Main.js.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Windows": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Windows/CMD.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Windows/PowerShell.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Закладки": {
+      "color": "red",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ],
+      "icon": "lucide-folder"
+    },
+    "Закладки/Ссылки.md": {
+      "icon": "lucide-clipboard-signature"
+    }
+  },
   "bookmarkIcons": {},
   "tagIcons": {},
   "propertyIcons": {},

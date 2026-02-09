@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Закладки/Ссылки.md",
-                "mode": "preview",
+                "file": "Linux/Настройки/Docsify.js.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ссылки"
+              "title": "Docsify.js"
             }
           }
         ]
@@ -198,13 +198,18 @@
   },
   "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
+    "Linux/Настройки/MariaDB.md",
+    "Linux/Настройки/Network.md",
+    "Linux/Настройки/PostgreSQL.md",
+    "Learning/path.md",
+    "Закладки/Ссылки.md",
+    "Learning",
     "Закладки/youtube.md",
     "Nestjs/Main.js.md",
     "Linux/Настройки/iRedmail.md",
     "Git/Команды git.md",
     "Docker/Docker-compose.md",
     "Docker/Docker.md",
-    "Закладки/Ссылки.md",
     "Windows/CMD.md",
     "Linux/Настройки/Passwork.md",
     "Linux/Настройки/Postfix.md",
@@ -229,11 +234,6 @@
     "Docker/Конфигурации",
     "Git/Команды Git.md",
     "Docker",
-    "_res/Pasted image 20260208003458.png",
-    "Linux/Популярные переменные окружения в Bash Linux.md",
-    "Linux/Настройки/Users.md",
-    "Linux/Настройки/MariaDB.md",
-    "Linux/Настройки/Создание ключа SSH.md",
-    "_res"
+    "_res/Pasted image 20260208003458.png"
   ]
 }
