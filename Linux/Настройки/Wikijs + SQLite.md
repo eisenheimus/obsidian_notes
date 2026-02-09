@@ -17,7 +17,7 @@ sudo apt update -y
 
 ```bash
 # Установить Nodejs
-sudo apt install nodejs -y
+sudo apt install nodejs npm -y 
 ```
 ---
 <br>
@@ -42,6 +42,34 @@ sudo userpasswd wikiuser
 ```
 ---
 <br>
+
+# Установка wikijs
+
+```bash
+# Меняем пользователя на wikijs
+su wikiuser
+```
+<br>
+
+```bash
+# Скачиваем wikijs
+wget https://github.com/Requarks/wiki/releases/latest/download/wiki-js.tar.gz
+```
+<br>
+
+```bash
+# Создаем каталог для wikijs
+sudo mkdir -p /opt/wikijs
+```
+<br>
+
+```bash
+# распаковываем
+sudo tar -xvf wiki-js.tar.gz -C /opt/wikijs
+```
+---
+<br>
+
 
 # Установка и настройка SQLite
 
@@ -71,43 +99,29 @@ sudo chown -R $USER:$USER /var/lib/wikijs
 
 ```bash
 # Создаем базу данных
-sqlite3 /var/lib/wikijs/db/wikijs.sqlite3 "VACUUM;"
+sqlite3 /var/lib/wikijs/db/wikijs.sqlite3 ""
+
+# Важно указать пустые кавычки в конце "" иначе файл бд не создастя
+```
+<br>
+
+```bash
+# Установка драйвера SQLite для Node.js
+cd /opt/wikijs
+npm install --save sqlite3
+
+#или force в случае конфлитка
+npm install --save --force sqlite3 && npm audit fix --force 
 ```
 ---
 <br>
 
-# Установка wikijs
-
-```bash
-# Меняем пользователя на wikijs
-su wikiuser
-```
-<br>
-
-```bash
-# Скачиваем wikijs
-wget https://github.com/Requarks/wiki/releases/latest/download/wiki-js.tar.gz
-```
-<br>
-
-```bash
-# Создаем каталог для wikijs
-sudo mkdir -p /opt/wikijs
-```
-<br>
-
-```bash
-# распаковываем
-sudo tar -xvf wiki-js.tar.gz /opt/wikijs
-```
----
-<br>
 
 # Настройка конфигурации wikijs
 
 ```bash
 # Создаем конфиг
-sudo cp -a config.sample.yml confit.yml
+sudo cp -a config.sample.yml config.yml
 ```
 <br>
 
@@ -119,12 +133,7 @@ db:
 ```
 <br>
 
-```bash
-# Установка драйвера SQLite для Node.js
-cd /path/to/wikijs
-npm install sqlite3
-```
-<br>
+
 
 ```bash
 # Настройка прав доступа
@@ -134,14 +143,7 @@ sudo chmod 644 /var/lib/wikijs/db/wikijs.sqlite3
 ```
 <br>
 
-```bash
-# Перезапуск wikijs
-sudo systemctl restart wikijs
 
-# или
-cd /path/to/wikijs && npm start
-```
-<br>
 
 # Создаем демон /etc/systemd/system/wikijs.service
 ```systemd
@@ -161,6 +163,15 @@ WorkingDirectory=/opt/wikijs
 
 [Install]
 WantedBy=multi-user.target
+```
+<br>
+
+```bash
+# Перезапуск wikijs
+sudo systemctl restart wikijs
+
+# или
+cd /opt/wikijs && npm start
 ```
 <br>
 
