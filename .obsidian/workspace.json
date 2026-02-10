@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -184,36 +184,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
+      "obsidian-git:Open Git source control": false,
+      "iconic:Открыть свод правил": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
-    "Linux/Настройки/SSH/SSH.md",
-    "Linux/Настройки/Wikijs + SQLite.md",
-    "Linux/Права доступа.md",
-    "Закладки/Ссылки.md",
-    "Закладки/youtube.md",
-    "Закладки",
-    "Linux/Настройки/iRedmail.md",
-    "Linux/Настройки/PostgreSQL.md",
-    "Linux/Настройки/Postfix.md",
-    "Linux/Настройки/Passwork.md",
-    "Linux/Настройки/Network.md",
     "Linux/Настройки/Docsify.js.md",
-    "Windows/PowerShell.md",
+    "Linux/Настройки/MariaDB.md",
+    "Linux/Настройки/Network.md",
+    "Linux/Настройки/PostgreSQL.md",
+    "Learning/path.md",
+    "Закладки/Ссылки.md",
+    "Learning",
+    "Закладки/youtube.md",
+    "Nestjs/Main.js.md",
+    "Linux/Настройки/iRedmail.md",
+    "Git/Команды git.md",
+    "Docker/Docker-compose.md",
+    "Docker/Docker.md",
     "Windows/CMD.md",
+    "Linux/Настройки/Passwork.md",
+    "Linux/Настройки/Postfix.md",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Закладки/youtube",
+    "Закладки",
+    "Linux/Права доступа.md",
+    "Windows/PowerShell.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
+    "Linux/Настройки/SSH/SSH.md",
     "Linux/Bash.md",
     "Linux/Настройки/SSH",
-    "Ссылки.md",
     "Linux/Настройки/Node.js.md",
     "Windows",
     "Linux/Конфиги/Nginx/Nginx WS.md",
@@ -222,16 +231,9 @@
     "Untitled",
     "Linux/Конфиги/Nginx",
     "Linux/Конфиги",
-    "Docker/Docker-compose.md",
     "Docker/Конфигурации",
-    "Docker/Docker.md",
     "Git/Команды Git.md",
-    "Nestjs/Main.js.md",
     "Docker",
-    "_res/Pasted image 20260208003458.png",
-    "Linux/Популярные переменные окружения в Bash Linux.md",
-    "Linux/Настройки/Users.md",
-    "_res",
-    "Git"
+    "_res/Pasted image 20260208003458.png"
   ]
 }
