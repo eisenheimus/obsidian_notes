@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Wikijs + SQLite.md",
+                "file": "Linux/Права доступа.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wikijs + SQLite"
+              "title": "Права доступа"
             }
           }
         ]
@@ -198,6 +198,7 @@
   },
   "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
+    "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Docsify.js.md",
     "Linux/Настройки/MariaDB.md",
     "Linux/Настройки/Network.md",
@@ -214,7 +215,6 @@
     "Windows/CMD.md",
     "Linux/Настройки/Passwork.md",
     "Linux/Настройки/Postfix.md",
-    "Linux/Настройки/Wikijs + SQLite.md",
     "Закладки/youtube",
     "Закладки",
     "Linux/Права доступа.md",
