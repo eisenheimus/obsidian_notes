@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Права доступа.md",
-                "mode": "preview",
+                "file": "Linux/Bash.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Права доступа"
+              "title": "Bash"
             }
           }
         ]
@@ -198,6 +198,7 @@
   },
   "active": "0cb252f27cbdf047",
   "lastOpenFiles": [
+    "Linux/Права доступа.md",
     "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Docsify.js.md",
     "Linux/Настройки/MariaDB.md",
@@ -217,7 +218,6 @@
     "Linux/Настройки/Postfix.md",
     "Закладки/youtube",
     "Закладки",
-    "Linux/Права доступа.md",
     "Windows/PowerShell.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
     "Linux/Настройки/SSH/SSH.md",
