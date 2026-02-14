@@ -33,7 +33,8 @@
     "Docker": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Docker/Docker-compose.md": {
@@ -45,16 +46,15 @@
     "Git": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
-    },
-    "Git/Команды git.md": {
-      "icon": "lucide-clipboard-signature"
     },
     "Linux": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Linux/Bash.md": {
@@ -63,13 +63,15 @@
     "Linux/Конфиги": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Linux/Настройки": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Linux/Настройки/Docsify.js.md": {
@@ -93,7 +95,8 @@
     "Linux/Настройки/SSH": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Linux/Настройки/SSH/SSH.md": {
@@ -120,7 +123,8 @@
     "Nestjs": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Nestjs/Main.js.md": {
@@ -129,7 +133,8 @@
     "Windows": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Windows/CMD.md": {
@@ -141,7 +146,8 @@
     "Закладки": {
       "color": "red",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ],
       "icon": "lucide-folder"
     },

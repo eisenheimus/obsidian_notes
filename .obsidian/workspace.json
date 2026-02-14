@@ -1,21 +1,21 @@
 {
   "main": {
-    "id": "82b25164222760b1",
+    "id": "50dd44f4953c62f6",
     "type": "split",
     "children": [
       {
-        "id": "7beacf83d0519077",
+        "id": "fd39337e0df43cd0",
         "type": "tabs",
         "children": [
           {
-            "id": "0cb252f27cbdf047",
+            "id": "42957f69c69eb2ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Linux/Bash.md",
-                "mode": "source",
-                "source": true
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Bash"
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5f49e2de8a17341d",
+    "id": "6e223903bc922188",
     "type": "split",
     "children": [
       {
-        "id": "127d7cdcfb569eb8",
+        "id": "3745849cb7f3f842",
         "type": "tabs",
         "children": [
           {
-            "id": "b94fed0754b1e53c",
+            "id": "3e7b92e4aefbdff4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Файловый менеджер"
+              "title": "Files"
             }
           },
           {
-            "id": "5f219cc64aa232c7",
+            "id": "bbb4306ac2c44618",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
-            "id": "a41fd7cbb4cf9e23",
+            "id": "c3c59dc4f5d7c5e2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Закладки"
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "796c3552666fefea",
+    "id": "9ddf4626ed199856",
     "type": "split",
     "children": [
       {
-        "id": "6c96a43589e9c692",
+        "id": "58b937339d107049",
         "type": "tabs",
         "children": [
           {
-            "id": "f58dbd386a43a682",
+            "id": "1519c45aaf7971a8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Добро пожаловать.md",
+                "file": "Linux/Bash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Добро пожаловать"
+              "title": "Backlinks for Bash"
             }
           },
           {
-            "id": "f76b8967d041464e",
+            "id": "c0bdba495166951b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Добро пожаловать.md",
+                "file": "Linux/Настройки/iRedmail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Добро пожаловать"
+              "title": "Outgoing links from iRedmail"
             }
           },
           {
-            "id": "9be6ceeb08cc5bb0",
+            "id": "e29ce7eff3ed6119",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Теги"
+              "title": "Tags"
             }
           },
           {
-            "id": "e3562bc6b1a9ecc2",
+            "id": "d7574194b100aa04",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,26 +147,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "Все свойства"
+              "title": "All properties"
             }
           },
           {
-            "id": "117a8a300d3a2452",
+            "id": "a46bd8de785cb9c7",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Linux/Bash.md",
+                "file": "Linux/Настройки/iRedmail.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Bash"
+              "title": "Outline of iRedmail"
             }
           },
           {
-            "id": "3a227bb6d1b9d215",
+            "id": "76e51c7fa0bbc1a9",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -180,13 +180,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-<<<<<<< HEAD
-      "iconic:Open rulebook": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -194,59 +191,15 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
-=======
-      "switcher:Меню быстрого перехода": false,
-      "graph:Граф": false,
-      "canvas:Создать новый холст": false,
-      "daily-notes:Сегодняшняя заметка": false,
-      "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false,
-      "bases:Создать новую базу": false,
       "obsidian-git:Open Git source control": false,
-      "iconic:Открыть свод правил": false,
+      "iconic:Open rulebook": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
->>>>>>> d7084362590cdee9160222a10f171781f172c257
     }
   },
-  "active": "0cb252f27cbdf047",
+  "active": "42957f69c69eb2ab",
   "lastOpenFiles": [
-    "Linux/Права доступа.md",
     "Linux/Настройки/Wikijs + SQLite.md",
-    "Linux/Настройки/Docsify.js.md",
-    "Linux/Настройки/MariaDB.md",
-    "Linux/Настройки/Network.md",
-    "Linux/Настройки/PostgreSQL.md",
-    "Learning/path.md",
-    "Закладки/Ссылки.md",
-    "Learning",
-    "Закладки/youtube.md",
-    "Nestjs/Main.js.md",
-    "Linux/Настройки/iRedmail.md",
-    "Git/Команды git.md",
-    "Docker/Docker-compose.md",
-    "Docker/Docker.md",
-    "Windows/CMD.md",
-    "Linux/Настройки/Passwork.md",
-    "Linux/Настройки/Postfix.md",
-    "Закладки/youtube",
-    "Закладки",
-    "Windows/PowerShell.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
-    "Linux/Настройки/SSH/SSH.md",
-    "Linux/Bash.md",
-    "Linux/Настройки/SSH",
-    "Linux/Настройки/Node.js.md",
-    "Windows",
-    "Linux/Конфиги/Nginx/Nginx WS.md",
-    "Linux/Конфиги/Nginx/Nginx HTTPS.md",
-    "Linux/Настройки/Nginx.md",
-    "Untitled",
-    "Linux/Конфиги/Nginx",
-    "Linux/Конфиги",
-    "Docker/Конфигурации",
-    "Git/Команды Git.md",
-    "Docker",
-    "_res/Pasted image 20260208003458.png"
+    "Linux/Настройки/iRedmail.md"
   ]
 }
