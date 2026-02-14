@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Proxmox.md",
+                "file": "Linux/Настройки/SSH/SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxmox"
+              "title": "SSH"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Настройки/Proxmox.md",
+                "file": "Linux/Настройки/SSH/SSH.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Proxmox"
+              "title": "Backlinks for SSH"
             }
           },
           {
@@ -225,15 +225,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e7b92e4aefbdff4",
+  "active": "5a7d7aa0e6f046c5",
   "lastOpenFiles": [
-    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Nginx.md",
+    "Linux/Настройки/Network.md",
+    "Linux/Настройки/MariaDB.md",
+    "Linux/Настройки/iRedmail.md",
+    "Linux/Настройки/Docsify.js.md",
     "Linux/Настройки/Proxmox.md",
+    "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/SSH/SSH.md",
     "Linux/Настройки/UFW.md",
-    "Linux/Настройки/Nginx.md",
     "Linux/Bash.md",
-    "Linux/Настройки/SSH/Проброс порта SSH.md",
-    "Linux/Настройки/iRedmail.md"
+    "Linux/Настройки/SSH/Проброс порта SSH.md"
   ]
 }

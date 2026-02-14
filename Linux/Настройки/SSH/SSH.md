@@ -137,7 +137,7 @@ ssh -i ~/.ssh/id_ed25519 -p 5000 wikiuser@10.10.10.10
 ```
 
 # Если вдруг 22 порт не закрывается а новый порт не поднимается. 
-```
+```bash
 sudo systemctl stop ssh.socket
 sudo systemctl disable ssh.socket
 ```
