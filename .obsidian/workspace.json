@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Proxmox.md",
+                "file": "Linux/Настройки/Proxmox.md",
                 "mode": "source",
                 "source": false
               },
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Proxmox.md",
+                "file": "Linux/Настройки/Proxmox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,14 +225,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5a7d7aa0e6f046c5",
+  "active": "3e7b92e4aefbdff4",
   "lastOpenFiles": [
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Proxmox.md",
     "Linux/Настройки/SSH/SSH.md",
-    "Proxmox.md",
     "Linux/Настройки/UFW.md",
     "Linux/Настройки/Nginx.md",
     "Linux/Bash.md",
-    "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
     "Linux/Настройки/iRedmail.md"
   ]
