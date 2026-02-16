@@ -1,4 +1,4 @@
-```text-x-trilium-auto
+```bash
 find . -maxdepth 1 -name '*.zip' | grep file.zip
 
 find . -type f -name "pres012025.*"
@@ -76,7 +76,7 @@ dig google.com MX +short
 
 ```
 
-```
+```bash
 # Cигналы kill
 Увидеть его можно командой: `kill -l` (выведет номера и имена).
 
@@ -119,7 +119,7 @@ dig google.com MX +short
 
 head -1 file.txt - считать первую строчку
 
-```text-x-trilium-auto
+```bash
 #SSH 
 
 # сгенерировать пару ключей
