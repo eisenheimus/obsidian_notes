@@ -35,116 +35,158 @@
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
-      ]
+      ],
+      "color": "blue"
     },
     "Docker/Docker-compose.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Docker/Docker.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Git": {
       "icon": "lucide-folder",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
-      ]
+      ],
+      "color": "green"
+    },
+    "Git/Команды git.md": {
+      "icon": "lucide-file"
     },
     "Linux": {
       "icon": "lucide-folder",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
-      ]
+      ],
+      "color": "orange"
     },
     "Linux/Bash.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file",
+      "color": "gray"
     },
     "Linux/Конфиги": {
       "icon": "lucide-folder",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
-      ]
+      ],
+      "color": "orange"
+    },
+    "Linux/Конфиги/Nginx": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ],
+      "color": "orange"
+    },
+    "Linux/Конфиги/Nginx/Nginx HTTPS.md": {
+      "icon": "lucide-file"
+    },
+    "Linux/Конфиги/Nginx/Nginx WS.md": {
+      "icon": "lucide-file"
     },
     "Linux/Настройки": {
       "icon": "lucide-folder",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
-      ]
+      ],
+      "color": "orange"
     },
     "Linux/Настройки/Docsify.js.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Linux/Настройки/MariaDB.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
+    },
+    "Linux/Настройки/Network.md": {
+      "icon": "lucide-file"
     },
     "Linux/Настройки/Nginx.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Linux/Настройки/Node.js.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Linux/Настройки/Passwork.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Linux/Настройки/Postfix.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
+    },
+    "Linux/Настройки/PostgreSQL.md": {
+      "icon": "lucide-file"
+    },
+    "Linux/Настройки/Proxmox.md": {
+      "icon": "lucide-file"
     },
     "Linux/Настройки/SSH": {
       "icon": "lucide-folder",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
-      ]
+      ],
+      "color": "orange"
     },
     "Linux/Настройки/SSH/SSH.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Linux/Настройки/SSH/Проброс порта SSH.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
+    },
+    "Linux/Настройки/UFW.md": {
+      "icon": "lucide-file"
     },
     "Linux/Настройки/Users.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Linux/Настройки/Wikijs + SQLite.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Linux/Настройки/iRedmail.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
+    },
+    "Linux/Настройки/Сменить имя ПК (hostname).md": {
+      "icon": "lucide-file"
     },
     "Linux/Популярные переменные окружения в Bash Linux.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file",
+      "color": "gray"
     },
     "Linux/Права доступа.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file",
+      "color": "gray"
     },
     "Nestjs": {
       "icon": "lucide-folder",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
-      ]
+      ],
+      "color": "pink"
     },
     "Nestjs/Main.js.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Windows": {
       "icon": "lucide-folder",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
-      ]
+      ],
+      "color": "red"
     },
     "Windows/CMD.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Windows/PowerShell.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     },
     "Закладки": {
-      "color": "red",
+      "color": "purple",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
@@ -152,7 +194,7 @@
       "icon": "lucide-folder"
     },
     "Закладки/Ссылки.md": {
-      "icon": "lucide-clipboard-signature"
+      "icon": "lucide-file"
     }
   },
   "bookmarkIcons": {},

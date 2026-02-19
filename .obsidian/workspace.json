@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/CMD.md",
+                "file": "Linux/Bash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CMD"
+              "title": "Bash"
             }
           }
         ],
@@ -227,18 +227,25 @@
   },
   "active": "5a7d7aa0e6f046c5",
   "lastOpenFiles": [
+    "Linux/Права доступа.md",
+    "Linux/Популярные переменные окружения в Bash Linux.md",
+    "Linux/Настройки/SSH/SSH.md",
+    "Linux/Настройки/SSH/Проброс порта SSH.md",
+    "Linux/Конфиги/Nginx/Nginx WS.md",
+    "Linux/Конфиги/Nginx/Nginx HTTPS.md",
     "Linux/Настройки/Сменить имя ПК (hostname).md",
     "Linux/Bash.md",
-    "Linux/Настройки/Без названия",
-    "Linux/Настройки/Wikijs + SQLite.md",
-    "Linux/Настройки/SSH/SSH.md",
-    "Linux/Настройки/Nginx.md",
-    "Linux/Настройки/Network.md",
-    "Linux/Настройки/MariaDB.md",
-    "Linux/Настройки/iRedmail.md",
-    "Linux/Настройки/Docsify.js.md",
+    "Git/Команды git.md",
+    "Linux/Настройки/PostgreSQL.md",
     "Linux/Настройки/Proxmox.md",
     "Linux/Настройки/UFW.md",
-    "Linux/Настройки/SSH/Проброс порта SSH.md"
+    "Linux/Настройки/Network.md",
+    "Windows/CMD.md",
+    "Linux/Настройки/Без названия",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Nginx.md",
+    "Linux/Настройки/MariaDB.md",
+    "Linux/Настройки/iRedmail.md",
+    "Linux/Настройки/Docsify.js.md"
   ]
 }
