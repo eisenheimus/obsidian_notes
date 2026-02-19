@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash.md",
+                "file": "Windows/CMD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bash"
+              "title": "CMD"
             }
           }
         ],
@@ -227,6 +227,9 @@
   },
   "active": "5a7d7aa0e6f046c5",
   "lastOpenFiles": [
+    "Linux/Настройки/Сменить имя ПК (hostname).md",
+    "Linux/Bash.md",
+    "Linux/Настройки/Без названия",
     "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/SSH/SSH.md",
     "Linux/Настройки/Nginx.md",
@@ -236,7 +239,6 @@
     "Linux/Настройки/Docsify.js.md",
     "Linux/Настройки/Proxmox.md",
     "Linux/Настройки/UFW.md",
-    "Linux/Bash.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md"
   ]
 }

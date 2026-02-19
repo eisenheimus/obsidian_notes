@@ -37,7 +37,12 @@ whoami - имя пользователя
 
 net use \\localhost /user:liwest\gorchakova Qwe1234! - проверить логин пароль и доступность учетки
 
-  
+
+Конфигурация ПК:  
+wmic cpu get name - получить модель процессора  
+wmic memorychip get Capacity  
+diskpart -> list disk - получить объем дисков SSD/HDD  
+wmic diskdrive get model, size
 
 |   |   |
 |---|---|
