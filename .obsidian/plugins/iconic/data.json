@@ -30,6 +30,13 @@
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
+    "Ansible": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ],
+      "color": "yellow"
+    },
     "Docker": {
       "icon": "lucide-folder",
       "unsynced": [

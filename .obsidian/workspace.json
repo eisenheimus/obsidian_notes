@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Bash.md",
+                "file": "Ansible/Ansible.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bash"
+              "title": "Ansible"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ssh-copy-id",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Поиск"
             }
           },
           {
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -227,14 +228,16 @@
   },
   "active": "5a7d7aa0e6f046c5",
   "lastOpenFiles": [
+    "Linux/Настройки/SSH/SSH.md",
+    "Ansible/Ansible.md",
+    "Linux/Bash.md",
+    "Ansible",
     "Linux/Права доступа.md",
     "Linux/Популярные переменные окружения в Bash Linux.md",
-    "Linux/Настройки/SSH/SSH.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
     "Linux/Конфиги/Nginx/Nginx WS.md",
     "Linux/Конфиги/Nginx/Nginx HTTPS.md",
     "Linux/Настройки/Сменить имя ПК (hostname).md",
-    "Linux/Bash.md",
     "Git/Команды git.md",
     "Linux/Настройки/PostgreSQL.md",
     "Linux/Настройки/Proxmox.md",
