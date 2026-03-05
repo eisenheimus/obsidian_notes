@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd39337e0df43cd0",
+        "id": "59909ef6dba59174",
         "type": "tabs",
         "children": [
           {
-            "id": "5a7d7aa0e6f046c5",
+            "id": "a18d80dc8fa3432e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -196,23 +196,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5a7d7aa0e6f046c5",
+  "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Docker/Docker-compose.md",
-    "Docker/Основные понятия.md",
-    "Docker/Docker.md",
     "Linux/Настройки/Wikijs.md",
+    "Docker/Основные понятия.md",
+    "Linux/Настройки/Users.md",
     "Linux/Пакеты.md",
-    "Ansible/Ansible.md",
+    "Linux/Права доступа.md",
+    "Linux/Настройки/Сменить имя ПК (hostname).md",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Nginx.md",
     "Linux/Настройки/SSH/SSH.md",
+    "Ansible/Ansible.md",
     "Linux/Bash.md",
     "Ansible",
-    "Linux/Права доступа.md",
     "Linux/Популярные переменные окружения в Bash Linux.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
     "Linux/Конфиги/Nginx/Nginx WS.md",
     "Linux/Конфиги/Nginx/Nginx HTTPS.md",
-    "Linux/Настройки/Сменить имя ПК (hostname).md",
     "Git/Команды git.md",
     "Linux/Настройки/PostgreSQL.md",
     "Linux/Настройки/Proxmox.md",
@@ -220,8 +221,6 @@
     "Linux/Настройки/Network.md",
     "Windows/CMD.md",
     "Linux/Настройки/Без названия",
-    "Linux/Настройки/Wikijs + SQLite.md",
-    "Linux/Настройки/Nginx.md",
     "Linux/Настройки/MariaDB.md",
     "Linux/Настройки/iRedmail.md",
     "Linux/Настройки/Docsify.js.md"
