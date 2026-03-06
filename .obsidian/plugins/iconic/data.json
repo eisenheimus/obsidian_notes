@@ -45,10 +45,10 @@
       ],
       "color": "blue"
     },
-    "Docker/Docker-compose.md": {
+    "Docker/Docker cli.md": {
       "icon": "lucide-file"
     },
-    "Docker/Docker.md": {
+    "Docker/Docker-compose.md": {
       "icon": "lucide-file"
     },
     "Git": {

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Основные понятия.md",
+                "file": "Сети/TCP_IP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Основные понятия"
+              "title": "TCP_IP"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "9ddf4626ed199856",
@@ -198,8 +198,14 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Linux/Настройки/Wikijs.md",
+    "Сети/OSI.md",
+    "Сети/TCP_IP.md",
+    "Ansible/Ansible.md",
     "Docker/Основные понятия.md",
+    "Сети",
+    "Docker/Docker cli.md",
+    "Docker/Docker-compose.md",
+    "Linux/Настройки/Wikijs.md",
     "Linux/Настройки/Users.md",
     "Linux/Пакеты.md",
     "Linux/Права доступа.md",
@@ -207,7 +213,6 @@
     "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Nginx.md",
     "Linux/Настройки/SSH/SSH.md",
-    "Ansible/Ansible.md",
     "Linux/Bash.md",
     "Ansible",
     "Linux/Популярные переменные окружения в Bash Linux.md",
@@ -221,8 +226,6 @@
     "Linux/Настройки/Network.md",
     "Windows/CMD.md",
     "Linux/Настройки/Без названия",
-    "Linux/Настройки/MariaDB.md",
-    "Linux/Настройки/iRedmail.md",
-    "Linux/Настройки/Docsify.js.md"
+    "Linux/Настройки/MariaDB.md"
   ]
 }
