@@ -33,7 +33,8 @@
     "Ansible": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ],
       "color": "yellow"
     },
@@ -45,9 +46,6 @@
       ],
       "color": "blue"
     },
-    "Docker/Docker cli.md": {
-      "icon": "lucide-file"
-    },
     "Docker/Docker-compose.md": {
       "icon": "lucide-file"
     },
@@ -58,9 +56,6 @@
         "3438c4b8431289d2"
       ],
       "color": "green"
-    },
-    "Git/Команды git.md": {
-      "icon": "lucide-file"
     },
     "Linux": {
       "icon": "lucide-folder",
@@ -85,7 +80,8 @@
     "Linux/Конфиги/Nginx": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ],
       "color": "orange"
     },
@@ -202,6 +198,12 @@
     },
     "Закладки/Ссылки.md": {
       "icon": "lucide-file"
+    },
+    "Сети": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "3438c4b8431289d2"
+      ]
     }
   },
   "bookmarkIcons": {},

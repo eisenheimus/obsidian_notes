@@ -33,8 +33,12 @@
     "Ansible": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ],
+      "color": "yellow"
+    },
+    "Ansible/Ansible.md": {
       "color": "yellow"
     },
     "Docker": {
@@ -46,10 +50,17 @@
       "color": "blue"
     },
     "Docker/Docker cli.md": {
-      "icon": "lucide-file"
+      "color": "blue"
     },
     "Docker/Docker-compose.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "blue"
+    },
+    "Docker/Dockerfile.md": {
+      "color": "blue"
+    },
+    "Docker/Основные понятия.md": {
+      "color": "blue"
     },
     "Git": {
       "icon": "lucide-folder",
@@ -59,8 +70,8 @@
       ],
       "color": "green"
     },
-    "Git/Команды git.md": {
-      "icon": "lucide-file"
+    "Git/Команды Git.md": {
+      "color": "green"
     },
     "Linux": {
       "icon": "lucide-folder",
@@ -72,7 +83,7 @@
     },
     "Linux/Bash.md": {
       "icon": "lucide-file",
-      "color": "gray"
+      "color": "orange"
     },
     "Linux/Конфиги": {
       "icon": "lucide-folder",
@@ -85,7 +96,8 @@
     "Linux/Конфиги/Nginx": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ],
       "color": "orange"
     },
@@ -159,13 +171,16 @@
     "Linux/Настройки/Сменить имя ПК (hostname).md": {
       "icon": "lucide-file"
     },
+    "Linux/Пакеты.md": {
+      "color": "orange"
+    },
     "Linux/Популярные переменные окружения в Bash Linux.md": {
       "icon": "lucide-file",
-      "color": "gray"
+      "color": "orange"
     },
     "Linux/Права доступа.md": {
       "icon": "lucide-file",
-      "color": "gray"
+      "color": "orange"
     },
     "Nestjs": {
       "icon": "lucide-folder",
@@ -176,7 +191,19 @@
       "color": "pink"
     },
     "Nestjs/Main.js.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "pink"
+    },
+    "ProxMox": {
+      "color": "cyan",
+      "unsynced": [
+        "3438c4b8431289d2"
+      ],
+      "icon": "lucide-folder"
+    },
+    "ProxMox/Монтирование дисков.md": {
+      "icon": "lucide-file",
+      "color": "cyan"
     },
     "Windows": {
       "icon": "lucide-folder",
@@ -187,10 +214,12 @@
       "color": "red"
     },
     "Windows/CMD.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "red"
     },
     "Windows/PowerShell.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "red"
     },
     "Закладки": {
       "color": "purple",
@@ -200,7 +229,23 @@
       ],
       "icon": "lucide-folder"
     },
+    "Закладки/youtube.md": {
+      "color": "purple"
+    },
     "Закладки/Ссылки.md": {
+      "icon": "lucide-file",
+      "color": "purple"
+    },
+    "Сети": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "3438c4b8431289d2"
+      ]
+    },
+    "Сети/OSI.md": {
+      "icon": "lucide-file"
+    },
+    "Сети/TCP_IP.md": {
       "icon": "lucide-file"
     }
   },
