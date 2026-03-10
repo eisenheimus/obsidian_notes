@@ -1,15 +1,22 @@
 <br>
-
-
 # Инициализация репозитория
+
+```bash
+echo "# monitoring_configs" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:eisenheimus/monitoring_configs.git
+git push -u origin main
+```
+
 
 ```bash
 # Установить email для всех локальных репозиториев (глобально)
 git config --global user.email "test@user.ru"
 ```
 <br>
-
-
 
 ```bash
 # Инициализировать новый Git-репозиторий в текущей директории

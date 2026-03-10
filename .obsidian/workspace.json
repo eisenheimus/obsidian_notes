@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProxMox/Proxmox.md",
+                "file": "Git/Команды git.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proxmox"
+              "title": "Команды git"
             }
           }
         ]
@@ -198,14 +198,14 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
+    "Docker/Docker cli.md",
+    "Docker/Основные понятия.md",
+    "ProxMox/Proxmox.md",
     "ProxMox/Монтирование дисков для VM.md",
     "ProxMox/Монтирование дисков для LXC.md",
-    "Docker/Docker cli.md",
     "Docker/Dockerfile.md",
     "Docker/Docker-compose.md",
-    "Docker/Основные понятия.md",
     "Сети/TCP_IP.md",
-    "ProxMox/Proxmox.md",
     "ProxMox",
     "Сети/OSI.md",
     "Ansible/Ansible.md",
