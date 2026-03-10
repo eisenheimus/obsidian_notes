@@ -70,9 +70,6 @@
       ],
       "color": "green"
     },
-    "Git/Команды Git.md": {
-      "color": "green"
-    },
     "Linux": {
       "icon": "lucide-folder",
       "unsynced": [
@@ -194,7 +191,8 @@
     "ProxMox": {
       "color": "cyan",
       "unsynced": [
-        "3438c4b8431289d2"
+        "3438c4b8431289d2",
+        "9d8e8ebaa55f4fe5"
       ],
       "icon": "lucide-folder"
     },
@@ -202,7 +200,11 @@
       "icon": "lucide-file",
       "color": "cyan"
     },
-    "ProxMox/Монтирование дисков.md": {
+    "ProxMox/Монтирование дисков для LXC.md": {
+      "icon": "lucide-file",
+      "color": "cyan"
+    },
+    "ProxMox/Монтирование дисков для VM.md": {
       "icon": "lucide-file",
       "color": "cyan"
     },
@@ -240,7 +242,8 @@
     "Сети": {
       "icon": "lucide-folder",
       "unsynced": [
-        "3438c4b8431289d2"
+        "3438c4b8431289d2",
+        "9d8e8ebaa55f4fe5"
       ]
     },
     "Сети/OSI.md": {
