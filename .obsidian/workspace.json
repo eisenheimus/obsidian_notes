@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Команды git.md",
+                "file": "Linux/Настройки/Docsify.js.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды git"
+              "title": "Docsify.js"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Установка через NVM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,6 +198,14 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
+    "Linux/Bash.md",
+    "Linux/Права доступа.md",
+    "Linux/Популярные переменные окружения в Bash Linux.md",
+    "Linux/Настройки/Wikijs.md",
+    "Linux/Настройки/Users.md",
+    "Linux/Настройки/Node.js.md",
+    "Linux/Пакеты.md",
+    "Git/Команды git.md",
     "Docker/Docker cli.md",
     "Docker/Основные понятия.md",
     "ProxMox/Proxmox.md",
@@ -210,23 +218,15 @@
     "Сети/OSI.md",
     "Ansible/Ansible.md",
     "Сети",
-    "Linux/Настройки/Wikijs.md",
-    "Linux/Настройки/Users.md",
-    "Linux/Пакеты.md",
-    "Linux/Права доступа.md",
     "Linux/Настройки/Сменить имя ПК (hostname).md",
     "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Nginx.md",
     "Linux/Настройки/SSH/SSH.md",
-    "Linux/Bash.md",
     "Ansible",
-    "Linux/Популярные переменные окружения в Bash Linux.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
     "Linux/Конфиги/Nginx/Nginx WS.md",
     "Linux/Конфиги/Nginx/Nginx HTTPS.md",
-    "Git/Команды git.md",
     "Linux/Настройки/PostgreSQL.md",
-    "Linux/Настройки/Proxmox.md",
     "Linux/Настройки/Без названия"
   ]
 }

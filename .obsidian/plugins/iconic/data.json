@@ -113,28 +113,36 @@
       "color": "orange"
     },
     "Linux/Настройки/Docsify.js.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/MariaDB.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Network.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Nginx.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Node.js.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Passwork.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Postfix.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/PostgreSQL.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/SSH": {
       "icon": "lucide-folder",
@@ -151,19 +159,28 @@
       "icon": "lucide-file"
     },
     "Linux/Настройки/UFW.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Users.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Wikijs + SQLite.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
+    },
+    "Linux/Настройки/Wikijs.md": {
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/iRedmail.md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Сменить имя ПК (hostname).md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Пакеты.md": {
       "color": "orange"
