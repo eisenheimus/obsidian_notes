@@ -221,6 +221,10 @@
       "icon": "lucide-file",
       "color": "cyan"
     },
+    "ProxMox/Замена сбойного диска в массивах ZFS.md": {
+      "icon": "lucide-file",
+      "color": "cyan"
+    },
     "ProxMox/Монтирование дисков для LXC.md": {
       "icon": "lucide-file",
       "color": "cyan"
