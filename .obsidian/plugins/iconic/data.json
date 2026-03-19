@@ -70,6 +70,10 @@
       ],
       "color": "green"
     },
+    "Git/Команды git.md": {
+      "icon": "lucide-file",
+      "color": "green"
+    },
     "Linux": {
       "icon": "lucide-folder",
       "unsynced": [
