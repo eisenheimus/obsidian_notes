@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProxMox/Замена сбойного диска в массивах ZFS.md",
+                "file": "Linux/MySQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Замена сбойного диска в массивах ZFS"
+              "title": "MySQL"
             }
           }
         ]
@@ -198,6 +198,8 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
+    "ProxMox/Proxmox.md",
+    "Linux/MySQL.md",
     "ProxMox/Замена сбойного диска в массивах ZFS.md",
     "Linux/Настройки/Nginx.md",
     "Linux/Настройки/Users.md",
@@ -217,14 +219,12 @@
     "Git/Команды git.md",
     "Docker/Docker cli.md",
     "Docker/Основные понятия.md",
-    "ProxMox/Proxmox.md",
     "ProxMox/Монтирование дисков для VM.md",
     "ProxMox/Монтирование дисков для LXC.md",
     "Docker/Dockerfile.md",
     "Docker/Docker-compose.md",
     "Сети/TCP_IP.md",
     "ProxMox",
-    "Сети/OSI.md",
     "Сети",
     "Ansible",
     "Linux/Настройки/Без названия"

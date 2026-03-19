@@ -82,6 +82,10 @@
       "icon": "lucide-file",
       "color": "orange"
     },
+    "Linux/MySQL.md": {
+      "icon": "lucide-file",
+      "color": "orange"
+    },
     "Linux/Конфиги": {
       "icon": "lucide-folder",
       "unsynced": [
