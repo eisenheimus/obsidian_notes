@@ -120,6 +120,9 @@
       ],
       "color": "orange"
     },
+    "Linux/Настройки/Docker.md": {
+      "color": "orange"
+    },
     "Linux/Настройки/Docsify.js.md": {
       "icon": "lucide-file",
       "color": "orange"
@@ -233,12 +236,18 @@
       "icon": "lucide-file",
       "color": "cyan"
     },
+    "ProxMox/Монтирование USB HDD для LXC.md": {
+      "color": "cyan"
+    },
     "ProxMox/Монтирование дисков для LXC.md": {
       "icon": "lucide-file",
       "color": "cyan"
     },
     "ProxMox/Монтирование дисков для VM.md": {
       "icon": "lucide-file",
+      "color": "cyan"
+    },
+    "ProxMox/Проброс USB на VM.md": {
       "color": "cyan"
     },
     "Windows": {
