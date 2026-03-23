@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Docker.md",
+                "file": "ProxMox/Монтирование USB HDD для LXC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Монтирование USB HDD для LXC"
             }
           }
         ]
@@ -198,10 +198,12 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Git/Команды git.md",
-    "Linux/Настройки/Docker.md",
-    "Linux/MySQL.md",
     "ProxMox/Proxmox.md",
+    "ProxMox/Монтирование USB HDD для LXC.md",
+    "Linux/Настройки/Docker.md",
+    "Linux/Настройки/Prometheus.md",
+    "Git/Команды git.md",
+    "Linux/MySQL.md",
     "ProxMox/Замена сбойного диска в массивах ZFS.md",
     "Linux/Настройки/Nginx.md",
     "Linux/Настройки/Users.md",
@@ -222,8 +224,6 @@
     "Docker/Основные понятия.md",
     "ProxMox/Монтирование дисков для VM.md",
     "ProxMox/Монтирование дисков для LXC.md",
-    "Docker/Dockerfile.md",
-    "Docker/Docker-compose.md",
     "ProxMox",
     "Сети",
     "Ansible",
