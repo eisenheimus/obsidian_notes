@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/MySQL.md",
+                "file": "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MySQL"
+              "title": "Prometheus (Docker)"
             }
           }
         ]
@@ -198,6 +198,12 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
+    "Linux/Настройки/Users.md",
+    "Linux/Права доступа.md",
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
+    "Linux/MySQL.md",
+    "Linux/Настройки/Мониторинг/Без названия",
+    "Linux/Настройки/Мониторинг",
     "Ansible/Ansible.md",
     "ProxMox/Проброс USB на VM.md",
     "ProxMox/Монтирование USB HDD для LXC.md",
@@ -207,13 +213,10 @@
     "Linux/Настройки/Docker.md",
     "Linux/Настройки/Prometheus.md",
     "Git/Команды git.md",
-    "Linux/MySQL.md",
     "ProxMox/Замена сбойного диска в массивах ZFS.md",
     "Linux/Настройки/Nginx.md",
-    "Linux/Настройки/Users.md",
     "Nestjs/Main.js.md",
     "Linux/Настройки/Gitlab CI.md",
-    "Linux/Права доступа.md",
     "Linux/Bash.md",
     "Linux/Конфиги/Nginx/Nginx WS.md",
     "Linux/Конфиги/Nginx/Nginx HTTPS.md",
@@ -223,10 +226,8 @@
     "Linux/Популярные переменные окружения в Bash Linux.md",
     "Linux/Настройки/Wikijs.md",
     "Linux/Настройки/Node.js.md",
-    "Linux/Пакеты.md",
     "ProxMox",
     "Сети",
-    "Ansible",
-    "Linux/Настройки/Без названия"
+    "Ansible"
   ]
 }

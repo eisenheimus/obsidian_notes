@@ -193,6 +193,13 @@
       "icon": "lucide-file",
       "color": "orange"
     },
+    "Linux/Настройки/Мониторинг": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ],
+      "color": "orange"
+    },
     "Linux/Настройки/Сменить имя ПК (hostname).md": {
       "icon": "lucide-file",
       "color": "orange"
