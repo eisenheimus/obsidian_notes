@@ -26,7 +26,7 @@ sudo chown -R 100033:100033 /mnt/usb_hdd
 
 ```bash
 # Добавляем точку монтирования/проброс для LXC
-echo "mp0: /mnt/usb_hdd, mp=/media/usb" >> /etc/pve/lxc/<ID>.conf
+echo "mp0: /mnt/usb_hdd,mp=/media/usb" >> /etc/pve/lxc/<ID>.conf
 ```
 
 ```bash

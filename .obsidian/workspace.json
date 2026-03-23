@@ -198,8 +198,9 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "ProxMox/Proxmox.md",
+    "ProxMox/Монтирование дисков для LXC.md",
     "ProxMox/Монтирование USB HDD для LXC.md",
+    "ProxMox/Proxmox.md",
     "Linux/Настройки/Docker.md",
     "Linux/Настройки/Prometheus.md",
     "Git/Команды git.md",
@@ -223,7 +224,6 @@
     "Docker/Docker cli.md",
     "Docker/Основные понятия.md",
     "ProxMox/Монтирование дисков для VM.md",
-    "ProxMox/Монтирование дисков для LXC.md",
     "ProxMox",
     "Сети",
     "Ansible",
