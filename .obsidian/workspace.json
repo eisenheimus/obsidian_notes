@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProxMox/Монтирование USB HDD для LXC.md",
+                "file": "ProxMox/Проброс USB на VM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Монтирование USB HDD для LXC"
+              "title": "Проброс USB на VM"
             }
           }
         ]
@@ -198,8 +198,10 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "ProxMox/Монтирование дисков для LXC.md",
     "ProxMox/Монтирование USB HDD для LXC.md",
+    "ProxMox/Проброс USB на VM.md",
+    "Linux/Настройки/Сменить имя ПК (hostname).md",
+    "ProxMox/Монтирование дисков для LXC.md",
     "ProxMox/Proxmox.md",
     "Linux/Настройки/Docker.md",
     "Linux/Настройки/Prometheus.md",
@@ -222,8 +224,6 @@
     "Linux/Настройки/Node.js.md",
     "Linux/Пакеты.md",
     "Docker/Docker cli.md",
-    "Docker/Основные понятия.md",
-    "ProxMox/Монтирование дисков для VM.md",
     "ProxMox",
     "Сети",
     "Ansible",
