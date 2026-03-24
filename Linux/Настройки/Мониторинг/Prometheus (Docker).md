@@ -34,7 +34,15 @@ EOF
 ```
 
 ```bash
-# Запуск контейнера
+# Добавьте своего пользователя в группу docker
+sudo usermod -aG docker $USER
+
+# Применить группу docker
+newgrp docke
+```
+
+```bash
+# Запустите Prometheus вручную первый раз
 docker run -d \
   --name prometheus \
   --restart unless-stopped \
@@ -47,46 +55,44 @@ docker run -d \
   --web.enable-lifecycle
 ```
 
-```bash
-# Добавьте своего пользователя в группу docker
-sudo usermod -aG docker $USER
-```
-
-
-```
-sudo tee /etc/systemd/system/prometheus-docker.service > /dev/null << 'EOF'
+```ini
+# добавляем в автозагрузку /etc/systemd/system/prometheus-docker.service
 [Unit]
 Description=Prometheus Docker Container
+Documentation=https://prometheus.io/docs/introduction/overview/
 After=docker.service
 Requires=docker.service
 [Service]
 Type=oneshot
 RemainAfterExit=yes
+User=root
+Group=docker
+# Запуск контейнера
 ExecStart=/usr/bin/docker start prometheus
+# Остановка контейнера
 ExecStop=/usr/bin/docker stop prometheus
+# Перезапуск контейнера
 ExecReload=/usr/bin/docker restart prometheus
+# Автоматический перезапуск при сбоях
 Restart=on-failure
 RestartSec=10
 [Install]
 WantedBy=multi-user.target
-EOF
-# 7. Запустите Prometheus вручную первый раз
-docker run -d \
-    --name prometheus \
-    --restart unless-stopped \
-    -p 9090:9090 \
-    -v /etc/prometheus:/etc/prometheus \
-    -v /var/lib/prometheus:/prometheus \
-    prom/prometheus:latest \
-    --config.file=/etc/prometheus/prometheus.yml \
-    --storage.tsdb.path=/prometheus \
-    --web.enable-lifecycle
-# 8. Активируйте systemd сервис
+
+```
+
+```bash
+# Активируйте systemd сервис
 sudo systemctl daemon-reload
 sudo systemctl enable prometheus-docker.service
 sudo systemctl start prometheus-docker.service
-# 9. Проверьте
+```
+
+```bash
+# Проверьте
 sudo systemctl status prometheus-docker.service
 docker ps
 curl localhost:9090/-/healthy
 ```
+
+

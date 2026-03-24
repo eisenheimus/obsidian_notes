@@ -198,9 +198,10 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
+    "Docker/Docker cli.md",
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/Настройки/Users.md",
     "Linux/Права доступа.md",
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/MySQL.md",
     "Linux/Настройки/Мониторинг/Без названия",
     "Linux/Настройки/Мониторинг",
@@ -225,7 +226,6 @@
     "Linux/Настройки/Docsify.js.md",
     "Linux/Популярные переменные окружения в Bash Linux.md",
     "Linux/Настройки/Wikijs.md",
-    "Linux/Настройки/Node.js.md",
     "ProxMox",
     "Сети",
     "Ansible"
