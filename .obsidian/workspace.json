@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
+                "file": "Docker/Docker CLI/Docker network.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Prometheus (Docker)"
+              "title": "Docker network"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Установка через NVM",
+                "query": "docker network",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,7 +198,12 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Docker/Docker cli.md",
+    "Docker/Docker CLI/Docker cli.md",
+    "Docker/Docker CLI/Docker network.md",
+    "Docker/Docker-compose.md",
+    "Docker/Docker CLI",
+    "Docker/Dockerfile.md",
+    "Docker/Основные понятия.md",
     "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/Настройки/Users.md",
     "Linux/Права доступа.md",
@@ -222,10 +227,6 @@
     "Linux/Конфиги/Nginx/Nginx WS.md",
     "Linux/Конфиги/Nginx/Nginx HTTPS.md",
     "Linux/Настройки/Postfix.md",
-    "Linux/Настройки/Passwork.md",
-    "Linux/Настройки/Docsify.js.md",
-    "Linux/Популярные переменные окружения в Bash Linux.md",
-    "Linux/Настройки/Wikijs.md",
     "ProxMox",
     "Сети",
     "Ansible"
