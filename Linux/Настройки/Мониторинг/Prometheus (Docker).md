@@ -43,25 +43,27 @@ newgrp docke
 
 ```bash
 # Запустите Prometheus вручную первый раз
-docker run -d \
-  --name prometheus \
-  --restart unless-stopped \
-  -p 9090:9090 \
-  -v /etc/prometheus:/etc/prometheus \
-  -v /var/lib/prometheus:/prometheus \
-  prom/prometheus:latest \
-  --config.file=/etc/prometheus/prometheus.yml \
-  --storage.tsdb.path=/prometheus \
-  --web.enable-lifecycle
+docker run -d \                                    # фоновый режим
+  --name prometheus \                              # имя контейнера
+  --restart unless-stopped \                       # автоперезапуск (кроме ручной остановки)
+  --network monitoring \                           # подключение к сети monitoring
+  -p 9090:9090 \                                   # проброс порта хост:контейнер
+  -v /etc/prometheus:/etc/prometheus \             # монтирование конфигов
+  -v /var/lib/prometheus:/prometheus \             # монтирование данных
+  prom/prometheus:latest \                         # образ
+  --config.file=/etc/prometheus/prometheus.yml \   # путь к конфигу
+  --storage.tsdb.path=/prometheus \                # путь к данным
+  --web.enable-lifecycle                           # включить API перезагрузки
 ```
 
-```ini
+```sh
 # добавляем в автозагрузку /etc/systemd/system/prometheus-docker.service
 [Unit]
 Description=Prometheus Docker Container
 Documentation=https://prometheus.io/docs/introduction/overview/
 After=docker.service
 Requires=docker.service
+
 [Service]
 Type=oneshot
 RemainAfterExit=yes
@@ -76,6 +78,7 @@ ExecReload=/usr/bin/docker restart prometheus
 # Автоматический перезапуск при сбоях
 Restart=on-failure
 RestartSec=10
+
 [Install]
 WantedBy=multi-user.target
 

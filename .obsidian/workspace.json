@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker CLI/Docker run.md",
+                "file": "Docker/Docker CLI/Docker cli.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Docker run"
+              "title": "Docker cli"
             }
           }
         ]
@@ -198,15 +198,15 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Docker/Docker CLI/Docker network.md",
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Docker/Docker CLI/Docker run.md",
+    "Docker/Docker CLI/Docker network.md",
     "Docker/Docker CLI/Docker cli.md",
     "Linux/Настройки/Amnezia.md",
     "Docker/Docker-compose.md",
     "Docker/Docker CLI",
     "Docker/Dockerfile.md",
     "Docker/Основные понятия.md",
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/Настройки/Users.md",
     "Linux/Права доступа.md",
     "Linux/MySQL.md",
