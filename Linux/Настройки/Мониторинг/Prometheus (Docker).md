@@ -1,5 +1,4 @@
 
-
 ```bash
 # Явное скачивание образа Prometheus
 docker pull prom/prometheus:latest
@@ -56,7 +55,7 @@ docker run -d \                                    # фоновый режим
   --web.enable-lifecycle                           # включить API перезагрузки
 ```
 
-```sh
+```ini
 # добавляем в автозагрузку /etc/systemd/system/prometheus-docker.service
 [Unit]
 Description=Prometheus Docker Container
@@ -69,19 +68,22 @@ Type=oneshot
 RemainAfterExit=yes
 User=root
 Group=docker
+
 # Запуск контейнера
 ExecStart=/usr/bin/docker start prometheus
+
 # Остановка контейнера
 ExecStop=/usr/bin/docker stop prometheus
+
 # Перезапуск контейнера
 ExecReload=/usr/bin/docker restart prometheus
+
 # Автоматический перезапуск при сбоях
 Restart=on-failure
 RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
-
 ```
 
 ```bash

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker CLI/Docker run.md",
+                "file": "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Docker run"
+              "title": "Prometheus (Docker)"
             }
           }
         ]
@@ -196,11 +196,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e7b92e4aefbdff4",
+  "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
+    "Docker/Docker CLI/Docker run.md",
     "Docker/Docker CLI/Docker network.md",
     "Docker/Docker CLI/Docker cli.md",
-    "Docker/Docker CLI/Docker run.md",
     "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/Настройки/Amnezia.md",
     "Docker/Docker-compose.md",
