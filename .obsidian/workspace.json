@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerfile/Dockerfile.md",
-                "mode": "source",
+                "file": "Docker/Dockerfile/Примеры Dockerfile.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Dockerfile"
+              "title": "Примеры Dockerfile"
             }
           }
         ]
@@ -198,11 +198,11 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Docker/Dockerfile/Примеры Dockerfile.md",
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Docker/Dockerfile/Dockerfile.md",
+    "Docker/Dockerfile/Примеры Dockerfile.md",
     "Docker/Dockerfile",
     "Docker/Без названия.md",
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Docker/Docker CLI/Docker run.md",
     "Docker/Docker CLI/Docker network.md",
     "Docker/Docker CLI/Docker cli.md",
