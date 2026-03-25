@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
+                "file": "Docker/Dockerfile/Dockerfile.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Prometheus (Docker)"
+              "title": "Dockerfile"
             }
           }
         ]
@@ -198,14 +198,17 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
+    "Docker/Dockerfile/Примеры Dockerfile.md",
+    "Docker/Dockerfile/Dockerfile.md",
+    "Docker/Dockerfile",
+    "Docker/Без названия.md",
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Docker/Docker CLI/Docker run.md",
     "Docker/Docker CLI/Docker network.md",
     "Docker/Docker CLI/Docker cli.md",
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/Настройки/Amnezia.md",
     "Docker/Docker-compose.md",
     "Docker/Docker CLI",
-    "Docker/Dockerfile.md",
     "Docker/Основные понятия.md",
     "Linux/Настройки/Users.md",
     "Linux/Права доступа.md",
@@ -225,8 +228,6 @@
     "Linux/Настройки/Nginx.md",
     "Nestjs/Main.js.md",
     "Linux/Настройки/Gitlab CI.md",
-    "Linux/Bash.md",
-    "Linux/Конфиги/Nginx/Nginx WS.md",
     "ProxMox",
     "Сети",
     "Ansible"
