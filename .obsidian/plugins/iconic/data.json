@@ -63,6 +63,10 @@
       "icon": "lucide-file",
       "color": "blue"
     },
+    "Docker/Docker CLI/Docker run.md": {
+      "icon": "lucide-folder",
+      "color": "blue"
+    },
     "Docker/Docker-compose.md": {
       "icon": "lucide-file",
       "color": "blue"

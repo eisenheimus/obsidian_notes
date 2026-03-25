@@ -4,6 +4,11 @@ docker network inspect monitoring
 ```
 
 ```bash
+# Список сетей
+docker network ls
+```
+
+```bash
 # Создаём пользовательскую сеть
 docker network create monitoring
 ```
