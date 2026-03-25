@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker CLI/Docker network.md",
+                "file": "Docker/Docker CLI/Docker run.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Docker network"
+              "title": "Docker run"
             }
           }
         ]
@@ -198,8 +198,10 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Docker/Docker CLI/Docker cli.md",
     "Docker/Docker CLI/Docker network.md",
+    "Docker/Docker CLI/Docker run.md",
+    "Docker/Docker CLI/Docker cli.md",
+    "Linux/Настройки/Amnezia.md",
     "Docker/Docker-compose.md",
     "Docker/Docker CLI",
     "Docker/Dockerfile.md",
@@ -225,8 +227,6 @@
     "Linux/Настройки/Gitlab CI.md",
     "Linux/Bash.md",
     "Linux/Конфиги/Nginx/Nginx WS.md",
-    "Linux/Конфиги/Nginx/Nginx HTTPS.md",
-    "Linux/Настройки/Postfix.md",
     "ProxMox",
     "Сети",
     "Ansible"
