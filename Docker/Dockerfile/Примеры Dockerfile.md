@@ -1,7 +1,7 @@
 <br>
 
 ### Node.js приложение
-```bash
+```dockerfile
 FROM node:18-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
@@ -20,7 +20,7 @@ CMD ["node", "src/server.js"]
 ```
 
 ### Python Flask приложение
-```bash
+```dockerfile
 FROM python:3.11-slim AS builder
 WORKDIR /app
 COPY requirements.txt .
@@ -38,7 +38,7 @@ CMD ["gunicorn", "-b", "0.0.0.0:5000", "app:app"]
 ```
 
 ### Go приложение (статическая компиляция)
-```bash
+```dockerfile
 FROM golang:1.21-alpine AS builder
 WORKDIR /app
 COPY go.mod go.sum ./
@@ -55,7 +55,7 @@ CMD ["./main"]
 ```
 
 ### Java (Maven) приложение
-```bash
+```dockerfile
 FROM maven:3.9-eclipse-temurin-17 AS builder
 WORKDIR /app
 COPY pom.xml .

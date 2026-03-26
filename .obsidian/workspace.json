@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ProxMox/Network.md",
+                "file": "Docker/Docker-compose.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Network"
+              "title": "Docker-compose"
             }
           }
         ]
@@ -198,27 +198,28 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "ProxMox/Добавление установочного ISO.md",
-    "ProxMox/Network.md",
+    "Docker/Основные понятия.md",
+    "Docker/Dockerfile/Концепции Dockerfile.md",
+    "Docker/Docker CLI/Docker run.md",
+    "Docker/Dockerfile/Синтаксис Dockerfile.md",
+    "Docker/Dockerfile/Примеры Dockerfile.md",
+    "Docker/Docker CLI/Docker cli.md",
+    "Docker/Docker CLI/Docker network.md",
     "Linux/Bash.md",
+    "Linux/MySQL.md",
+    "Linux/Настройки/Amnezia.md",
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
+    "ProxMox/Network.md",
+    "ProxMox/Добавление установочного ISO.md",
     "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Docker.md",
     "Linux/Настройки/Network.md",
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
-    "Linux/Настройки/Amnezia.md",
-    "Docker/Dockerfile/Примеры Dockerfile.md",
-    "Docker/Dockerfile/Dockerfile.md",
     "Docker/Dockerfile",
     "Docker/Без названия.md",
-    "Docker/Docker CLI/Docker run.md",
-    "Docker/Docker CLI/Docker network.md",
-    "Docker/Docker CLI/Docker cli.md",
     "Docker/Docker-compose.md",
     "Docker/Docker CLI",
-    "Docker/Основные понятия.md",
     "Linux/Настройки/Users.md",
     "Linux/Права доступа.md",
-    "Linux/MySQL.md",
     "Linux/Настройки/Мониторинг/Без названия",
     "Linux/Настройки/Мониторинг",
     "Ansible/Ansible.md",
@@ -227,7 +228,6 @@
     "Linux/Настройки/Сменить имя ПК (hostname).md",
     "ProxMox/Монтирование дисков для LXC.md",
     "ProxMox/Proxmox.md",
-    "Linux/Настройки/Prometheus.md",
     "ProxMox",
     "Сети",
     "Ansible"
