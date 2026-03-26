@@ -70,6 +70,10 @@
       ],
       "color": "green"
     },
+    "Git/Команды git.md": {
+      "icon": "lucide-file",
+      "color": "green"
+    },
     "Linux": {
       "icon": "lucide-folder",
       "unsynced": [
@@ -114,6 +118,9 @@
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
       ],
+      "color": "orange"
+    },
+    "Linux/Настройки/Docker.md": {
       "color": "orange"
     },
     "Linux/Настройки/Docsify.js.md": {
@@ -229,12 +236,18 @@
       "icon": "lucide-file",
       "color": "cyan"
     },
+    "ProxMox/Монтирование USB HDD для LXC.md": {
+      "color": "cyan"
+    },
     "ProxMox/Монтирование дисков для LXC.md": {
       "icon": "lucide-file",
       "color": "cyan"
     },
     "ProxMox/Монтирование дисков для VM.md": {
       "icon": "lucide-file",
+      "color": "cyan"
+    },
+    "ProxMox/Проброс USB на VM.md": {
       "color": "cyan"
     },
     "Windows": {

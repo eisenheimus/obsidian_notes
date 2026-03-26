@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerfile/Примеры Dockerfile.md",
-                "mode": "preview",
+                "file": "ProxMox/Network.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Примеры Dockerfile"
+              "title": "Network"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker network",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,15 +198,21 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
+    "ProxMox/Добавление установочного ISO.md",
+    "ProxMox/Network.md",
+    "Linux/Bash.md",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Docker.md",
+    "Linux/Настройки/Network.md",
     "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
-    "Docker/Dockerfile/Dockerfile.md",
+    "Linux/Настройки/Amnezia.md",
     "Docker/Dockerfile/Примеры Dockerfile.md",
+    "Docker/Dockerfile/Dockerfile.md",
     "Docker/Dockerfile",
     "Docker/Без названия.md",
     "Docker/Docker CLI/Docker run.md",
     "Docker/Docker CLI/Docker network.md",
     "Docker/Docker CLI/Docker cli.md",
-    "Linux/Настройки/Amnezia.md",
     "Docker/Docker-compose.md",
     "Docker/Docker CLI",
     "Docker/Основные понятия.md",
@@ -221,13 +227,7 @@
     "Linux/Настройки/Сменить имя ПК (hostname).md",
     "ProxMox/Монтирование дисков для LXC.md",
     "ProxMox/Proxmox.md",
-    "Linux/Настройки/Docker.md",
     "Linux/Настройки/Prometheus.md",
-    "Git/Команды git.md",
-    "ProxMox/Замена сбойного диска в массивах ZFS.md",
-    "Linux/Настройки/Nginx.md",
-    "Nestjs/Main.js.md",
-    "Linux/Настройки/Gitlab CI.md",
     "ProxMox",
     "Сети",
     "Ansible"

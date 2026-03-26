@@ -250,8 +250,15 @@
       ],
       "icon": "lucide-folder"
     },
+    "ProxMox/Network.md": {
+      "icon": "lucide-file",
+      "color": "cyan"
+    },
     "ProxMox/Proxmox.md": {
       "icon": "lucide-file",
+      "color": "cyan"
+    },
+    "ProxMox/Добавление установочного ISO.md": {
       "color": "cyan"
     },
     "ProxMox/Замена сбойного диска в массивах ZFS.md": {
