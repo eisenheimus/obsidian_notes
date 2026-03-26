@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker-compose.md",
+                "file": "Docker/Dockerfile/Best practices Dockerfile.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Docker-compose"
+              "title": "Best practices Dockerfile"
             }
           }
         ]
@@ -198,11 +198,13 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Docker/Основные понятия.md",
     "Docker/Dockerfile/Концепции Dockerfile.md",
-    "Docker/Docker CLI/Docker run.md",
-    "Docker/Dockerfile/Синтаксис Dockerfile.md",
+    "Docker/Dockerfile/Best practices Dockerfile.md",
     "Docker/Dockerfile/Примеры Dockerfile.md",
+    "Docker/Dockerfile/Синтаксис Dockerfile.md",
+    "Docker/Основные понятия.md",
+    "Docker/Docker-compose.md",
+    "Docker/Docker CLI/Docker run.md",
     "Docker/Docker CLI/Docker cli.md",
     "Docker/Docker CLI/Docker network.md",
     "Linux/Bash.md",
@@ -216,7 +218,6 @@
     "Linux/Настройки/Network.md",
     "Docker/Dockerfile",
     "Docker/Без названия.md",
-    "Docker/Docker-compose.md",
     "Docker/Docker CLI",
     "Linux/Настройки/Users.md",
     "Linux/Права доступа.md",
@@ -227,7 +228,6 @@
     "ProxMox/Монтирование USB HDD для LXC.md",
     "Linux/Настройки/Сменить имя ПК (hostname).md",
     "ProxMox/Монтирование дисков для LXC.md",
-    "ProxMox/Proxmox.md",
     "ProxMox",
     "Сети",
     "Ansible"
