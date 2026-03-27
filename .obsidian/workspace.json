@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Users (Управление пользователями).md",
+                "file": "Linux/Настройки/Trilium notes.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Users (Управление пользователями)"
+              "title": "Trilium notes"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Linux/Настройки/Trilium notes.md",
     "Linux/Users (Управление пользователями).md",
+    "Linux/Настройки/Trilium notes.md",
     "Linux/Настройки/PostgreSQL.md",
     "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Wikijs.md",

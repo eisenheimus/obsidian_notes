@@ -208,6 +208,9 @@
     "Linux/Настройки/SSH/Проброс порта SSH.md": {
       "icon": "lucide-file"
     },
+    "Linux/Настройки/Trilium notes.md": {
+      "color": "orange"
+    },
     "Linux/Настройки/UFW.md": {
       "icon": "lucide-file",
       "color": "orange"
