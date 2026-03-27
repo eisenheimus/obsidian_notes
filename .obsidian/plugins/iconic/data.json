@@ -118,6 +118,10 @@
       "icon": "lucide-file",
       "color": "orange"
     },
+    "Linux/Users (Управление пользователями).md": {
+      "icon": "lucide-file",
+      "color": "orange"
+    },
     "Linux/Конфиги": {
       "icon": "lucide-folder",
       "unsynced": [
@@ -205,10 +209,6 @@
       "icon": "lucide-file"
     },
     "Linux/Настройки/UFW.md": {
-      "icon": "lucide-file",
-      "color": "orange"
-    },
-    "Linux/Настройки/Users.md": {
       "icon": "lucide-file",
       "color": "orange"
     },

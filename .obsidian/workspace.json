@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerfile/Best practices Dockerfile.md",
+                "file": "Linux/Users (Управление пользователями).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Best practices Dockerfile"
+              "title": "Users (Управление пользователями)"
             }
           }
         ]
@@ -198,8 +198,14 @@
   },
   "active": "a18d80dc8fa3432e",
   "lastOpenFiles": [
-    "Docker/Dockerfile/Концепции Dockerfile.md",
+    "Linux/Настройки/Trilium notes.md",
+    "Linux/Users (Управление пользователями).md",
+    "Linux/Настройки/PostgreSQL.md",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Wikijs.md",
+    "Linux/Настройки/Nginx.md",
     "Docker/Dockerfile/Best practices Dockerfile.md",
+    "Docker/Dockerfile/Концепции Dockerfile.md",
     "Docker/Dockerfile/Примеры Dockerfile.md",
     "Docker/Dockerfile/Синтаксис Dockerfile.md",
     "Docker/Основные понятия.md",
@@ -213,21 +219,15 @@
     "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "ProxMox/Network.md",
     "ProxMox/Добавление установочного ISO.md",
-    "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Docker.md",
     "Linux/Настройки/Network.md",
     "Docker/Dockerfile",
     "Docker/Без названия.md",
     "Docker/Docker CLI",
-    "Linux/Настройки/Users.md",
     "Linux/Права доступа.md",
     "Linux/Настройки/Мониторинг/Без названия",
     "Linux/Настройки/Мониторинг",
     "Ansible/Ansible.md",
-    "ProxMox/Проброс USB на VM.md",
-    "ProxMox/Монтирование USB HDD для LXC.md",
-    "Linux/Настройки/Сменить имя ПК (hostname).md",
-    "ProxMox/Монтирование дисков для LXC.md",
     "ProxMox",
     "Сети",
     "Ansible"
