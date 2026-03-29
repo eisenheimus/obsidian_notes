@@ -49,42 +49,11 @@
       ],
       "color": "blue"
     },
-    "Docker/Docker CLI": {
-      "icon": "lucide-folder",
-      "color": "blue",
-      "unsynced": [
-        "9d8e8ebaa55f4fe5"
-      ]
-    },
-    "Docker/Docker CLI/Docker cli.md": {
-      "color": "blue"
-    },
-    "Docker/Docker CLI/Docker network.md": {
-      "icon": "lucide-file",
-      "color": "blue"
-    },
-    "Docker/Docker CLI/Docker run.md": {
-      "icon": "lucide-file",
-      "color": "blue"
-    },
     "Docker/Docker-compose.md": {
       "icon": "lucide-file",
       "color": "blue"
     },
-    "Docker/Dockerfile": {
-      "icon": "lucide-folder",
-      "color": "blue",
-      "unsynced": [
-        "9d8e8ebaa55f4fe5"
-      ]
-    },
-    "Docker/Dockerfile/Концепции Dockerfile.md": {
-      "color": "blue"
-    },
-    "Docker/Dockerfile/Примеры Dockerfile.md": {
-      "color": "blue"
-    },
-    "Docker/Dockerfile/Синтаксис Dockerfile.md": {
+    "Docker/Dockerfile.md": {
       "color": "blue"
     },
     "Docker/Основные понятия.md": {
@@ -118,10 +87,6 @@
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/Users (Управление пользователями).md": {
-      "icon": "lucide-file",
-      "color": "orange"
-    },
     "Linux/Конфиги": {
       "icon": "lucide-folder",
       "unsynced": [
@@ -150,12 +115,6 @@
         "9d8e8ebaa55f4fe5",
         "3438c4b8431289d2"
       ],
-      "color": "orange"
-    },
-    "Linux/Настройки/Amnezia.md": {
-      "color": "orange"
-    },
-    "Linux/Настройки/Docker.md": {
       "color": "orange"
     },
     "Linux/Настройки/Docsify.js.md": {
@@ -208,10 +167,11 @@
     "Linux/Настройки/SSH/Проброс порта SSH.md": {
       "icon": "lucide-file"
     },
-    "Linux/Настройки/Trilium notes.md": {
+    "Linux/Настройки/UFW.md": {
+      "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/Настройки/UFW.md": {
+    "Linux/Настройки/Users.md": {
       "icon": "lucide-file",
       "color": "orange"
     },
@@ -224,17 +184,6 @@
       "color": "orange"
     },
     "Linux/Настройки/iRedmail.md": {
-      "icon": "lucide-file",
-      "color": "orange"
-    },
-    "Linux/Настройки/Мониторинг": {
-      "icon": "lucide-folder",
-      "unsynced": [
-        "9d8e8ebaa55f4fe5"
-      ],
-      "color": "orange"
-    },
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md": {
       "icon": "lucide-file",
       "color": "orange"
     },
@@ -273,22 +222,12 @@
       ],
       "icon": "lucide-folder"
     },
-    "ProxMox/Network.md": {
-      "icon": "lucide-file",
-      "color": "cyan"
-    },
     "ProxMox/Proxmox.md": {
       "icon": "lucide-file",
       "color": "cyan"
     },
-    "ProxMox/Добавление установочного ISO.md": {
-      "color": "cyan"
-    },
     "ProxMox/Замена сбойного диска в массивах ZFS.md": {
       "icon": "lucide-file",
-      "color": "cyan"
-    },
-    "ProxMox/Монтирование USB HDD для LXC.md": {
       "color": "cyan"
     },
     "ProxMox/Монтирование дисков для LXC.md": {
@@ -297,9 +236,6 @@
     },
     "ProxMox/Монтирование дисков для VM.md": {
       "icon": "lucide-file",
-      "color": "cyan"
-    },
-    "ProxMox/Проброс USB на VM.md": {
       "color": "cyan"
     },
     "Windows": {
