@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "59909ef6dba59174",
+        "id": "c64e3888ead98d47",
         "type": "tabs",
         "children": [
           {
-            "id": "a18d80dc8fa3432e",
+            "id": "9f09e26e54aaabf9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/iconic/data.json.backup1",
-                "bFile": ".obsidian/plugins/iconic/data.json.backup1",
-                "aRef": ""
+                "file": "ProxMox/Смена имени контейнера.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json.backup1  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Смена имени контейнера"
             }
           }
         ]
@@ -196,8 +196,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "76e51c7fa0bbc1a9",
+  "active": "9f09e26e54aaabf9",
   "lastOpenFiles": [
+    "Linux/Настройки/Nginx.md",
     "ProxMox/Проброс USB на VM.md",
     "ProxMox/Монтирование USB HDD для LXC.md",
     "ProxMox/Добавление установочного ISO.md",
@@ -218,9 +219,8 @@
     "Docker/Docker CLI/Docker cli.md",
     "Docker/Docker CLI",
     "Linux/MySQL.md",
-    "ProxMox/Proxmox.md",
+    "ProxMox/Смена имени контейнера.md",
     "ProxMox/Замена сбойного диска в массивах ZFS.md",
-    "Linux/Настройки/Nginx.md",
     "Linux/Настройки/Users.md",
     "Nestjs/Main.js.md",
     "Linux/Настройки/Gitlab CI.md",

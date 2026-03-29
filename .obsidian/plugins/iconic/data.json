@@ -222,10 +222,6 @@
       ],
       "icon": "lucide-folder"
     },
-    "ProxMox/Proxmox.md": {
-      "icon": "lucide-file",
-      "color": "cyan"
-    },
     "ProxMox/Замена сбойного диска в массивах ZFS.md": {
       "icon": "lucide-file",
       "color": "cyan"
@@ -235,6 +231,10 @@
       "color": "cyan"
     },
     "ProxMox/Монтирование дисков для VM.md": {
+      "icon": "lucide-file",
+      "color": "cyan"
+    },
+    "ProxMox/Смена имени контейнера.md": {
       "icon": "lucide-file",
       "color": "cyan"
     },
