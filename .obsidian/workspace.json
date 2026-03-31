@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c64e3888ead98d47",
+        "id": "59909ef6dba59174",
         "type": "tabs",
         "children": [
           {
-            "id": "9f09e26e54aaabf9",
+            "id": "a18d80dc8fa3432e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Dockerfile/Best practices Dockerfile.md",
+                "file": "Linux/Настройки/Trilium notes.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Best practices Dockerfile"
+              "title": "Trilium notes"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Установка через NVM",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,40 +196,40 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e7b92e4aefbdff4",
+  "active": "76e51c7fa0bbc1a9",
   "lastOpenFiles": [
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
-    "Linux/Настройки/Docker.md",
-    "Linux/Настройки/Amnezia.md",
-    "ProxMox/Проброс USB на VM.md",
     "ProxMox/Смена имени контейнера.md",
-    "Linux/Настройки/Nginx.md",
-    "ProxMox/Монтирование USB HDD для LXC.md",
-    "ProxMox/Добавление установочного ISO.md",
-    "ProxMox/Network.md",
-    "Linux/Настройки/Мониторинг",
-    "Linux/Настройки/Trilium notes.md",
     "Linux/Users (Управление пользователями).md",
-    "Docker/Dockerfile/Синтаксис Dockerfile.md",
-    "Docker/Dockerfile/Примеры Dockerfile.md",
-    "Docker/Dockerfile/Концепции Dockerfile.md",
+    "Linux/Настройки/Trilium notes.md",
+    "Linux/Настройки/PostgreSQL.md",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Wikijs.md",
+    "Linux/Настройки/Nginx.md",
     "Docker/Dockerfile/Best practices Dockerfile.md",
-    "Docker/Dockerfile",
+    "Docker/Dockerfile/Концепции Dockerfile.md",
+    "Docker/Dockerfile/Примеры Dockerfile.md",
+    "Docker/Dockerfile/Синтаксис Dockerfile.md",
+    "Docker/Основные понятия.md",
+    "Docker/Docker-compose.md",
     "Docker/Docker CLI/Docker run.md",
-    "Docker/Docker CLI/Docker network.md",
     "Docker/Docker CLI/Docker cli.md",
-    "Docker/Docker CLI",
-    "Linux/MySQL.md",
-    "ProxMox/Замена сбойного диска в массивах ZFS.md",
-    "Linux/Настройки/Users.md",
-    "Nestjs/Main.js.md",
-    "Linux/Настройки/Gitlab CI.md",
-    "Linux/Права доступа.md",
+    "Docker/Docker CLI/Docker network.md",
     "Linux/Bash.md",
-    "Linux/Конфиги/Nginx/Nginx WS.md",
+    "Linux/MySQL.md",
+    "Linux/Настройки/Amnezia.md",
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
+    "ProxMox/Network.md",
+    "ProxMox/Добавление установочного ISO.md",
+    "Linux/Настройки/Docker.md",
+    "Linux/Настройки/Network.md",
+    "Docker/Dockerfile",
+    "Docker/Без названия.md",
+    "Docker/Docker CLI",
+    "Linux/Права доступа.md",
+    "Linux/Настройки/Мониторинг/Без названия",
+    "Linux/Настройки/Мониторинг",
     "ProxMox",
     "Сети",
-    "Ansible",
-    "Linux/Настройки/Без названия"
+    "Ansible"
   ]
 }
