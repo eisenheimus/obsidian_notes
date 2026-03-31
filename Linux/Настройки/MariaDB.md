@@ -6,24 +6,17 @@
 # Обновление пакетов
 sudo apt update
 ```
-<br>
 
 
 ```bash
 # Установка сервера MariaDB
 sudo apt install -y mariadb-server
 ```
-<br>
 
 ```bash
 # Просмотр статуса
 sudo systemctl status mariadb
 ```
----
-<br>
-
-
-
 
 # Создать креды для БД
 
@@ -31,7 +24,6 @@ sudo systemctl status mariadb
 # Запуск консоли MySQL
 sudo mysql
 ```
-<br>
 
 
 ```sql
@@ -52,7 +44,7 @@ FLUSH PRIVILEGES;
 EXIT;
 ```
 ---
-<br>
+
 
 # Проверка подключения
 
@@ -64,7 +56,7 @@ mysql -u mariauser -p -D mydb
 sudo mysql -u root -p
 ```
 ---
-<br>
+
 
 # Настройка безопасности в БД
 ```SQL
