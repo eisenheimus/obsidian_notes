@@ -16,3 +16,5 @@ sudo -u postgres createdb -O planka planka
 # Настройка прав доступа
 sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE planka TO planka;"
 ```
+
+https://chat.deepseek.com/a/chat/s/7a15b1b3-d29b-41ba-8e11-0ffb2c0533f1
