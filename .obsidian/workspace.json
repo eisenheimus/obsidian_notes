@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Node.js.md",
-                "mode": "source",
+                "file": "Docker/Docker-compose/Конфиги/PostgreSQL.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Node.js"
+              "title": "PostgreSQL"
             }
           }
         ]
@@ -198,7 +198,15 @@
   },
   "active": "7a3a1ddab1fba7a3",
   "lastOpenFiles": [
+    "Docker/Docker-compose/Docker-compose CLI.md",
+    "Docker/Docker-compose/Конфиги/PostgreSQL.md",
+    "Docker/Docker-compose/Конфиги",
+    "Docker/Docker-compose/Configs.md",
+    "Docker/Docker-compose",
+    "Docker/Без названия.md",
+    "Docker/Основные понятия.md",
     "Linux/Настройки/Planka.md",
+    "Linux/Настройки/Node.js.md",
     "Linux/Настройки/PostgreSQL.md",
     "Linux/MySQL (синтаксис).md",
     "Linux/Backups.md",
@@ -213,17 +221,11 @@
     "Docker/Dockerfile/Концепции Dockerfile.md",
     "Docker/Dockerfile/Примеры Dockerfile.md",
     "Docker/Dockerfile/Синтаксис Dockerfile.md",
-    "Docker/Основные понятия.md",
-    "Docker/Docker-compose.md",
     "Docker/Docker CLI/Docker run.md",
     "Docker/Docker CLI/Docker cli.md",
     "Docker/Docker CLI/Docker network.md",
     "Linux/Bash.md",
     "Linux/MySQL.md",
-    "Linux/Настройки/Amnezia.md",
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
-    "ProxMox/Network.md",
-    "ProxMox/Добавление установочного ISO.md",
     "Docker/Dockerfile",
     "Docker/Docker CLI",
     "Linux/Настройки/Мониторинг/Без названия",

@@ -67,8 +67,25 @@
       "icon": "lucide-file",
       "color": "blue"
     },
-    "Docker/Docker-compose.md": {
+    "Docker/Docker-compose": {
+      "icon": "lucide-folder",
+      "color": "blue",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Docker/Docker-compose/Docker-compose CLI.md": {
       "icon": "lucide-file",
+      "color": "blue"
+    },
+    "Docker/Docker-compose/Конфиги": {
+      "color": "blue",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ],
+      "icon": "lucide-folder"
+    },
+    "Docker/Docker-compose/Конфиги/PostgreSQL.md": {
       "color": "blue"
     },
     "Docker/Dockerfile": {
@@ -77,6 +94,9 @@
       "unsynced": [
         "9d8e8ebaa55f4fe5"
       ]
+    },
+    "Docker/Dockerfile/Best practices Dockerfile.md": {
+      "color": "blue"
     },
     "Docker/Dockerfile/Концепции Dockerfile.md": {
       "color": "blue"
