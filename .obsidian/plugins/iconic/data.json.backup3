@@ -64,14 +64,27 @@
       "color": "blue"
     },
     "Docker/Docker CLI/Docker run.md": {
-      "icon": "lucide-folder",
+      "icon": "lucide-file",
       "color": "blue"
     },
     "Docker/Docker-compose.md": {
       "icon": "lucide-file",
       "color": "blue"
     },
-    "Docker/Dockerfile/Dockerfile.md": {
+    "Docker/Dockerfile": {
+      "icon": "lucide-folder",
+      "color": "blue",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Docker/Dockerfile/Концепции Dockerfile.md": {
+      "color": "blue"
+    },
+    "Docker/Dockerfile/Примеры Dockerfile.md": {
+      "color": "blue"
+    },
+    "Docker/Dockerfile/Синтаксис Dockerfile.md": {
       "color": "blue"
     },
     "Docker/Основные понятия.md": {
@@ -135,6 +148,9 @@
       ],
       "color": "orange"
     },
+    "Linux/Настройки/Amnezia.md": {
+      "color": "orange"
+    },
     "Linux/Настройки/Docker.md": {
       "color": "orange"
     },
@@ -192,7 +208,7 @@
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/Настройки/Users.md": {
+    "Linux/Настройки/Users (Управление пользователями).md": {
       "icon": "lucide-file",
       "color": "orange"
     },
@@ -216,7 +232,8 @@
       "color": "orange"
     },
     "Linux/Настройки/Мониторинг/Prometheus (Docker).md": {
-      "icon": "lucide-file"
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Настройки/Сменить имя ПК (hostname).md": {
       "icon": "lucide-file",

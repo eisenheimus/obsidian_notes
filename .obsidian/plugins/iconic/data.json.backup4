@@ -215,6 +215,9 @@
       ],
       "color": "orange"
     },
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md": {
+      "icon": "lucide-file"
+    },
     "Linux/Настройки/Сменить имя ПК (hostname).md": {
       "icon": "lucide-file",
       "color": "orange"
@@ -256,6 +259,9 @@
     },
     "ProxMox/Proxmox.md": {
       "icon": "lucide-file",
+      "color": "cyan"
+    },
+    "ProxMox/Добавление установочного ISO.md": {
       "color": "cyan"
     },
     "ProxMox/Замена сбойного диска в массивах ZFS.md": {
