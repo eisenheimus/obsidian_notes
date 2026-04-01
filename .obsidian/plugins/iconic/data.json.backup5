@@ -49,14 +49,29 @@
       ],
       "color": "blue"
     },
+    "Docker/Docker CLI": {
+      "icon": "lucide-folder",
+      "color": "blue",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
     "Docker/Docker CLI/Docker cli.md": {
+      "color": "blue"
+    },
+    "Docker/Docker CLI/Docker network.md": {
+      "icon": "lucide-file",
+      "color": "blue"
+    },
+    "Docker/Docker CLI/Docker run.md": {
+      "icon": "lucide-folder",
       "color": "blue"
     },
     "Docker/Docker-compose.md": {
       "icon": "lucide-file",
       "color": "blue"
     },
-    "Docker/Dockerfile.md": {
+    "Docker/Dockerfile/Dockerfile.md": {
       "color": "blue"
     },
     "Docker/Основные понятия.md": {
@@ -234,6 +249,10 @@
         "9d8e8ebaa55f4fe5"
       ],
       "icon": "lucide-folder"
+    },
+    "ProxMox/Network.md": {
+      "icon": "lucide-file",
+      "color": "cyan"
     },
     "ProxMox/Proxmox.md": {
       "icon": "lucide-file",
