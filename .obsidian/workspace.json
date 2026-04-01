@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc75206a7f55acf4",
+        "id": "c64e3888ead98d47",
         "type": "tabs",
         "children": [
           {
-            "id": "7a3a1ddab1fba7a3",
+            "id": "9f09e26e54aaabf9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Docker/Docker-compose/Конфиги/PostgreSQL.md",
-                "mode": "preview",
-                "source": false
+                "aFile": ".obsidian/plugins/iconic/data.json.backup5",
+                "bFile": ".obsidian/plugins/iconic/data.json.backup5",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "PostgreSQL"
+              "icon": "diff",
+              "title": "Diff: data.json.backup5  (Working Tree)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Установка через NVM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,8 +196,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7a3a1ddab1fba7a3",
+  "active": "76e51c7fa0bbc1a9",
   "lastOpenFiles": [
+    "Linux/Backups.md",
+    "Docker/Docker-compose/Конфиги/PostgreSQL.md",
+    "Docker/Docker-compose/Конфиги",
+    "Docker/Docker-compose/Docker-compose CLI.md",
+    "Docker/Docker-compose",
+    "Linux/Настройки/Planka.md",
     "Linux/Настройки/Postfix.md",
     "Linux/Настройки/Docker.md",
     "Linux/Настройки/MariaDB.md",
@@ -207,7 +213,6 @@
     "Linux/Настройки/Trilium notes.md",
     "Linux/Настройки/UFW.md",
     "Linux/Настройки/Wikijs.md",
-    "Linux/Настройки/Planka.md",
     "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Docsify.js.md",
     "Linux/Cron.md",
@@ -221,14 +226,12 @@
     "ProxMox/Проброс USB на VM.md",
     "ProxMox/Смена имени контейнера.md",
     "ProxMox/Монтирование USB HDD для LXC.md",
-    "ProxMox/Добавление установочного ISO.md",
-    "ProxMox/Network.md",
     "Linux/Настройки/Мониторинг",
-    "Linux/Users (Управление пользователями).md",
     "Docker/Dockerfile",
     "Docker/Docker CLI",
     "ProxMox",
     "Сети",
-    "Ansible"
+    "Ansible",
+    "Linux/Настройки/Без названия"
   ]
 }
