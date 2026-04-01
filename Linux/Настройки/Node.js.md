@@ -1,10 +1,9 @@
-<br>
 
 ```bash
 # Добавить  репозиторий#  nodesource
 curl -L https://deb.nodesource.com/setup_lts.x -o setup.sh
 # или конкретную версию
-curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
 ```
 
 ```bash
