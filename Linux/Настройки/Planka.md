@@ -35,8 +35,16 @@ sudo -u postgres psql -c "GRANT ALL PRIVILEGES ON DATABASE planka TO planka;"
 # 3. Создаем базу и пользователя (замените 'strong_password' на ваш пароль)
 sudo -u postgres psql <<EOF
 CREATE USER planka WITH PASSWORD 'strong_password';
-CREATE DATABASE planka OWNER planka;
+CREATE DATABASE planka;
 GRANT ALL PRIVILEGES ON DATABASE planka TO planka;
+```
+
+```bash
+# Проверка подключения
+# -h - хост
+# -d - база данных
+# -U - пользователь
+psql -h 127.0.0.1 -d planka -U planka
 ```
 
 ### 4. Клонирование репозитория и установка

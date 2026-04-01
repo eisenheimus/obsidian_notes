@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Linux/Настройки/Planka.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -198,14 +198,14 @@
   },
   "active": "7a3a1ddab1fba7a3",
   "lastOpenFiles": [
-    "Linux/Backups.md",
-    "Linux/Настройки/Planka.md",
-    "Linux/Настройки/Gitlab CI.md",
+    "Linux/Настройки/PostgreSQL.md",
     "Linux/MySQL (синтаксис).md",
+    "Linux/Настройки/Planka.md",
+    "Linux/Backups.md",
+    "Linux/Настройки/Gitlab CI.md",
     "ProxMox/Смена имени контейнера.md",
     "Linux/Настройки/Trilium notes.md",
     "Linux/Users (Управление пользователями).md",
-    "Linux/Настройки/PostgreSQL.md",
     "Linux/Настройки/Wikijs + SQLite.md",
     "Linux/Настройки/Wikijs.md",
     "Linux/Настройки/Nginx.md",
