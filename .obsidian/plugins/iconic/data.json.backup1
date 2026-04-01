@@ -188,6 +188,10 @@
       "icon": "lucide-file",
       "color": "orange"
     },
+    "Linux/Настройки/Planka.md": {
+      "icon": "lucide-file-lock",
+      "color": "orange"
+    },
     "Linux/Настройки/Postfix.md": {
       "icon": "lucide-file",
       "color": "orange"
