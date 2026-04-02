@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c64e3888ead98d47",
+        "id": "bc75206a7f55acf4",
         "type": "tabs",
         "children": [
           {
-            "id": "9f09e26e54aaabf9",
+            "id": "7a3a1ddab1fba7a3",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/iconic/data.json.backup5",
-                "bFile": ".obsidian/plugins/iconic/data.json.backup5",
-                "aRef": ""
+                "file": "Linux/Настройки/Planka.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: data.json.backup5  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Planka"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Установка через NVM",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -196,42 +196,42 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "76e51c7fa0bbc1a9",
+  "active": "7a3a1ddab1fba7a3",
   "lastOpenFiles": [
-    "Linux/Backups.md",
-    "Docker/Docker-compose/Конфиги/PostgreSQL.md",
-    "Docker/Docker-compose/Конфиги",
-    "Docker/Docker-compose/Docker-compose CLI.md",
-    "Docker/Docker-compose",
-    "Linux/Настройки/Planka.md",
-    "Linux/Настройки/Postfix.md",
-    "Linux/Настройки/Docker.md",
-    "Linux/Настройки/MariaDB.md",
-    "Linux/Настройки/Network.md",
-    "Linux/Настройки/Nginx.md",
-    "Linux/Настройки/Node.js.md",
-    "Linux/Настройки/Trilium notes.md",
-    "Linux/Настройки/UFW.md",
-    "Linux/Настройки/Wikijs.md",
-    "Linux/Настройки/Wikijs + SQLite.md",
-    "Linux/Настройки/Docsify.js.md",
-    "Linux/Cron.md",
-    "Linux/Bash.md",
     "Linux/Настройки/HTTPS.md",
+    "Linux/Cron.md",
+    "Docker/Docker-compose/Конфиги/PostgreSQL.md",
+    "Docker/Docker-compose/Docker-compose CLI.md",
+    "Docker/Docker-compose/Конфиги",
+    "Docker/Docker-compose/Configs.md",
+    "Docker/Docker-compose",
+    "Docker/Без названия.md",
+    "Docker/Основные понятия.md",
+    "Linux/Настройки/Planka.md",
+    "Linux/Настройки/Node.js.md",
     "Linux/Настройки/PostgreSQL.md",
     "Linux/MySQL (синтаксис).md",
-    "Docker/Dockerfile/Best practices Dockerfile.md",
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
-    "Linux/Настройки/Amnezia.md",
-    "ProxMox/Проброс USB на VM.md",
+    "Linux/Backups.md",
+    "Linux/Настройки/Gitlab CI.md",
     "ProxMox/Смена имени контейнера.md",
-    "ProxMox/Монтирование USB HDD для LXC.md",
-    "Linux/Настройки/Мониторинг",
+    "Linux/Настройки/Trilium notes.md",
+    "Linux/Users (Управление пользователями).md",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Wikijs.md",
+    "Linux/Настройки/Nginx.md",
+    "Docker/Dockerfile/Best practices Dockerfile.md",
+    "Docker/Dockerfile/Концепции Dockerfile.md",
+    "Docker/Dockerfile/Примеры Dockerfile.md",
+    "Docker/Dockerfile/Синтаксис Dockerfile.md",
+    "Docker/Docker CLI/Docker run.md",
+    "Docker/Docker CLI/Docker cli.md",
+    "Docker/Docker CLI/Docker network.md",
     "Docker/Dockerfile",
     "Docker/Docker CLI",
+    "Linux/Настройки/Мониторинг/Без названия",
+    "Linux/Настройки/Мониторинг",
     "ProxMox",
     "Сети",
-    "Ansible",
-    "Linux/Настройки/Без названия"
+    "Ansible"
   ]
 }
