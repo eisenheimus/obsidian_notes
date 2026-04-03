@@ -18,6 +18,11 @@ sudo usermod -aG sudo username
 groups username
 ```
 
+```bash
+# Создание пользователя с нестандарным каталогом
+sudo useradd -m -d /var/www/webmaster -s /bin/bash webmaster
+```
+
 ##### Cоздание пользователей
 ```bash
 # Базовое создание пользователя
