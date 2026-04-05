@@ -75,6 +75,7 @@ server {
 8. #### Добавляем в автозагрузку:
 	8.1 через [[Docker автозапуск]]
 	8.2 или unitfile
+	
 /etc/systemd/system/planka.service
 ```ini
 [Unit]

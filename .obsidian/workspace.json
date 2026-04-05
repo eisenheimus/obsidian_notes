@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Planka.md",
+                "file": "Linux/Настройки/Planka (Docker).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Planka"
+              "title": "Planka (Docker)"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
-    "Linux/Настройки/Planka (Docker).md",
     "Linux/Настройки/Planka.md",
+    "Linux/Настройки/Planka (Docker).md",
     "Docker/Основные понятия.md",
     "Docker/Docker автозапуск.md",
     "Docker/Docker-compose/Docker-compose CLI.md",
