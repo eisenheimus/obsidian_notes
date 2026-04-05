@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc75206a7f55acf4",
+        "id": "a52a1b3cad5c0f68",
         "type": "tabs",
         "children": [
           {
-            "id": "7a3a1ddab1fba7a3",
+            "id": "cb3cc473c9addea4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Users (Управление пользователями).md",
-                "mode": "source",
+                "file": "Linux/Настройки/Planka.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Users (Управление пользователями)"
+              "title": "Planka"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "postgre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5
+    "width": 426.5
   },
   "right": {
     "id": "9ddf4626ed199856",
@@ -196,42 +196,42 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7a3a1ddab1fba7a3",
+  "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
+    "Linux/Настройки/Planka (Docker).md",
     "Linux/Настройки/Planka.md",
-    "Linux/Настройки/HTTPS.md",
-    "Linux/Cron.md",
-    "Docker/Docker-compose/Конфиги/PostgreSQL.md",
-    "Docker/Docker-compose/Docker-compose CLI.md",
-    "Docker/Docker-compose/Конфиги",
-    "Docker/Docker-compose/Configs.md",
-    "Docker/Docker-compose",
-    "Docker/Без названия.md",
     "Docker/Основные понятия.md",
-    "Linux/Настройки/Node.js.md",
-    "Linux/Настройки/PostgreSQL.md",
-    "Linux/MySQL (синтаксис).md",
+    "Docker/Docker автозапуск.md",
+    "Docker/Docker-compose/Docker-compose CLI.md",
+    "Docker/Docker-compose/Конфиги/PostgreSQL.md",
+    "Docker/Docker-compose/Конфиги/Без названия.md",
     "Linux/Backups.md",
-    "Linux/Настройки/Gitlab CI.md",
-    "ProxMox/Смена имени контейнера.md",
-    "Linux/Настройки/Trilium notes.md",
-    "Linux/Users (Управление пользователями).md",
-    "Linux/Настройки/Wikijs + SQLite.md",
-    "Linux/Настройки/Wikijs.md",
+    "Linux/Cron.md",
+    "Linux/Настройки/Docker.md",
+    "Linux/Настройки/PostgreSQL.md",
+    "Linux/Пакеты.md",
+    "Nestjs/Main.js.md",
+    "Docker/Docker-compose/Конфиги",
+    "Docker/Docker-compose",
+    "Linux/Настройки/Postfix.md",
+    "Linux/Настройки/MariaDB.md",
+    "Linux/Настройки/Network.md",
     "Linux/Настройки/Nginx.md",
-    "Docker/Dockerfile/Best practices Dockerfile.md",
-    "Docker/Dockerfile/Концепции Dockerfile.md",
-    "Docker/Dockerfile/Примеры Dockerfile.md",
-    "Docker/Dockerfile/Синтаксис Dockerfile.md",
-    "Docker/Docker CLI/Docker run.md",
-    "Docker/Docker CLI/Docker cli.md",
-    "Docker/Docker CLI/Docker network.md",
+    "Linux/Настройки/Node.js.md",
+    "Linux/Настройки/Trilium notes.md",
+    "Linux/Настройки/UFW.md",
+    "Linux/Настройки/Wikijs.md",
+    "Linux/Настройки/Wikijs + SQLite.md",
+    "Linux/Настройки/Docsify.js.md",
+    "Linux/Bash.md",
+    "Linux/Настройки/HTTPS.md",
+    "Linux/MySQL (синтаксис).md",
+    "Linux/Настройки/Мониторинг",
     "Docker/Dockerfile",
     "Docker/Docker CLI",
-    "Linux/Настройки/Мониторинг/Без названия",
-    "Linux/Настройки/Мониторинг",
     "ProxMox",
     "Сети",
-    "Ansible"
+    "Ansible",
+    "Linux/Настройки/Без названия"
   ]
 }
