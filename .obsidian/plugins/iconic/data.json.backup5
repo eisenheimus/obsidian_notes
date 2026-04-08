@@ -114,7 +114,7 @@
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/MySQL.md": {
+    "Linux/Users (Управление пользователями).md": {
       "icon": "lucide-file",
       "color": "orange"
     },
@@ -211,7 +211,7 @@
     "Linux/Настройки/Trilium notes.md": {
       "color": "orange"
     },
-    "Linux/Настройки/Users (Управление пользователями).md": {
+    "Linux/Настройки/UFW.md": {
       "icon": "lucide-file",
       "color": "orange"
     },

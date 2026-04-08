@@ -157,6 +157,10 @@
       "icon": "lucide-file",
       "color": "orange"
     },
+    "Linux/TroubleShooting.md": {
+      "icon": "lucide-file",
+      "color": "orange"
+    },
     "Linux/Users (Управление пользователями).md": {
       "icon": "lucide-file",
       "color": "orange"

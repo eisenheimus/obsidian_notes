@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/File System/Принцип работы  (ext4 , VFS).md",
+                "file": "Linux/File System/Принцип работы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Принцип работы  (ext4 , VFS)"
+              "title": "Принцип работы"
             }
           }
         ]
@@ -199,7 +199,7 @@
   "active": "7a3a1ddab1fba7a3",
   "lastOpenFiles": [
     "Linux/TroubleShooting.md",
-    "Linux/File System/Принцип работы  (ext4 , VFS).md",
+    "Linux/File System/Принцип работы.md",
     "Linux/File System",
     "Linux/Без названия.md",
     "Linux/MySQL (синтаксис).md",
