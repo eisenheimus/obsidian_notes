@@ -313,6 +313,9 @@
       "icon": "lucide-file",
       "color": "orange"
     },
+    "Linux/Тестирование и нагрузка.md": {
+      "color": "orange"
+    },
     "Nestjs": {
       "icon": "lucide-folder",
       "unsynced": [
