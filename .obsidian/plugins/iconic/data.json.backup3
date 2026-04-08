@@ -53,7 +53,8 @@
       "icon": "lucide-folder",
       "color": "blue",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Docker/Docker CLI/Docker cli.md": {
@@ -75,7 +76,8 @@
       "icon": "lucide-folder",
       "color": "blue",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ]
     },
     "Docker/Dockerfile/Концепции Dockerfile.md": {
@@ -114,7 +116,7 @@
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/Users (Управление пользователями).md": {
+    "Linux/MySQL (синтаксис).md": {
       "icon": "lucide-file",
       "color": "orange"
     },
@@ -186,6 +188,10 @@
       "icon": "lucide-file",
       "color": "orange"
     },
+    "Linux/Настройки/Planka.md": {
+      "icon": "lucide-file-lock",
+      "color": "orange"
+    },
     "Linux/Настройки/Postfix.md": {
       "icon": "lucide-file",
       "color": "orange"
@@ -230,7 +236,8 @@
     "Linux/Настройки/Мониторинг": {
       "icon": "lucide-folder",
       "unsynced": [
-        "9d8e8ebaa55f4fe5"
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
       ],
       "color": "orange"
     },
