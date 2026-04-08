@@ -153,8 +153,14 @@
         "9d8e8ebaa55f4fe5"
       ]
     },
+    "Linux/File System/Принцип работы.md": {
+      "color": "orange"
+    },
     "Linux/MySQL (синтаксис).md": {
       "icon": "lucide-file",
+      "color": "orange"
+    },
+    "Linux/Systemd.md": {
       "color": "orange"
     },
     "Linux/TroubleShooting.md": {
