@@ -146,7 +146,18 @@
     "Linux/Cron.md": {
       "color": "orange"
     },
+    "Linux/File System": {
+      "icon": "lucide-folder",
+      "color": "orange",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
     "Linux/MySQL (синтаксис).md": {
+      "icon": "lucide-file",
+      "color": "orange"
+    },
+    "Linux/TroubleShooting.md": {
       "icon": "lucide-file",
       "color": "orange"
     },

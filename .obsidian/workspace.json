@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/TroubleShooting.md",
+                "file": "Linux/Core/Процессы.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TroubleShooting"
+              "title": "Процессы"
             }
           }
         ]
@@ -198,11 +198,13 @@
   },
   "active": "7a3a1ddab1fba7a3",
   "lastOpenFiles": [
+    "Linux/TroubleShooting.md",
+    "Linux/Core/Процессы.md",
+    "Linux/Core",
     "Linux/Тестирование и нагрузка.md",
     "Linux/Bash.md",
     "Linux/Systemd.md",
     "Git/Команды git.md",
-    "Linux/TroubleShooting.md",
     "Linux/File System/Принцип работы.md",
     "Linux/File System",
     "Linux/MySQL (синтаксис).md",
@@ -226,13 +228,11 @@
     "ProxMox/Смена имени контейнера.md",
     "Linux/Настройки/Trilium notes.md",
     "Linux/Настройки/Wikijs + SQLite.md",
-    "Linux/Настройки/Wikijs.md",
     "Docker/Dockerfile",
     "Docker/Docker CLI",
     "Linux/Настройки/Мониторинг/Без названия",
     "Linux/Настройки/Мониторинг",
     "ProxMox",
-    "Сети",
-    "Ansible"
+    "Сети"
   ]
 }
