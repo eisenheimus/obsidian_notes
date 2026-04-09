@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Core/Процессы.md",
+                "file": "Linux/Настройки/Planka (Docker).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Процессы"
+              "title": "Planka (Docker)"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "7a3a1ddab1fba7a3",
   "lastOpenFiles": [
-    "Linux/TroubleShooting.md",
     "Linux/Core/Процессы.md",
+    "Linux/TroubleShooting.md",
     "Linux/Core",
     "Linux/Тестирование и нагрузка.md",
     "Linux/Bash.md",

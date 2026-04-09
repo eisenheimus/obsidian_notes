@@ -51,6 +51,21 @@ docker run -d \
   -e SECRET_KEY="my_super_secret_key_123" \
   -v planka-uploads:/app/data \
   ghcr.io/plankanban/planka:latest
+  
+  
+  
+  docker run -d \
+  --name planka-app \
+  -p 3000:1337 \
+  -e BASE_URL=http://localhost:3000 \
+  -e DATABASE_URL=postgresql://admin:qwe123@localhost:5432/test \
+  -e SECRET_KEY="my_super_secret_key_123" \
+  -e DEFAULT_ADMIN_EMAIL="ваш_email@example.com" \
+  -e DEFAULT_ADMIN_PASSWORD="ваш_пароль" \
+  -e DEFAULT_ADMIN_NAME="Administrator" \
+  -e DEFAULT_ADMIN_USERNAME="admin" \
+  -v planka-uploads:/app/data \
+  ghcr.io/plankanban/planka:latest
 ```
 
 
