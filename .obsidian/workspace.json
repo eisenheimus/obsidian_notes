@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Planka (Docker).md",
+                "file": "Video/Rebrain Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Planka (Docker)"
+              "title": "Rebrain Linux"
             }
           }
         ]
@@ -198,6 +198,15 @@
   },
   "active": "7a3a1ddab1fba7a3",
   "lastOpenFiles": [
+    "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
+    "Video/Rebrain Linux.md",
+    "Video",
+    "JavaScript/Nestjs Main.js.md",
+    "Linux/Настройки/planka dockerfile.md",
+    "Linux/Настройки/Planka.md",
+    "Linux/Настройки/Planka (Docker).md",
+    "Linux/MySQL (синтаксис).md",
+    "Linux/Настройки/PostgreSQL.md",
     "Linux/Core/Процессы.md",
     "Linux/TroubleShooting.md",
     "Linux/Core",
@@ -207,9 +216,6 @@
     "Git/Команды git.md",
     "Linux/File System/Принцип работы.md",
     "Linux/File System",
-    "Linux/MySQL (синтаксис).md",
-    "Linux/Настройки/Planka (Docker).md",
-    "Linux/Настройки/Planka.md",
     "Linux/Users (Управление пользователями).md",
     "Docker/Docker автозапуск.md",
     "Linux/Настройки/HTTPS.md",
@@ -222,17 +228,11 @@
     "Docker/Без названия.md",
     "Docker/Основные понятия.md",
     "Linux/Настройки/Node.js.md",
-    "Linux/Настройки/PostgreSQL.md",
     "Linux/Backups.md",
-    "Linux/Настройки/Gitlab CI.md",
-    "ProxMox/Смена имени контейнера.md",
-    "Linux/Настройки/Trilium notes.md",
-    "Linux/Настройки/Wikijs + SQLite.md",
     "Docker/Dockerfile",
     "Docker/Docker CLI",
     "Linux/Настройки/Мониторинг/Без названия",
     "Linux/Настройки/Мониторинг",
-    "ProxMox",
-    "Сети"
+    "ProxMox"
   ]
 }

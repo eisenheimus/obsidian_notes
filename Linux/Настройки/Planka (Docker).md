@@ -52,7 +52,7 @@ docker run -d \
   -v planka-uploads:/app/data \
   ghcr.io/plankanban/planka:latest
   
-  
+  # Или
   
   docker run -d \
   --name planka-app \
