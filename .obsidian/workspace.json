@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc75206a7f55acf4",
+        "id": "a52a1b3cad5c0f68",
         "type": "tabs",
         "children": [
           {
-            "id": "7a3a1ddab1fba7a3",
+            "id": "cb3cc473c9addea4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Video/Rebrain Linux.md",
+                "file": "Linux/Разобрать.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rebrain Linux"
+              "title": "Разобрать"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "postgre",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 496.5
+    "width": 426.5
   },
   "right": {
     "id": "9ddf4626ed199856",
@@ -196,43 +196,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7a3a1ddab1fba7a3",
+  "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
-    "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
+    "Linux/TroubleShooting/To many open files (Nginx).md",
+    "Linux/Разобрать.md",
+    "Linux/Core/Процессы.md",
+    "Linux/TroubleShooting/Logs.md",
+    "Linux/TroubleShooting/Восстановление удаленного конфига.md",
+    "Linux/File System/Принцип работы.md",
+    "Linux/TroubleShooting/Свободное место.md",
+    "Linux/TroubleShooting",
+    "Linux/Настройки/Planka (Docker).md",
     "Video/Rebrain Linux.md",
     "Video",
-    "JavaScript/Nestjs Main.js.md",
-    "Linux/Настройки/planka dockerfile.md",
-    "Linux/Настройки/Planka.md",
-    "Linux/Настройки/Planka (Docker).md",
-    "Linux/MySQL (синтаксис).md",
-    "Linux/Настройки/PostgreSQL.md",
-    "Linux/Core/Процессы.md",
-    "Linux/TroubleShooting.md",
-    "Linux/Core",
     "Linux/Тестирование и нагрузка.md",
-    "Linux/Bash.md",
+    "Linux/Настройки/planka dockerfile.md",
     "Linux/Systemd.md",
-    "Git/Команды git.md",
-    "Linux/File System/Принцип работы.md",
     "Linux/File System",
-    "Linux/Users (Управление пользователями).md",
-    "Docker/Docker автозапуск.md",
-    "Linux/Настройки/HTTPS.md",
-    "Linux/Cron.md",
-    "Docker/Docker-compose/Конфиги/PostgreSQL.md",
-    "Docker/Docker-compose/Docker-compose CLI.md",
-    "Docker/Docker-compose/Конфиги",
-    "Docker/Docker-compose/Configs.md",
-    "Docker/Docker-compose",
-    "Docker/Без названия.md",
+    "Linux/Core",
+    "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
+    "JavaScript/Nestjs Main.js.md",
+    "JavaScript",
+    "Linux/Настройки/Planka.md",
     "Docker/Основные понятия.md",
-    "Linux/Настройки/Node.js.md",
+    "Docker/Docker автозапуск.md",
+    "Docker/Docker-compose/Docker-compose CLI.md",
+    "Docker/Docker-compose/Конфиги/PostgreSQL.md",
+    "Docker/Docker-compose/Конфиги/Без названия.md",
     "Linux/Backups.md",
-    "Docker/Dockerfile",
-    "Docker/Docker CLI",
-    "Linux/Настройки/Мониторинг/Без названия",
+    "Linux/Cron.md",
+    "Linux/Настройки/Docker.md",
+    "Linux/Настройки/PostgreSQL.md",
+    "Linux/Пакеты.md",
+    "Nestjs/Main.js.md",
+    "Docker/Docker-compose/Конфиги",
+    "Docker/Docker-compose",
     "Linux/Настройки/Мониторинг",
-    "ProxMox"
+    "Docker/Dockerfile",
+    "Docker/Docker CLI"
   ]
 }

@@ -75,8 +75,7 @@
       "icon": "lucide-folder",
       "color": "blue",
       "unsynced": [
-        "3438c4b8431289d2",
-        "9d8e8ebaa55f4fe5"
+        "3438c4b8431289d2"
       ]
     },
     "Docker/Docker-compose/Docker-compose CLI.md": {
@@ -86,8 +85,7 @@
       "icon": "lucide-folder",
       "color": "blue",
       "unsynced": [
-        "3438c4b8431289d2",
-        "9d8e8ebaa55f4fe5"
+        "3438c4b8431289d2"
       ]
     },
     "Docker/Docker-compose/Конфиги/PostgreSQL.md": {
@@ -128,18 +126,6 @@
       "icon": "lucide-file",
       "color": "green"
     },
-    "JavaScript": {
-      "icon": "lucide-folder",
-      "unsynced": [
-        "9d8e8ebaa55f4fe5",
-        "3438c4b8431289d2"
-      ],
-      "color": "pink"
-    },
-    "JavaScript/Nestjs Main.js.md": {
-      "icon": "lucide-file",
-      "color": "pink"
-    },
     "Linux": {
       "icon": "lucide-folder",
       "unsynced": [
@@ -155,38 +141,10 @@
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/Core": {
-      "color": "orange",
-      "unsynced": [
-        "9d8e8ebaa55f4fe5"
-      ],
-      "icon": "lucide-folder"
-    },
-    "Linux/Core/Процессы.md": {
-      "icon": "lucide-file",
-      "color": "orange"
-    },
     "Linux/Cron.md": {
       "color": "orange"
     },
-    "Linux/File System": {
-      "icon": "lucide-folder",
-      "color": "orange",
-      "unsynced": [
-        "9d8e8ebaa55f4fe5"
-      ]
-    },
-    "Linux/File System/Принцип работы.md": {
-      "color": "orange"
-    },
     "Linux/MySQL (синтаксис).md": {
-      "icon": "lucide-file",
-      "color": "orange"
-    },
-    "Linux/Systemd.md": {
-      "color": "orange"
-    },
-    "Linux/TroubleShooting.md": {
       "icon": "lucide-file",
       "color": "orange"
     },
@@ -336,8 +294,13 @@
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/Тестирование и нагрузка.md": {
-      "color": "orange"
+    "Nestjs": {
+      "icon": "lucide-folder",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5",
+        "3438c4b8431289d2"
+      ],
+      "color": "pink"
     },
     "ProxMox": {
       "color": "cyan",
@@ -374,12 +337,6 @@
     },
     "ProxMox/Смена имени контейнера.md": {
       "color": "cyan"
-    },
-    "Video": {
-      "icon": "lucide-film",
-      "unsynced": [
-        "9d8e8ebaa55f4fe5"
-      ]
     },
     "Windows": {
       "icon": "lucide-folder",
