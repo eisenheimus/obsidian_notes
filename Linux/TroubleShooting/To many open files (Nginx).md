@@ -11,8 +11,10 @@ ulimit -n 65535
 # Отредактируйте файл `/etc/security/limits.conf`:
 # Добавьте в конец файла следующие строки:
 
-* soft nofile 65535
-* hard nofile 65535
+ 
+  # User limits for open files
+*                soft    nofile          65535
+*                hard    nofile          65535
 ```
 
 ``` bash
