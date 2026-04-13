@@ -143,6 +143,12 @@
       "icon": "lucide-file",
       "color": "orange"
     },
+    "Linux/Core": {
+      "color": "orange",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
     "Linux/Cron.md": {
       "color": "orange"
     },
@@ -153,8 +159,14 @@
         "9d8e8ebaa55f4fe5"
       ]
     },
+    "Linux/File System/Принцип работы.md": {
+      "color": "orange"
+    },
     "Linux/MySQL (синтаксис).md": {
       "icon": "lucide-file",
+      "color": "orange"
+    },
+    "Linux/Systemd.md": {
       "color": "orange"
     },
     "Linux/TroubleShooting.md": {
@@ -305,6 +317,9 @@
     },
     "Linux/Права доступа.md": {
       "icon": "lucide-file",
+      "color": "orange"
+    },
+    "Linux/Тестирование и нагрузка.md": {
       "color": "orange"
     },
     "Nestjs": {
