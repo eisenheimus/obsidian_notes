@@ -147,7 +147,12 @@
       "color": "orange",
       "unsynced": [
         "9d8e8ebaa55f4fe5"
-      ]
+      ],
+      "icon": "lucide-folder"
+    },
+    "Linux/Core/Процессы.md": {
+      "icon": "lucide-file",
+      "color": "orange"
     },
     "Linux/Cron.md": {
       "color": "orange"
