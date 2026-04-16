@@ -186,6 +186,25 @@
     "Linux/Systemd.md": {
       "color": "orange"
     },
+    "Linux/TroubleShooting": {
+      "icon": "lucide-folder",
+      "color": "orange",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Linux/TroubleShooting/Logs.md": {
+      "color": "orange"
+    },
+    "Linux/TroubleShooting/To many open files (Nginx).md": {
+      "color": "orange"
+    },
+    "Linux/TroubleShooting/Восстановление удаленного конфига.md": {
+      "color": "orange"
+    },
+    "Linux/TroubleShooting/Свободное место.md": {
+      "color": "orange"
+    },
     "Linux/Users (Управление пользователями).md": {
       "icon": "lucide-file",
       "color": "orange"
@@ -223,6 +242,9 @@
     "Linux/Настройки/Amnezia.md": {
       "color": "orange"
     },
+    "Linux/Настройки/BLUDIT CMS.md": {
+      "color": "orange"
+    },
     "Linux/Настройки/Docker.md": {
       "color": "orange"
     },
@@ -257,10 +279,21 @@
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/Настройки/Planka (Docker).md": {
+    "Linux/Настройки/Planka": {
+      "icon": "lucide-folder",
+      "color": "orange",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Linux/Настройки/Planka/Planka (Docker).md": {
       "color": "orange"
     },
-    "Linux/Настройки/Planka.md": {
+    "Linux/Настройки/Planka/Planka.md": {
+      "icon": "lucide-file",
+      "color": "orange"
+    },
+    "Linux/Настройки/Planka/planka dockerfile.md": {
       "icon": "lucide-file",
       "color": "orange"
     },
@@ -330,6 +363,10 @@
     },
     "Linux/Права доступа.md": {
       "icon": "lucide-file",
+      "color": "orange"
+    },
+    "Linux/Разобрать.md": {
+      "icon": "lucide-fish-symbol",
       "color": "orange"
     },
     "Linux/Тестирование и нагрузка.md": {
