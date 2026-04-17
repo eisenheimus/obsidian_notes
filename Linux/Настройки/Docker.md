@@ -40,6 +40,20 @@ sudo apt install docker-ce -y
 sudo systemctl status docker
 ```
 
+```bash
+# Создаем пользвателя 
+sudo useradd -m -s /bin/bash dockeruser
+
+# Добавляем в группу docker - докером могу правлять или группа docker или sudo
+sudo usermod -aG docker dockeruser
+
+# назначаем пароль для dockeruser
+sudo passwd dockeruser
+
+# проверям доступность командо
+docker ps
+```
+
 
 ##### Установка Docker Compose
 ```bash
