@@ -22,6 +22,32 @@ docker run --name bludit \
   -d bludit/docker:latest
 ```
 
+
+```ini
+# Создаем service
+[Unit]
+Description=Bludit Docker Container
+After=network.target docker.service
+Requires=docker.service
+[Service]
+Type=simple
+User=dockeruser
+Group=dockeruser
+Restart=always
+RestartSec=5s
+ExecStart=/usr/bin/docker start -a bludit
+ExecStop=/usr/bin/docker stop -t 10 bludit
+[Install]
+WantedBy=multi-user.target
+```
+
+```bash
+# применяем и перезапускаем
+sudo systemctl daemon-reload
+sudo systemctl enable bludit.service
+sudo systemctl start bludit.service
+sudo systemctl status bludit.service
+```
 ### Важное предупреждение о правах доступа
 
 При использовании этого подхода вы можете столкнуться с ошибкой при попытке создать новую статью: _"Writing test failure, check directory bl-content permissions"_[](https://forum.bludit.org/viewtopic.php?p=13440&sid=87c3ead2c7241c6b03e6b06ec6278c3d#p13440)[](https://github.com/bludit/docker/issues/7).
