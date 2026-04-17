@@ -8,9 +8,16 @@ docker pull bludit/docker:latest
 ```
 
 ```bash
-# Запускаем образ с вынесенным контентом в volume
+# Запускаем образ с вынесенным контентом в volume на 8080 порту
 docker run --name bludit \
   -p 8000:80 \
+  -v ~/my_bludit_site:/usr/share/nginx/html/bl-content \
+  -d bludit/docker:latest
+  
+#или на 80 порту
+
+docker run --name bludit \
+  -p 80:80 \
   -v ~/my_bludit_site:/usr/share/nginx/html/bl-content \
   -d bludit/docker:latest
 ```
