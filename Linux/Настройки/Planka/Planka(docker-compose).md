@@ -118,7 +118,7 @@ WantedBy=multi-user.target
 
 
 ```bash
-# Проверить 
+# Проверить сеть
 
 # Посмотрите IP адрес контейнера postgres в сети Docker
 docker inspect planka_postgres | grep IPAddress
