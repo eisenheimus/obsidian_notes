@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Planka/Planka(docker-compose).md",
+                "file": "Linux/Настройки/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Planka(docker-compose)"
+              "title": "Docker"
             }
           }
         ]
@@ -198,11 +198,12 @@
   },
   "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
-    "Linux/Настройки/Planka/Planka(docker-compose).md",
+    "Linux/Настройки/SSH/SSH.md",
     "Linux/Настройки/Docker.md",
+    "Linux/Настройки/Docsify.js.md",
+    "Linux/Настройки/Planka/Planka(docker-compose).md",
     "Linux/Настройки/BLUDIT CMS.md",
     "Linux/Настройки/Amnezia.md",
-    "Linux/Настройки/Docsify.js.md",
     "Linux/Разобрать.md",
     "Linux/Настройки/Planka/Planka.md",
     "Linux/Настройки/Planka/planka dockerfile.md",
@@ -231,7 +232,6 @@
     "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
     "JavaScript/Nestjs Main.js.md",
     "JavaScript",
-    "Linux/Настройки/Planka.md",
     "Docker/Docker-compose/Конфиги",
     "Docker/Docker-compose"
   ]

@@ -54,6 +54,9 @@ useradd -m -s /bin/bash sshuser
 ```bash
 # Задать пароль пользователю интерактивно
 passwd sshuser
+
+# или
+chpasswd <<< "sshuser:mypass"
 ```
   <br>
 
