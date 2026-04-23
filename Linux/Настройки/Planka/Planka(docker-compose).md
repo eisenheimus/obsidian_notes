@@ -90,6 +90,11 @@ POSTGRES_PASSWORD=postgres
 ```
 
 ```bash
+# Устанавливаем сгенерированный ключ
+NEW_KEY=$(openssl rand -hex 64) && sudo sed -i "s/SECRET_KEY=.*/SECRET_KEY=$NEW_KEY/" .env
+```
+
+```bash
 # Запускаем контейнеры
 dokcer compose up -d
 ```
