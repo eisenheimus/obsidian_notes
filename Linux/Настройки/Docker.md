@@ -49,6 +49,8 @@ sudo usermod -aG docker dockeruser
 
 # назначаем пароль для dockeruser
 sudo passwd dockeruser
+# или 
+sudo shpasswd <<< "sshuser:mysuperpassword"
 
 # проверям доступность командо
 docker ps
