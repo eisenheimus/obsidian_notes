@@ -248,7 +248,7 @@ EnvironmentFile=/opt/monitoring/.env
 ExecStartPre=/usr/bin/docker compose pull
 ExecStart=/usr/bin/docker compose up -d
 ExecStop=/usr/bin/docker compose down
-ExecReload=/bin/sh -c "/usr/bin/docker compose pull && /usr/bin/docker compose up -d"
+ExecReload=/usr/bin/docker compose restart
 Restart=no
 StandardOutput=journal
 StandardError=journal
@@ -261,4 +261,18 @@ sudo systemctl enable monitoring.service
 sudo systemctl start monitoring.service
 # Проверяем статус
 sudo systemctl status monitoring.service
+```
+
+
+#### Для production заменить `latest` на конкретные версии:
+```
+image: prom/prometheus:v2.53.0
+image: grafana/grafana:11.1.0
+image: grafana/loki:3.1.0
+```
+
+
+#### Добавить резервное копирование данных (crontab)
+```
+0 2 * * * tar -czf /backup/monitoring-$(date +\%Y\%m\%d).tar.gz /opt/monitoring/data/
 ```
