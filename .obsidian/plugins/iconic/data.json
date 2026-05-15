@@ -270,7 +270,18 @@
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/Настройки/Nginx.md": {
+    "Linux/Настройки/Nginx": {
+      "icon": "lucide-folder",
+      "color": "orange",
+      "unsynced": [
+        "9d8e8ebaa55f4fe5"
+      ]
+    },
+    "Linux/Настройки/Nginx/Nginx UI.md": {
+      "icon": "lucide-file",
+      "color": "orange"
+    },
+    "Linux/Настройки/Nginx/Nginx.md": {
       "icon": "lucide-file",
       "color": "orange"
     },
