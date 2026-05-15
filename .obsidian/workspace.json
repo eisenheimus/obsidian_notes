@@ -11,14 +11,14 @@
             "id": "cb3cc473c9addea4",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Linux/Настройки/Planka/Planka(docker-compose).md",
-                "bFile": "Linux/Настройки/Planka/Planka(docker-compose).md",
-                "aRef": ""
+                "file": "Linux/Настройки/Мониторинг/Prometheus Grafana Loki (docker-compose).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Planka(docker-compose)  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Prometheus Grafana Loki (docker-compose)"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "usermod",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,15 +198,19 @@
   },
   "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
+    "Linux/Настройки/Мониторинг/Prometheus Grafana Loki (docker-compose).md",
+    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
+    "Linux/Настройки/BLUDIT CMS.md",
+    "Linux/Настройки/Nginx.md",
+    "Linux/Настройки/Trilium notes.md",
+    "Linux/Настройки/Planka/planka dockerfile.md",
+    "Linux/Настройки/Planka/Planka(docker-compose).md",
     "Linux/Настройки/Docker.md",
     "Linux/Настройки/SSH/SSH.md",
-    "Linux/Настройки/Planka/Planka(docker-compose).md",
     "Linux/Настройки/Docsify.js.md",
-    "Linux/Настройки/BLUDIT CMS.md",
     "Linux/Настройки/Amnezia.md",
     "Linux/Разобрать.md",
     "Linux/Настройки/Planka/Planka.md",
-    "Linux/Настройки/Planka/planka dockerfile.md",
     "Linux/Настройки/Planka/Planka (Docker).md",
     "Linux/Настройки/Planka",
     "БД/SQL/Транзакции.md",
@@ -226,12 +229,8 @@
     "Video/Rebrain Linux.md",
     "Video",
     "Linux/Тестирование и нагрузка.md",
-    "Linux/Настройки/planka dockerfile.md",
-    "Linux/Systemd.md",
     "Linux/File System",
     "Linux/Core",
-    "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
-    "JavaScript/Nestjs Main.js.md",
     "JavaScript",
     "Docker/Docker-compose/Конфиги",
     "Docker/Docker-compose"
