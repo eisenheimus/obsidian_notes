@@ -113,3 +113,28 @@ port = 9000
 # Закройте порт 9000
 sudo ufw deny 9000
 ```
+
+
+**Получите SSL сертификат** (если у вас еще нет для этого поддомена):
+```bash
+sudo certbot certonly --nginx -d nginx-ui.ваш-домен.com
+```
+
+**Создайте конфиг** в `/etc/nginx/sites-available/nginx-ui.conf`
+
+
+```bash
+# Добавьте базовую HTTP аутентификацию перед тем, как пользователь попадет в Nginx UI
+sudo htpasswd -c /etc/nginx/.htpasswd admin
+```
+
+```nginx
+# И добавьте в секцию `location /` внутри вашего HTTPS блока:
+location / {
+    auth_basic "Restricted Access";
+    auth_basic_user_file /etc/nginx/.htpasswd;
+    
+    proxy_pass http://127.0.0.1:9000;
+    # ... остальные proxy настройки
+}
+```
