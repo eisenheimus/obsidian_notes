@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Nginx/Nginx UI.md",
+                "file": "ProxMox/Смена имени LXC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx UI"
+              "title": "Смена имени LXC"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "usermod",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,23 +196,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3e7b92e4aefbdff4",
+  "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
-    "Linux/Настройки/Nginx",
+    "ProxMox/Смена имени VM.md",
+    "ProxMox/Смена имени LXC.md",
+    "Linux/Настройки/Мониторинг/Prometheus Grafana Loki (docker-compose).md",
+    "Linux/Настройки/Planka/Planka(docker-compose).md",
     "Linux/Настройки/Nginx/Nginx.md",
     "Linux/Настройки/Nginx/Nginx UI.md",
-    "Linux/Настройки/Мониторинг/Prometheus Grafana Loki (docker-compose).md",
-    "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
-    "Linux/Настройки/BLUDIT CMS.md",
-    "Linux/Настройки/Trilium notes.md",
-    "Linux/Настройки/Planka/planka dockerfile.md",
-    "Linux/Настройки/Planka/Planka(docker-compose).md",
+    "Linux/Настройки/Nginx",
     "Linux/Настройки/Docker.md",
     "Linux/Настройки/SSH/SSH.md",
     "Linux/Настройки/Docsify.js.md",
+    "Linux/Настройки/BLUDIT CMS.md",
     "Linux/Настройки/Amnezia.md",
     "Linux/Разобрать.md",
     "Linux/Настройки/Planka/Planka.md",
+    "Linux/Настройки/Planka/planka dockerfile.md",
     "Linux/Настройки/Planka/Planka (Docker).md",
     "Linux/Настройки/Planka",
     "БД/SQL/Транзакции.md",
@@ -228,11 +228,11 @@
     "Linux/TroubleShooting/Свободное место.md",
     "Linux/TroubleShooting",
     "Linux/Настройки/Planka (Docker).md",
+    "Video/Rebrain Linux.md",
     "Video",
     "Linux/File System",
     "Linux/Core",
     "JavaScript",
-    "Docker/Docker-compose/Конфиги",
-    "Docker/Docker-compose"
+    "Docker/Docker-compose/Конфиги"
   ]
 }
