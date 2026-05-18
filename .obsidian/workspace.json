@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/SSH/SSH.md",
+                "file": "Linux/Настройки/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSH"
+              "title": "Docker"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "79d1181b62d8fbe3",
   "lastOpenFiles": [
-    "Сети/TCP_IP.md",
     "Linux/Настройки/SSH/SSH.md",
+    "Сети/TCP_IP.md",
     "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/Настройки/Мониторинг/Prometheus Grafana Loki (docker-compose).md",
     "ProxMox/Смена имени VM.md",

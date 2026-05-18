@@ -67,4 +67,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.38.2/docker
 
 # Выдаем права да доступ
 sudo chmod +x /usr/local/bin/docker-compose
+
+# Проверям верисию
+docker compose version
 ```
