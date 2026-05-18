@@ -57,6 +57,9 @@ passwd sshuser
 
 # или
 chpasswd <<< "sshuser:mypass"
+
+# ИЛИ
+echo "$USER:$PASSWORD" | sudo chpasswd
 ```
   <br>
 
