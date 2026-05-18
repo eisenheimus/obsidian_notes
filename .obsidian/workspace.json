@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "usermod",
+                "query": "scp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,6 +198,8 @@
   },
   "active": "79d1181b62d8fbe3",
   "lastOpenFiles": [
+    "Сети/TCP_IP.md",
+    "Linux/Настройки/SSH/SSH.md",
     "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/Настройки/Мониторинг/Prometheus Grafana Loki (docker-compose).md",
     "ProxMox/Смена имени VM.md",
@@ -207,7 +209,6 @@
     "Linux/Настройки/Nginx/Nginx UI.md",
     "Linux/Настройки/Nginx",
     "Linux/Настройки/Docker.md",
-    "Linux/Настройки/SSH/SSH.md",
     "Linux/Настройки/Docsify.js.md",
     "Linux/Настройки/BLUDIT CMS.md",
     "Linux/Настройки/Amnezia.md",
@@ -228,7 +229,6 @@
     "Linux/File System/Принцип работы.md",
     "Linux/TroubleShooting/Свободное место.md",
     "Linux/TroubleShooting",
-    "Linux/Настройки/Planka (Docker).md",
     "Video",
     "Linux/File System",
     "Linux/Core",

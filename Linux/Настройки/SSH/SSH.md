@@ -88,6 +88,14 @@ groups sshuser
 ssh-copy-id wikiuser@10.10.10.10
 ```
 <br>
+```bash
+# Скопировать ключ на хост (для Windows)
+scp /mnt/C/Users/Nitro/.ssh/id_ed25519.pub sshuser@192.168.1.13:/tmp/
+
+# или 
+scp ~/.ssh/id_rsa.pub sshuser@IP:/tmp/
+```
+
 
 ```bash
 # Вариант 2 (ручной):
