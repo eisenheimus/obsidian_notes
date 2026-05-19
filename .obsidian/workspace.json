@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Nginx/Nginx UI.md",
+                "file": "Linux/TroubleShooting/Сломанные пакеты.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nginx UI"
+              "title": "Сломанные пакеты"
             }
           }
         ]
@@ -196,13 +196,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "76e51c7fa0bbc1a9",
+  "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
+    "Linux/TroubleShooting/To many open files (Nginx).md",
+    "Linux/TroubleShooting/Сломанные пакеты.md",
+    "Linux/TroubleShooting/Logs.md",
+    "Linux/TroubleShooting/Свободное место.md",
+    "Linux/TroubleShooting/Восстановление удаленного конфига.md",
+    "Linux/Настройки/Nginx/Nginx UI.md",
+    "Linux/Без названия",
     "ProxMox/Смена имени VM.md",
     "ProxMox/Смена имени LXC.md",
     "Linux/Настройки/Nginx",
     "Linux/Настройки/Nginx/Nginx.md",
-    "Linux/Настройки/Nginx/Nginx UI.md",
     "Linux/Настройки/Мониторинг/Prometheus Grafana Loki (docker-compose).md",
     "Linux/Настройки/Мониторинг/Prometheus (Docker).md",
     "Linux/Настройки/BLUDIT CMS.md",
@@ -222,17 +228,11 @@
     "БД/SQL/Index.md",
     "БД/SQL",
     "БД",
-    "Linux/TroubleShooting/To many open files (Nginx).md",
     "Linux/Core/Процессы.md",
-    "Linux/TroubleShooting/Logs.md",
-    "Linux/TroubleShooting/Восстановление удаленного конфига.md",
-    "Linux/File System/Принцип работы.md",
-    "Linux/TroubleShooting/Свободное место.md",
     "Linux/TroubleShooting",
     "Video",
     "Linux/File System",
     "Linux/Core",
-    "JavaScript",
-    "Docker/Docker-compose/Конфиги"
+    "JavaScript"
   ]
 }
