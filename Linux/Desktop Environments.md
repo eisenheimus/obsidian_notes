@@ -36,7 +36,7 @@ sudo apt install -y mate-desktop-environment-core xinit
 sudo apt install -y ubuntu-mate-desktop xinit
 
 # Запуск оболочки
-suso startx /usr/bin/mate-session
+sudo startx /usr/bin/mate-session
 
 # Создайте алиас (сокращение) для быстрого запуска
 echo "alias mate='startx /usr/bin/mate-session'" >> ~/.bashrc
