@@ -198,8 +198,9 @@
   },
   "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
-    "Linux/TroubleShooting/Сломанные пакеты.md",
+    "Linux/Настройки/Ubuntu server + GUI (MATE).md",
     "Linux/Desktop Environments.md",
+    "Linux/TroubleShooting/Сломанные пакеты.md",
     "Linux/TroubleShooting/To many open files (Nginx).md",
     "Linux/TroubleShooting/Logs.md",
     "Linux/TroubleShooting/Свободное место.md",
@@ -226,7 +227,6 @@
     "Linux/Настройки/Planka",
     "БД/SQL/Транзакции.md",
     "БД/SQL/Блокировки.md",
-    "БД/SQL/Index.md",
     "БД/SQL",
     "БД",
     "Linux/TroubleShooting",

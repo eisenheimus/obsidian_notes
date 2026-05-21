@@ -105,3 +105,23 @@ systemctl get-default
 # Если выдаёт `multi-user.target` — меняем на графический:
 sudo systemctl set-default graphical.target
 ```
+
+
+Ubuntu server + GUI (MATE)
+```bash
+# Первично устанавливается дистрибутив Ubuntu server
+
+# Обновление списка пакетов и самой системы
+sudo apt update && sudo apt upgrade -y
+
+# Установка MATE (полная версия — со всеми приложениями)
+sudo apt install ubuntu-mate-desktop -y
+
+# ИЛИ минимальная установка (только среда рабочего стола, без лишних программ)
+sudo apt install lightdm mate-desktop-environment-core -y
+
+# Включить автозапуск менеджера входа (дисплейного менеджера)
+sudo systemctl enable lightdm
+
+# Включить автозагрузку графического режима (а не консольного)
+sudo systemctl set-default graphical.target
