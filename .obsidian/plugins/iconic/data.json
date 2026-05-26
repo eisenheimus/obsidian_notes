@@ -140,6 +140,13 @@
       "icon": "lucide-file",
       "color": "pink"
     },
+    "Kubernetes": {
+      "color": "purple",
+      "unsynced": [
+        "3438c4b8431289d2"
+      ],
+      "icon": "lucide-folder"
+    },
     "Linux": {
       "icon": "lucide-folder",
       "unsynced": [
