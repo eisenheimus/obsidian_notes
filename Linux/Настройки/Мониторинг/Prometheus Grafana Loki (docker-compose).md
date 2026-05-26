@@ -16,6 +16,13 @@ cd /opt/monitoring
 # Создаем подкаталоги для данных
 mkdir -p data/{prometheus,grafana,loki}
 mkdir -p logs/{prometheus,grafana,loki}
+
+# Создайте подкаталоги для Loki (для явного контроля)
+mkdir -p data/loki/{chunks,rules,compactor,index,index_cache}
+# Установите права для Loki (UID 10001 - стандартный пользователь Loki в контейнере)
+sudo chown -R 10001:10001 data/loki
+sudo chown -R 10001:10001 logs/loki
+
 # Устанавливаем правильные права
 sudo chown -R 472:472 data/grafana logs/grafana  # Grafana (uid 472)
 # Prometheus работает от пользователя nobody (65534) в контейнере
@@ -39,9 +46,19 @@ alerting:
         - targets: []
 rule_files: []
 scrape_configs:
+  # Мониторинг самого Prometheus
   - job_name: 'prometheus'
     static_configs:
       - targets: ['localhost:9090']
+  # Мониторинг Node Exporter на VM с Planka
+  - job_name: 'planka-vm'
+    scrape_interval: 15s
+    static_configs:
+      - targets: ['<IP_VM_PLANKA>:9100']  # Замените на реальный IP VM
+        labels:
+          host: 'planka'
+          service: 'planka-vm'
+          type: 'virtual-machine'        
 ```
 
 ##### /opt/monitoring/config/loki.yml
@@ -51,10 +68,7 @@ auth_enabled: false
 server:
   http_listen_address: 0.0.0.0
   http_listen_port: 3100
-  grpc_listen_address: 0.0.0.0
-  grpc_listen_port: 9096
 common:
-  instance_addr: 0.0.0.0
   path_prefix: /loki
   storage:
     filesystem:
@@ -74,18 +88,11 @@ schema_config:
         prefix: index_
         period: 24h
 limits_config:
-  allow_structured_metadata: true
-  volume_enabled: true
-  ingestion_rate_mb: 10
-  ingestion_burst_size_mb: 20
-analytics:
-  reporting_enabled: false
+  retention_period: 744h
 compactor:
   working_directory: /loki/compactor
-  compaction_interval: 10m
   retention_enabled: true
-  retention_delete_delay: 2h
-  retention_period: 744h  # 31 день
+  delete_request_store: filesystem
 ```
 
 
@@ -154,22 +161,22 @@ services:
       options:
         max-size: "50m"
         max-file: "5"
-  loki:
+    loki:
     image: grafana/loki:latest
     container_name: loki
     restart: unless-stopped
     networks:
       - monitoring
     ports:
-      - "3100:3100"  # Порт для приема логов с удаленных машин
-      - "9096:9096"  # GRPC порт
+      - "3100:3100"
+      - "9096:9096"
     volumes:
       - ./config/loki.yml:/etc/loki/loki-config.yaml:ro
       - ./data/loki:/loki
       - ./logs/loki:/var/log/loki
     command: -config.file=/etc/loki/loki-config.yaml
     healthcheck:
-      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3100/ready"]
+      test: ["CMD", "curl", "-f", "http://localhost:3100/ready"]
       interval: 30s
       timeout: 10s
       retries: 3
