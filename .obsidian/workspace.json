@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "50dd44f4953c62f6",
+    "id": "3f840339a9b701e6",
     "type": "split",
     "children": [
       {
-        "id": "a52a1b3cad5c0f68",
+        "id": "a904168f533d7807",
         "type": "tabs",
         "children": [
           {
-            "id": "cb3cc473c9addea4",
+            "id": "60b2cc7020f408c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Закладки/Ссылки.md",
+                "file": "Linux/ТЗ/Без названия.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ссылки"
+              "title": "Без названия"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6e223903bc922188",
+    "id": "1bcd2942278ce434",
     "type": "split",
     "children": [
       {
-        "id": "3745849cb7f3f842",
+        "id": "71b7ed6d2d9915fa",
         "type": "tabs",
         "children": [
           {
-            "id": "3e7b92e4aefbdff4",
+            "id": "27d3229ce7e96511",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "bbb4306ac2c44618",
+            "id": "6a523498897842d5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,36 +65,36 @@
             }
           },
           {
-            "id": "c3c59dc4f5d7c5e2",
+            "id": "c122a20e66058321",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Закладки"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 300
   },
   "right": {
-    "id": "9ddf4626ed199856",
+    "id": "95a988a864b72d4a",
     "type": "split",
     "children": [
       {
-        "id": "58b937339d107049",
+        "id": "1e16d9a3d168eb1f",
         "type": "tabs",
         "children": [
           {
-            "id": "1519c45aaf7971a8",
+            "id": "dcf6008de3048a2e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Настройки/Wikijs + SQLite.md",
+                "file": "БД/SQL/Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Wikijs + SQLite"
+              "title": "Обратные ссылки для Index"
             }
           },
           {
-            "id": "c0bdba495166951b",
+            "id": "5c78de78711e108b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux/Настройки/iRedmail.md",
+                "file": "БД/SQL/Index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from iRedmail"
+              "title": "Исходящие ссылки из Index"
             }
           },
           {
-            "id": "e29ce7eff3ed6119",
+            "id": "670bb4137e3bcdc8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,11 +133,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Теги"
             }
           },
           {
-            "id": "d7574194b100aa04",
+            "id": "288ee06432944c1d",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -147,26 +147,26 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "Все свойства"
             }
           },
           {
-            "id": "a46bd8de785cb9c7",
+            "id": "929f1ae70732a59a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux/Настройки/iRedmail.md",
+                "file": "БД/SQL/Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of iRedmail"
+              "title": "Структура Index"
             }
           },
           {
-            "id": "76e51c7fa0bbc1a9",
+            "id": "7370347e93210501",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -191,48 +191,21 @@
       "templates:Вставить шаблон": false,
       "command-palette:Открыть палитру команд": false,
       "bases:Создать новую базу": false,
-      "iconic:Открыть свод правил": false,
       "obsidian-git:Open Git source control": false,
+      "iconic:Открыть свод правил": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb3cc473c9addea4",
+  "active": "60b2cc7020f408c7",
   "lastOpenFiles": [
-    "Kubernetes",
-    "Linux/Права доступа.md",
-    "Linux/Users (Управление пользователями).md",
-    "Linux/Systemd.md",
-    "Linux/File System/Принцип работы.md",
-    "Linux/File System",
-    "Linux/Cron.md",
-    "Linux/Core/Logs.md",
-    "Linux/Популярные переменные окружения в Bash Linux.md",
-    "Linux/Тестирование и нагрузка.md",
-    "Linux/Core/Права доступа.md",
-    "Linux/Bash.md",
-    "Linux/Core/Cron.md",
-    "Linux/Core/File System/Принцип работы.md",
-    "Linux/Core/Процессы.md",
-    "Linux/Без названия",
-    "Linux/Настройки/Мониторинг/Prometheus Grafana Loki (docker-compose).md",
-    "Kubernetes",
-    "Linux/Настройки/Gitlab CI.md",
     "Linux/Desktop Environments.md",
-    "Linux/Настройки/Ubuntu server + GUI (MATE).md",
-    "Linux/TroubleShooting/Сломанные пакеты.md",
-    "Linux/TroubleShooting/To many open files (Nginx).md",
-    "Linux/TroubleShooting/Logs.md",
-    "Linux/TroubleShooting/Свободное место.md",
-    "Linux/TroubleShooting/Восстановление удаленного конфига.md",
-    "Linux/Настройки/Nginx/Nginx UI.md",
-    "ProxMox/Смена имени VM.md",
-    "ProxMox/Смена имени LXC.md",
-    "Linux/Настройки/Nginx",
-    "Linux/Настройки/Planka",
-    "БД/SQL",
-    "БД",
-    "Linux/TroubleShooting",
-    "Video",
-    "Linux/Core/File System"
+    "Linux/ТЗ/Без названия.md",
+    "Linux/ТЗ",
+    "БД/SQL/Index.md",
+    "Kubernetes",
+    "БД/SQL/Транзакции.md",
+    "БД/SQL/Блокировки.md",
+    "ProxMox/Добавление установочного ISO.md",
+    "Linux/File System/Принцип работы.md"
   ]
 }
