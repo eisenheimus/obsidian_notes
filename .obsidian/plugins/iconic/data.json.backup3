@@ -189,7 +189,7 @@
       "color": "orange"
     },
     "Linux/TroubleShooting": {
-      "icon": "lucide-folder",
+      "icon": "lucide-folder-x",
       "color": "orange",
       "unsynced": [
         "9d8e8ebaa55f4fe5",
@@ -206,6 +206,9 @@
       "color": "orange"
     },
     "Linux/TroubleShooting/Свободное место.md": {
+      "color": "orange"
+    },
+    "Linux/TroubleShooting/Сломанные пакеты.md": {
       "color": "orange"
     },
     "Linux/Users (Управление пользователями).md": {

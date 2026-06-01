@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/ТЗ/Без названия.md",
+                "file": "Windows/Консультант+.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Без названия"
+              "title": "Консультант+"
             }
           }
         ]
@@ -198,8 +198,9 @@
   },
   "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
-    "Закладки/Ссылки.md",
     "Linux/ТЗ/Без названия.md",
+    "Windows/Консультант+.md",
+    "Закладки/Ссылки.md",
     "Linux/ТЗ",
     "Kubernetes",
     "Linux/Права доступа.md",
@@ -228,7 +229,6 @@
     "Linux/TroubleShooting/Свободное место.md",
     "Linux/TroubleShooting/Восстановление удаленного конфига.md",
     "Linux/Настройки/Nginx/Nginx UI.md",
-    "ProxMox/Смена имени VM.md",
     "Linux/Настройки/Nginx",
     "Linux/Настройки/Planka",
     "БД/SQL",
