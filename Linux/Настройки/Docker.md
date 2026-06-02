@@ -47,10 +47,13 @@ sudo useradd -m -s /bin/bash dockeruser
 # Добавляем в группу docker - докером могу правлять или группа docker или sudo
 sudo usermod -aG docker dockeruser
 
+# Применить изменения (выйти и зайти заново или выполнить)
+newgrp docker
+
 # назначаем пароль для dockeruser
 sudo passwd dockeruser
 # или 
-sudo shpasswd <<< "sshuser:mysuperpassword"
+sudo shpasswd <<< "dockeruser:Liw1234est!"
 
 # проверям доступность командо
 docker ps

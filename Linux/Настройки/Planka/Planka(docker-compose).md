@@ -74,12 +74,12 @@ openssl rand -hex 64
 
 # Planka Configuration
 BASE_URL=http://localhost:1337
-SECRET_KEY=key
+SECRET_KEY=f9435012c3a4399904045ce05f33c49e020a411148d480517822f625f111914996dab1fae22f6ffa398a945a9af5680cec97bc512caaa7f2554a293d963a279d
 DATABASE_URL=postgresql://postgres:postgres@postgres/planka
 
 # Default Admin User
 DEFAULT_ADMIN_EMAIL=admin@admin.com
-DEFAULT_ADMIN_PASSWORD=secret_password
+DEFAULT_ADMIN_PASSWORD=Liw1234est!
 DEFAULT_ADMIN_NAME=Administrator
 DEFAULT_ADMIN_USERNAME=admin
 

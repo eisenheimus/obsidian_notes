@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows/Консультант+.md",
+                "file": "Linux/Настройки/Docker.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Консультант+"
+              "title": "Docker"
             }
           }
         ]
@@ -198,8 +198,11 @@
   },
   "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
-    "Linux/ТЗ/Без названия.md",
+    "Linux/Настройки/Planka/Planka(docker-compose).md",
+    "Linux/Настройки/Docker.md",
+    "Docker/Docker-compose/Docker-compose CLI.md",
     "Windows/Консультант+.md",
+    "Linux/ТЗ/Без названия.md",
     "Закладки/Ссылки.md",
     "Linux/ТЗ",
     "Kubernetes",
@@ -226,9 +229,6 @@
     "Linux/TroubleShooting/Сломанные пакеты.md",
     "Linux/TroubleShooting/To many open files (Nginx).md",
     "Linux/TroubleShooting/Logs.md",
-    "Linux/TroubleShooting/Свободное место.md",
-    "Linux/TroubleShooting/Восстановление удаленного конфига.md",
-    "Linux/Настройки/Nginx/Nginx UI.md",
     "Linux/Настройки/Nginx",
     "Linux/Настройки/Planka",
     "БД/SQL",
