@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Настройки/Docker.md",
+                "file": "Linux/Настройки/Planka/Planka(docker-compose).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker"
+              "title": "Planka(docker-compose)"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "cb3cc473c9addea4",
   "lastOpenFiles": [
-    "Linux/Настройки/Planka/Planka(docker-compose).md",
     "Linux/Настройки/Docker.md",
+    "Linux/Настройки/Planka/Planka(docker-compose).md",
     "Docker/Docker-compose/Docker-compose CLI.md",
     "Windows/Консультант+.md",
     "Linux/ТЗ/Без названия.md",

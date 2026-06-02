@@ -96,7 +96,7 @@ NEW_KEY=$(openssl rand -hex 64) && sudo sed -i "s/SECRET_KEY=.*/SECRET_KEY=$NEW_
 
 ```bash
 # Запускаем контейнеры
-dokcer compose up -d
+docker compose up -d
 ```
 
 ```ini
