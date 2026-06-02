@@ -23,15 +23,20 @@ services:
       - DEFAULT_ADMIN_PASSWORD=${DEFAULT_ADMIN_PASSWORD}
       - DEFAULT_ADMIN_NAME=${DEFAULT_ADMIN_NAME}
       - DEFAULT_ADMIN_USERNAME=${DEFAULT_ADMIN_USERNAME}
+      # === КРИТИЧЕСКИ ВАЖНЫЕ НАСТРОЙКИ ДЛЯ WEBSOCKET ===
+      - TRUST_PROXY=true
+      - NODE_ENV=production
+      - SAILS_CONFIG_SOCKETS_ONLYALLOWORIGINS=["http://localhost:1337"]
+      - SAILS_SECURITY_CORS_ALLOW_ORIGINS=*
+      - SAILS_SECURITY_CORS_ALLOW_ANY_ORIGIN_WITH_CREDENTIALS_UNSAFE=true
     volumes:
       - planka_uploads:/app/public/user-avatars
       - planka_attachments:/app/private/attachments
     depends_on:
       postgres:
-        condition: service_healthy  # Ждать пока БД не станет здоровой
+        condition: service_healthy
     networks:
       - planka_network
-
   postgres:
     image: postgres:16-alpine
     container_name: planka_postgres
@@ -49,7 +54,6 @@ services:
       retries: 5
     networks:
       - planka_network
-
 volumes:
   planka_uploads:
     name: planka_uploads
@@ -57,7 +61,6 @@ volumes:
     name: planka_attachments
   postgres_data:
     name: planka_postgres_data
-
 networks:
   planka_network:
     name: planka_network
@@ -74,16 +77,16 @@ openssl rand -hex 64
 
 # Planka Configuration
 BASE_URL=http://localhost:1337
-SECRET_KEY=f9435012c3a4399904045ce05f33c49e020a411148d480517822f625f111914996dab1fae22f6ffa398a945a9af5680cec97bc512caaa7f2554a293d963a279d
-DATABASE_URL=postgresql://postgres:postgres@postgres/planka
+SECRET_KEY=key
 
 # Default Admin User
 DEFAULT_ADMIN_EMAIL=admin@admin.com
-DEFAULT_ADMIN_PASSWORD=Liw1234est!
+DEFAULT_ADMIN_PASSWORD=pswd
 DEFAULT_ADMIN_NAME=Administrator
 DEFAULT_ADMIN_USERNAME=admin
 
 # Database Configuration
+DATABASE_URL=postgresql://postgres:postgres@postgres/planka
 POSTGRES_DB=planka
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
@@ -134,3 +137,18 @@ docker compose exec planka sh -c "ping -c 1 postgres"
 # Или
 docker compose exec planka sh -c "nslookup postgres"
 ```
+
+
+Траблшутинг
+
+```bash
+# Посмотреть логи planka
+docker compose logs planka --tail=100
+
+# Проверим подключение из контейнера Planka к PostgreSQL
+docker exec -it planka sh -c "nc -zv postgres 5432"
+
+# Остановить и удалить контейнеры и тома (важно!)
+docker compose down -v
+```
+``
