@@ -77,11 +77,11 @@ openssl rand -hex 64
 
 # Planka Configuration
 BASE_URL=http://localhost:1337
-SECRET_KEY=key
+SECRET_KEY=f9435012c3a4399904045ce05f33c49e020a411148d480517822f625f111914996dab1fae22f6ffa398a945a9af5680cec97bc512caaa7f2554a293d963a279d
 
 # Default Admin User
 DEFAULT_ADMIN_EMAIL=admin@admin.com
-DEFAULT_ADMIN_PASSWORD=pswd
+DEFAULT_ADMIN_PASSWORD=Liw1234est!
 DEFAULT_ADMIN_NAME=Administrator
 DEFAULT_ADMIN_USERNAME=admin
 
@@ -152,3 +152,47 @@ docker exec -it planka sh -c "nc -zv postgres 5432"
 docker compose down -v
 ```
 ``
+ Если проблема WS рабочий конфиг
+ ```ini
+ services:
+  planka:
+    image: lscr.io/linuxserver/planka:latest
+    container_name: planka
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Moscow
+      - BASE_URL=http://10.1.0.117:1337
+      - SECRET_KEY=supersecretkeychangeit123456789
+      - DATABASE_URL=postgresql://planka:plankapass@postgres/planka
+      - DEFAULT_ADMIN_EMAIL=admin@admin.com
+      - DEFAULT_ADMIN_PASSWORD=Liw1234est!
+      - DEFAULT_ADMIN_NAME=Administrator
+      - DEFAULT_ADMIN_USERNAME=admin
+      # КРИТИЧЕСКИЕ НАСТРОЙКИ ДЛЯ WEBSOCKET
+      - TRUST_PROXY=true
+      - NODE_ENV=production
+      - SAFE_CONNECT_ENV=1
+      - SAILS_CONFIG_SOCKETS_ONLYALLOWORIGINS=["http://10.1.0.117:1337","http://localhost:1337"]
+      - SAILS_CONFIG_LOG_LEVEL=verbose
+    volumes:
+      - planka_config:/config
+    ports:
+      - 1337:1337
+    restart: unless-stopped
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres:16-alpine
+    container_name: planka_postgres
+    environment:
+      - POSTGRES_DB=planka
+      - POSTGRES_USER=planka
+      - POSTGRES_PASSWORD=plankapass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+volumes:
+  planka_config:
+  postgres_data:
+ ```
