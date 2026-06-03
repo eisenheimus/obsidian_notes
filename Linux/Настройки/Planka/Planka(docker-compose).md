@@ -166,7 +166,7 @@ docker compose down -v
       - SECRET_KEY=supersecretkeychangeit123456789
       - DATABASE_URL=postgresql://planka:plankapass@postgres/planka
       - DEFAULT_ADMIN_EMAIL=admin@admin.com
-      - DEFAULT_ADMIN_PASSWORD=Liw1234est!
+      - DEFAULT_ADMIN_PASSWORD=password!
       - DEFAULT_ADMIN_NAME=Administrator
       - DEFAULT_ADMIN_USERNAME=admin
       # КРИТИЧЕСКИЕ НАСТРОЙКИ ДЛЯ WEBSOCKET
