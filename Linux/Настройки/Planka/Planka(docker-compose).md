@@ -196,3 +196,29 @@ volumes:
   planka_config:
   postgres_data:
  ```
+
+конфиг nginx
+
+```
+server {
+    listen 80;
+    server_name tt.liwest.ru;
+    location / {
+        proxy_pass http://10.1.0.117:1337;
+        
+        # --- КЛЮЧЕВЫЕ НАСТРОЙКИ ДЛЯ WEBSOCKET ---
+        proxy_http_version 1.1;                     # Обязательно для апгрейда
+        proxy_set_header Upgrade $http_upgrade;     # Передаем сигнал о смене протокола
+        proxy_set_header Connection "upgrade";      # Говорим, что соединение обновляется
+        # --- СТАНДАРТНЫЕ ЗАГОЛОВКИ ДЛЯ ПРОКСИ ---
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        
+        # --- УВЕЛИЧИВАЕМ ТАЙМАУТЫ ДЛЯ ДОЛГИХ СОЕДИНЕНИЙ ---
+        proxy_read_timeout 86400s;
+        proxy_send_timeout 86400s;
+    }
+}
+```
