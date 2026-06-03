@@ -1,4 +1,11 @@
 ```bash
+# Если порт 80 и 443 закрыт, откройте его
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+```
+
+
+```bash
 # Создаем каталог
 sudo mkdir -p /opt/planka/
 ```
@@ -197,7 +204,7 @@ volumes:
   postgres_data:
  ```
 
-конфиг nginx
+конфиг nginx HTTP
 
 ```
 server {
@@ -217,6 +224,49 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
         
         # --- УВЕЛИЧИВАЕМ ТАЙМАУТЫ ДЛЯ ДОЛГИХ СОЕДИНЕНИЙ ---
+        proxy_read_timeout 86400s;
+        proxy_send_timeout 86400s;
+    }
+}
+```
+
+HTTPS
+
+```bash
+# Установка Certbot и плагина для Nginx
+sudo apt install certbot python3-certbot-nginx -y
+
+# Создать серты
+sudo certbot --nginx -d tt.liwest.ru
+```
+
+конфиг nginx HTTPS
+```
+server {
+    listen 80;
+    server_name tt.liwest.ru;
+    return 301 https://$server_name$request_uri;
+}
+server {
+    listen 443 ssl http2;
+    server_name tt.liwest.ru;
+    ssl_certificate /etc/letsencrypt/live/tt.liwest.ru/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/tt.liwest.ru/privkey.pem;
+    location / {
+        proxy_pass http://10.1.0.117:1337;
+        
+        # Ключевые настройки для WebSocket
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "upgrade";
+        
+        # Прокси-заголовки
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        
+        # Увеличение таймаутов для WebSocket
         proxy_read_timeout 86400s;
         proxy_send_timeout 86400s;
     }
