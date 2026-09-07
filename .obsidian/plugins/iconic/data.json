@@ -189,20 +189,34 @@
     "Linux/File System/Принцип работы.md": {
       "color": "orange"
     },
-    "Linux/IPTABLES": {
+    "Linux/Firewall": {
       "icon": "lucide-folder",
       "color": "orange",
       "unsynced": [
         "3438c4b8431289d2"
       ]
     },
-    "Linux/IPTABLES/База.md": {
+    "Linux/Firewall/IPTABLES": {
+      "icon": "lucide-folder",
+      "color": "orange",
+      "unsynced": [
+        "3438c4b8431289d2"
+      ]
+    },
+    "Linux/Firewall/IPTABLES/База.md": {
       "icon": "lucide-file",
       "color": "orange"
     },
-    "Linux/IPTABLES/Эталонная настройка.md": {
+    "Linux/Firewall/IPTABLES/Эталонная настройка.md": {
       "icon": "lucide-file",
       "color": "orange"
+    },
+    "Linux/Firewall/UFW": {
+      "icon": "lucide-folder",
+      "color": "orange",
+      "unsynced": [
+        "3438c4b8431289d2"
+      ]
     },
     "Linux/MySQL (синтаксис).md": {
       "icon": "lucide-file",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/IPTABLES/База.md",
+                "file": "Linux/Firewall/IPTABLES/База.md",
                 "mode": "source",
                 "source": false
               },
@@ -196,13 +196,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "60b2cc7020f408c7",
+  "active": "27d3229ce7e96511",
   "lastOpenFiles": [
-    "Linux/IPTABLES/Эталонная настройка.md",
+    "Linux/Firewall/UFW",
+    "Linux/Firewall",
+    "БД/SQL/Index.md",
+    "Linux/Настройки/SSH/Проброс порта SSH.md",
+    "Linux/Настройки/SSH/SSH.md",
+    "Linux/Firewall/IPTABLES/База.md",
+    "Linux/Firewall/IPTABLES/Эталонная настройка.md",
     "Linux/File System/Принцип работы.md",
-    "Linux/IPTABLES/База.md",
     "Linux/Core/Процессы.md",
-    "Linux/IPTABLES",
+    "Linux/Firewall/IPTABLES",
     "Linux/ТЗ/Без названия.md",
     "Video/Rebrain Linux.md",
     "Закладки/Ссылки.md",
@@ -212,7 +217,6 @@
     "Linux/ТЗ/ТЗ.md",
     "Linux/Desktop Environments.md",
     "Linux/ТЗ",
-    "БД/SQL/Index.md",
     "Kubernetes",
     "БД/SQL/Транзакции.md",
     "БД/SQL/Блокировки.md",
