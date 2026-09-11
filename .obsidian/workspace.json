@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a904168f533d7807",
+        "id": "68d44fe374b3d0bb",
         "type": "tabs",
         "children": [
           {
-            "id": "60b2cc7020f408c7",
+            "id": "d937e7ede7a13cc9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Firewall/IPTABLES/База.md",
+                "file": "Ansible/Установка.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "База"
+              "title": "Установка"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
@@ -196,14 +198,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "27d3229ce7e96511",
+  "active": "d937e7ede7a13cc9",
   "lastOpenFiles": [
+    "Ansible/Ansible.md",
+    "Ansible/Установка.md",
+    "Linux/Firewall/IPTABLES/База.md",
     "Linux/Firewall/UFW",
     "Linux/Firewall",
     "БД/SQL/Index.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
     "Linux/Настройки/SSH/SSH.md",
-    "Linux/Firewall/IPTABLES/База.md",
     "Linux/Firewall/IPTABLES/Эталонная настройка.md",
     "Linux/File System/Принцип работы.md",
     "Linux/Core/Процессы.md",
