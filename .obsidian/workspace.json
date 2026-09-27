@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ansible/Команды.md",
+                "file": "Linux/Разобрать.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Команды"
+              "title": "Разобрать"
             }
           }
         ],
@@ -213,13 +213,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "27d3229ce7e96511",
+  "active": "8b3ee6e0b537ba6a",
   "lastOpenFiles": [
+    "Сети/OSI.md",
+    "Вопросы/Без названия.md",
+    "Windows/Консультант+.md",
+    "Video/Rebrain Linux.md",
+    "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
+    "Ansible/Команды.md",
     "Ansible/Конфигурирование.md",
     "Ansible/Core.md",
-    "Ansible/Команды.md",
     "Ansible/Установка.md",
-    "Вопросы/Без названия.md",
     "Вопросы",
     "Linux/Firewall/IPTABLES/База.md",
     "Linux/Настройки/SSH/SSH.md",
@@ -232,10 +236,8 @@
     "Linux/Core/Процессы.md",
     "Linux/Firewall/IPTABLES",
     "Linux/ТЗ/Без названия.md",
-    "Video/Rebrain Linux.md",
     "Закладки/Ссылки.md",
     "Linux/Популярные переменные окружения в Bash Linux.md",
-    "Windows/Консультант+.md",
     "Linux/Разобрать.md",
     "Linux/ТЗ/ТЗ.md",
     "Linux/Desktop Environments.md",
