@@ -215,10 +215,10 @@
   },
   "active": "8b3ee6e0b537ba6a",
   "lastOpenFiles": [
-    "Ansible/Ansible.md",
     "Ansible/Установка.md",
-    "Ansible/Команды.md",
     "Ansible/Core.md",
+    "Ansible/Ansible.md",
+    "Ansible/Команды.md",
     "Вопросы/Без названия.md",
     "Вопросы",
     "Linux/Firewall/IPTABLES/База.md",
