@@ -25,14 +25,14 @@
             "id": "8b3ee6e0b537ba6a",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Закладки/Ссылки.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Ссылки"
             }
           }
         ],
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "95a988a864b72d4a",
@@ -215,37 +215,37 @@
   },
   "active": "8b3ee6e0b537ba6a",
   "lastOpenFiles": [
-    "Ansible/Конфигурирование.md",
+    "Git/Команды git.md",
+    "Linux/Cron.md",
     "Ansible/Команды.md",
+    "БД/SQL/Транзакции.md",
+    "Linux/Firewall/IPTABLES/Эталонная настройка.md",
+    "Linux/Firewall/IPTABLES/База.md",
+    "Сети/TCP_IP.md",
+    "Сети/OSI.md",
+    "Ansible/Конфигурирование.md",
     "Video/Rebrain Linux.md",
     "Закладки/DevOps контент.md",
     "Закладки/Ссылки.md",
     "Закладки/youtube.md",
     "Linux/Разобрать.md",
-    "Сети/OSI.md",
     "Вопросы/Без названия.md",
     "Windows/Консультант+.md",
     "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
     "Ansible/Core.md",
     "Ansible/Установка.md",
     "Вопросы",
-    "Linux/Firewall/IPTABLES/База.md",
     "Linux/Настройки/SSH/SSH.md",
     "Linux/Firewall/UFW",
     "Linux/Firewall",
     "БД/SQL/Index.md",
     "Linux/Настройки/SSH/Проброс порта SSH.md",
-    "Linux/Firewall/IPTABLES/Эталонная настройка.md",
     "Linux/File System/Принцип работы.md",
     "Linux/Core/Процессы.md",
     "Linux/Firewall/IPTABLES",
     "Linux/ТЗ/Без названия.md",
     "Linux/Популярные переменные окружения в Bash Linux.md",
-    "Linux/ТЗ/ТЗ.md",
-    "Linux/Desktop Environments.md",
     "Linux/ТЗ",
-    "Kubernetes",
-    "БД/SQL/Транзакции.md",
-    "БД/SQL/Блокировки.md"
+    "Kubernetes"
   ]
 }
