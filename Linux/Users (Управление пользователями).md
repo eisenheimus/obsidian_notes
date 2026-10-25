@@ -118,6 +118,18 @@ sudo chown -R username:username /new/home
 sudo useradd -r -s /usr/sbin/nologin serviceuser
 ```
 
+```bash
+# Получить список всех пользователей
+compgen -u
+
+# Проверить права есть ли root
+whoami 
+
+# смена контекста пользователя в bash
+su [user_name] 
+# или 
+sudo -i -u имя_пользователя
+```
 ##### Важные файлы
 ```bash
 # Файлы с информацией о пользователях

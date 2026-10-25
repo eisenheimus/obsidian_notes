@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Закладки/Ссылки.md",
+                "file": "Ansible/Установка.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ссылки"
+              "title": "Установка"
             }
           }
         ],
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sudo -ug",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -215,14 +215,18 @@
   },
   "active": "8b3ee6e0b537ba6a",
   "lastOpenFiles": [
+    "Linux/Users (Управление пользователями).md",
+    "Docker/Dockerfile/Best practices Dockerfile.md",
+    "Docker/Dockerfile/Примеры Dockerfile.md",
+    "Вопросы/Без названия.md",
+    "Docker/Dockerfile/Синтаксис Dockerfile.md",
+    "Закладки/Ссылки.md",
     "Закладки/DevOps контент.md",
     "Закладки/youtube.md",
-    "Закладки/Ссылки.md",
     "Ansible/Установка.md",
     "Ansible/Команды.md",
     "Linux/Настройки/Fail2ban.md",
     "Linux/Настройки/SSH/SSH.md",
-    "Linux/Users (Управление пользователями).md",
     "Linux/ТЗ/Без названия.md",
     "Git/Команды git.md",
     "Linux/Cron.md",
@@ -234,16 +238,12 @@
     "Ansible/Конфигурирование.md",
     "Video/Rebrain Linux.md",
     "Linux/Разобрать.md",
-    "Вопросы/Без названия.md",
     "Windows/Консультант+.md",
     "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
     "Ansible/Core.md",
     "Вопросы",
     "Linux/Firewall/UFW",
     "Linux/Firewall",
-    "БД/SQL/Index.md",
-    "Linux/Настройки/SSH/Проброс порта SSH.md",
-    "Linux/File System/Принцип работы.md",
     "Linux/Firewall/IPTABLES",
     "Linux/ТЗ",
     "Kubernetes"
