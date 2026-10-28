@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Users (Управление пользователями).md",
+                "file": "Linux/Настройки/Self hosted services/Jenkins.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Users (Управление пользователями)"
+              "title": "Jenkins"
             }
           }
         ],
@@ -215,6 +215,8 @@
   },
   "active": "8b3ee6e0b537ba6a",
   "lastOpenFiles": [
+    "Linux/Users (Управление пользователями).md",
+    "Linux/Настройки/Self hosted services/Jenkins.md",
     "Linux/Cron.md",
     "Linux/Настройки/Приложения/Fail2ban.md",
     "Linux/Настройки/Приложения",
@@ -223,7 +225,6 @@
     "Linux/Настройки/Сменить имя ПК (hostname).md",
     "Linux/Настройки/Приложения/Amnezia.md",
     "Ansible/Установка.md",
-    "Linux/Users (Управление пользователями).md",
     "Docker/Dockerfile/Best practices Dockerfile.md",
     "Docker/Dockerfile/Примеры Dockerfile.md",
     "Вопросы/Без названия.md",
