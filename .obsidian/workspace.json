@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ansible/Установка.md",
+                "file": "Linux/Users (Управление пользователями).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Установка"
+              "title": "Users (Управление пользователями)"
             }
           }
         ],
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 306.16668701171875
   },
   "right": {
     "id": "95a988a864b72d4a",
@@ -215,6 +215,14 @@
   },
   "active": "8b3ee6e0b537ba6a",
   "lastOpenFiles": [
+    "Linux/Cron.md",
+    "Linux/Настройки/Приложения/Fail2ban.md",
+    "Linux/Настройки/Приложения",
+    "Linux/Настройки/Self hosted services",
+    "Linux/Настройки/Self hosted services/BLUDIT CMS.md",
+    "Linux/Настройки/Сменить имя ПК (hostname).md",
+    "Linux/Настройки/Приложения/Amnezia.md",
+    "Ansible/Установка.md",
     "Linux/Users (Управление пользователями).md",
     "Docker/Dockerfile/Best practices Dockerfile.md",
     "Docker/Dockerfile/Примеры Dockerfile.md",
@@ -223,13 +231,10 @@
     "Закладки/Ссылки.md",
     "Закладки/DevOps контент.md",
     "Закладки/youtube.md",
-    "Ansible/Установка.md",
     "Ansible/Команды.md",
-    "Linux/Настройки/Fail2ban.md",
     "Linux/Настройки/SSH/SSH.md",
     "Linux/ТЗ/Без названия.md",
     "Git/Команды git.md",
-    "Linux/Cron.md",
     "БД/SQL/Транзакции.md",
     "Linux/Firewall/IPTABLES/Эталонная настройка.md",
     "Linux/Firewall/IPTABLES/База.md",
@@ -237,10 +242,6 @@
     "Сети/OSI.md",
     "Ansible/Конфигурирование.md",
     "Video/Rebrain Linux.md",
-    "Linux/Разобрать.md",
-    "Windows/Консультант+.md",
-    "JavaScript/Скрипт получения ссылок из плейлиста youtube.md",
-    "Ansible/Core.md",
     "Вопросы",
     "Linux/Firewall/UFW",
     "Linux/Firewall",
