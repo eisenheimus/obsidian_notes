@@ -25,14 +25,14 @@
             "id": "8b3ee6e0b537ba6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Linux/Users (Управление пользователями).md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
+                "bFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Users (Управление пользователями)"
+              "icon": "diff",
+              "title": "Diff: obsidian_askpass.sh  (Working Tree)"
             }
           }
         ],
@@ -215,6 +215,7 @@
   },
   "active": "8b3ee6e0b537ba6a",
   "lastOpenFiles": [
+    "Linux/Users (Управление пользователями).md",
     "Linux/Systemd.md",
     "Linux/Bash.md",
     "Linux/Backups.md",
@@ -225,7 +226,6 @@
     "Linux/File System/Принцип работы.md",
     "Linux/Core/Процессы.md",
     "Linux/Настройки/SSH/SSH.md",
-    "Linux/Users (Управление пользователями).md",
     "Linux/Настройки/Self hosted services/Jenkins.md",
     "Linux/Cron.md",
     "Linux/Настройки/Приложения/Fail2ban.md",
